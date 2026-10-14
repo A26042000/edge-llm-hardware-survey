@@ -108,7 +108,7 @@ a1 = fig.add_subplot(go[0]); a2 = fig.add_subplot(gi[0]); a3 = fig.add_subplot(g
 ns = np.logspace(np.log10(512), np.log10(131072), 120)
 wb = per_token(M, 0, 4, 8)["w_bytes"]
 a1.axhline(wb / 1e6, color=C["Weights"], lw=1.4)
-a1.text(0.55, wb / 1e6 * 1.18, "W4 weights (618 MB)", color=C["Weights"], fontsize=6.3)
+a1.text(0.55, wb / 1e6 * 0.72, "W4 weights (618 MB)", color=C["Weights"], fontsize=6.3, va="top")
 LINES = (("FP16 KV", "gqa", 16, "-"), ("INT8 KV", "gqa", 8, "--"), ("latent KV (MLA-style)", "mla", 8, "-."),
          ("2-bit KV, or hybrid 3:1", "gqa", 2, ":"))
 for lab, kind, bits, ls in LINES:

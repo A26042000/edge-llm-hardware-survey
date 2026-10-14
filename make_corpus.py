@@ -71,7 +71,7 @@ for c, col in zip(CATS, COLS):
                                  label=f"{c} ({tot[c]})"); bot += v
 ax.set_xticks(range(len(bins))); ax.set_xticklabels(bins, fontsize=6.8)
 ax.set_ylabel("cited works")
-ax.legend(fontsize=6, frameon=False, loc="upper left")
+ax.set_ylim(0, 112); ax.legend(fontsize=6, frameon=False, loc="upper left")
 fig.tight_layout(); fig.savefig("figs/corpus.pdf", bbox_inches="tight"); plt.close(fig)
 n = len(cited)
 recent = sum(1 for k in cited if year.get(k, 0) >= 2024)

@@ -138,7 +138,7 @@ def fig_anatomy():
             t = anatomy(m, n_, p, T_ng=T)
             sh.append(100 * sum(t[k] for k in labels[2:]) / sum(t.values()))
         bx.semilogx(Ts, sh, ls, color=C_NG, label=f"context {n_}")
-    for p2, mk, off in ((PLATFORMS[2], "s", (-38, 26)), (PLATFORMS[1], "^", (-50, 48))):
+    for p2, mk, off in ((PLATFORMS[2], "s", (-34, 16)), (PLATFORMS[1], "^", (4, 9))):
         t = anatomy(m, 2048, p2)
         sh = 100 * sum(t[k] for k in labels[2:]) / sum(t.values())
         bx.plot(p2["T_ng"], sh, mk, color="k", ms=4)
@@ -184,7 +184,7 @@ def fig_roofline():
     ax.set_ylabel("attainable throughput (op/s)")
     ax.set_xlim(0.1, 1.5e4)
     ax.set_ylim(1e9, 1e15)
-    ax.legend(fontsize=5.6, loc="lower right", frameon=False)
+    ax.legend(fontsize=5.6, loc="upper center", bbox_to_anchor=(0.5, -0.34), ncol=2, frameon=False, columnspacing=0.8)
     fig.tight_layout()
     fig.savefig("figs/comp_roofline.pdf", bbox_inches="tight")
     fig.savefig("figs/comp_roofline.png", dpi=200, bbox_inches="tight")
