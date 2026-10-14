@@ -162,7 +162,7 @@ def fig_roofline():
     """Arithmetic intensity of each component vs three platform rooflines."""
     m = MODELS["Llama-3.1-8B"]
     n_ctx, n_pre = 2048, 1024
-    fig, ax = plt.subplots(figsize=(3.5, 2.7))
+    fig, ax = plt.subplots(figsize=(3.5, 3.0))
     I = np.logspace(-1, 4, 200)
     for p, ls in ((PLATFORMS[0], "-"), (PLATFORMS[1], "--"), (PLATFORMS[2], ":")):
         ax.loglog(I, np.minimum(p["P"], I * p["BW"]), ls, color="0.35", lw=1)
@@ -181,12 +181,12 @@ def fig_roofline():
         ax.plot(ai, y, mk, color=col, ms=5, label=f"{lab}: {ai:.0f} op/B")
     ax.axvspan(0.1, PLATFORMS[1]["P"] / PLATFORMS[1]["BW"], color=C_KV, alpha=0.06)
     ax.set_xlabel("arithmetic intensity (op/byte)")
-    ax.set_ylabel("attainable throughput (op/s)")
+    ax.set_ylabel("throughput (op/s)")
     ax.set_xlim(0.1, 1.5e4)
     ax.set_ylim(1e9, 1e15)
     ax.legend(fontsize=5.6, loc="upper center", bbox_to_anchor=(0.5, -0.34), ncol=2, frameon=False, columnspacing=0.8)
     fig.tight_layout()
-    fig.savefig("figs/comp_roofline.pdf", bbox_inches="tight")
+    fig.savefig("figs/comp_roofline.pdf", bbox_inches="tight", pad_inches=0.04)
     fig.savefig("figs/comp_roofline.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
     return pts
