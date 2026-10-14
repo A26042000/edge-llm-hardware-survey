@@ -1,0 +1,42 @@
+{
+ "identified": {
+  "arxiv": 4051,
+  "openalex": 3289
+ },
+ "identified_total": 7340,
+ "duplicates_removed": 1679,
+ "unique": 5661,
+ "excluded_by_rule": {
+  "no hardware contribution (algorithm or software only)": 1398,
+  "not about Transformer/LLM inference workloads": 568,
+  "training hardware only": 11,
+  "hardware security / reliability only": 39,
+  "LLMs used for hardware design or EDA": 91
+ },
+ "excluded_total": 2107,
+ "passed_screening": 3554,
+ "cited_corpus": 257,
+ "cited_found_by_search": 160,
+ "cited_found_passed": 148,
+ "census": 84,
+ "census_found_by_search": 64,
+ "census_cited_post2020": null,
+ "candidates_for_assessment": 330,
+ "cited_2020plus": 253,
+ "cited_2020plus_found": 160,
+ "assessed": 330,
+ "assessed_decisions": {
+  "V": 161,
+  "X": 5,
+  "D": 17,
+  "Y": 54,
+  "S": 50,
+  "C": 21,
+  "R": 5,
+  "U": 11,
+  "T": 6
+ },
+ "audit_eligible": 54,
+ "assessed_title_level": 173,
+ "assessed_abstract_level": 157
+}

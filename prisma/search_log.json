@@ -1,0 +1,44 @@
+{
+ "run_utc": "2026-10-12T14:48:20",
+ "window": [
+  "2020-01-01",
+  "2026-09-30"
+ ],
+ "openalex_queries": {
+  "QA": "(\"large language model\" OR \"large language models\" OR LLM OR LLMs OR \"language model\" OR \"language models\" OR \"transformer model\" OR \"transformer models\" OR \"transformer inference\" OR \"transformer accelerator\" OR \"transformer-based\" OR \"self-attention\" OR \"vision transformer\") AND (accelerator OR accelerators OR FPGA OR ASIC OR NPU OR \"neural processing unit\" OR \"processing-in-memory\" OR \"processing in memory\" OR \"compute-in-memory\" OR \"computing-in-memory\" OR \"in-memory computing\" OR \"hardware architecture\" OR \"hardware design\" OR \"hardware-software co-design\" OR \"hardware/software co-design\") AND (edge OR mobile OR embedded OR \"on-device\" OR \"low-power\" OR \"low power\" OR \"energy-efficient\" OR \"energy efficient\" OR smartphone OR wearable)",
+  "QB": "(softmax OR \"layer normalization\" OR layernorm OR RMSNorm OR \"rotary position\" OR \"rotary positional\" OR RoPE OR \"KV cache\" OR \"key-value cache\" OR \"mixture of experts\" OR \"nonlinear function\" OR \"non-linear function\" OR \"nonlinear operation\" OR GELU OR SiLU OR \"speculative decoding\") AND (accelerator OR FPGA OR ASIC OR hardware OR circuit OR \"processing-in-memory\" OR \"compute-in-memory\" OR \"in-memory computing\") AND (\"large language model\" OR \"large language models\" OR LLM OR LLMs OR \"language model\" OR \"language models\" OR \"transformer model\" OR \"transformer models\" OR \"transformer inference\" OR \"transformer accelerator\" OR \"transformer-based\" OR \"self-attention\" OR \"vision transformer\")",
+  "QC": "(\"large language model\" OR \"large language models\" OR LLM OR LLMs OR transformer OR transformers) AND (hardware OR accelerator OR accelerators OR accelerating OR acceleration) AND (survey OR review OR tutorial)"
+ },
+ "arxiv_queries": {
+  "QA": "(abs:\"large language model\" OR abs:LLM OR abs:transformer) AND (abs:accelerator OR abs:FPGA OR abs:ASIC OR abs:NPU OR abs:\"in-memory\" OR abs:\"processing-in-memory\" OR abs:\"compute-in-memory\" OR abs:chip) AND (abs:edge OR abs:mobile OR abs:embedded OR abs:\"on-device\" OR abs:\"low-power\" OR abs:\"energy-efficient\")",
+  "QB": "(abs:softmax OR abs:\"layer normalization\" OR abs:RMSNorm OR abs:\"rotary position\" OR abs:RoPE OR abs:\"KV cache\" OR abs:\"mixture of experts\" OR abs:\"nonlinear\" OR abs:GELU OR abs:\"speculative decoding\") AND (abs:accelerator OR abs:FPGA OR abs:ASIC OR abs:hardware OR abs:\"in-memory\") AND (abs:transformer OR abs:LLM OR abs:\"language model\")",
+  "QC": "(ti:\"large language model\" OR ti:LLM OR ti:transformer) AND (ti:hardware OR ti:accelerator OR ti:accelerators OR ti:accelerating) AND (ti:survey OR ti:review OR ti:tutorial)"
+ },
+ "arxiv_categories": "(cat:cs.AR OR cat:cs.DC OR cat:cs.ET OR cat:cs.LG OR cat:eess.SP OR cat:eess.SY OR cat:cs.PF)",
+ "counts": {
+  "openalex_QA": {
+   "reported": 1792,
+   "retrieved": 1795
+  },
+  "arxiv_QA": {
+   "reported": 2238,
+   "retrieved": 2238
+  },
+  "openalex_QB": {
+   "reported": 1435,
+   "retrieved": 1438
+  },
+  "arxiv_QB": {
+   "reported": 1803,
+   "retrieved": 1803
+  },
+  "openalex_QC": {
+   "reported": 56,
+   "retrieved": 56
+  },
+  "arxiv_QC": {
+   "reported": 10,
+   "retrieved": 10
+  }
+ }
+}

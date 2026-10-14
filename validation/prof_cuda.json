@@ -1,0 +1,81 @@
+{
+ "device": "cuda",
+ "dtype": "torch.float16",
+ "torch": "2.4.1",
+ "transformers": "4.46.3",
+ "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "runs": [
+  {
+   "context": 512,
+   "latency_ms_median": 101.07394999999997,
+   "share_pct": {
+    "Act": 4.79,
+    "Attn+KV": 24.44,
+    "GEMV": 29.99,
+    "Norm": 17.0,
+    "Other": 10.58,
+    "RoPE": 11.14,
+    "Sampling": 0.14,
+    "Softmax": 1.92
+   },
+   "time_ms": {
+    "Act": 4.806,
+    "Attn+KV": 24.52,
+    "GEMV": 30.094,
+    "Norm": 17.059,
+    "Other": 10.615,
+    "RoPE": 11.176,
+    "Sampling": 0.136,
+    "Softmax": 1.925
+   }
+  },
+  {
+   "context": 2048,
+   "latency_ms_median": 87.01029999999932,
+   "share_pct": {
+    "Act": 3.75,
+    "Attn+KV": 24.12,
+    "GEMV": 32.06,
+    "Norm": 16.94,
+    "Other": 10.12,
+    "RoPE": 11.09,
+    "Sampling": 0.17,
+    "Softmax": 1.74
+   },
+   "time_ms": {
+    "Act": 3.267,
+    "Attn+KV": 21.01,
+    "GEMV": 27.928,
+    "Norm": 14.76,
+    "Other": 8.818,
+    "RoPE": 9.664,
+    "Sampling": 0.15,
+    "Softmax": 1.517
+   }
+  },
+  {
+   "context": 8192,
+   "latency_ms_median": 86.40274999999953,
+   "share_pct": {
+    "Act": 2.64,
+    "Attn+KV": 37.07,
+    "GEMV": 29.38,
+    "Norm": 11.57,
+    "Other": 7.26,
+    "RoPE": 11.66,
+    "Sampling": 0.1,
+    "Softmax": 0.32
+   },
+   "time_ms": {
+    "Act": 2.272,
+    "Attn+KV": 31.923,
+    "GEMV": 25.303,
+    "Norm": 9.961,
+    "Other": 6.254,
+    "RoPE": 10.04,
+    "Sampling": 0.085,
+    "Softmax": 0.274
+   }
+  }
+ ]
+}

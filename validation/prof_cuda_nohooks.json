@@ -1,0 +1,45 @@
+{
+ "device": "cuda",
+ "dtype": "torch.float16",
+ "torch": "2.4.1",
+ "transformers": "4.46.3",
+ "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "runs": [
+  {
+   "context": 512,
+   "latency_ms_median": 51.01445000000027,
+   "share_pct": {
+    "Other": 99.83,
+    "Sampling": 0.17
+   },
+   "time_ms": {
+    "Other": 50.844,
+    "Sampling": 0.086
+   }
+  },
+  {
+   "context": 2048,
+   "latency_ms_median": 51.98745000000038,
+   "share_pct": {
+    "Other": 99.84,
+    "Sampling": 0.16
+   },
+   "time_ms": {
+    "Other": 51.818,
+    "Sampling": 0.084
+   }
+  },
+  {
+   "context": 8192,
+   "latency_ms_median": 52.19084999999879,
+   "share_pct": {
+    "Other": 99.78,
+    "Sampling": 0.22
+   },
+   "time_ms": {
+    "Other": 51.962,
+    "Sampling": 0.116
+   }
+  }
+ ]
+}

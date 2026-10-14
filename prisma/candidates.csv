@@ -1,0 +1,331 @@
+id,year,venue,title
+10.1109/dcoss-iot69657.2026.00056,2026,International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT),(DEMO) TITAN: Tiny Inference and Training for Transformer Models on FPGA-Based Edge Nodes
+10.5281/zenodo.20593695,2026,Zenodo (CERN European Organization for Nuclear Research),123Ve/Fused-and-Folded-Vision-Transformer: Fused and Folded Vision Transformer: A Memory-Efficient and Low-Power FPGA Accelerator for Edge IoT Visual Inference
+10.1109/cicc65509.2026.11509512,2026,IEEE Custom Integrated Circuits Conference (CICC),A 24.46TOPS/W and 3.04TOPS/mm 2 BF16×1-bit CIM-based BERT Accelerator in 28nm CMOS
+10.1109/cicc65509.2026.11509594,2026,IEEE Custom Integrated Circuits Conference (CICC),A 28nm Secure Processor for Transformer-based Generative AI with On-Chip Authentication and Model Protection for Mobile Devices
+10.1109/jssc.2026.3691770,2026,IEEE Journal of Solid-State Circuits,A BEV Perception Transformer Accelerator With Saliency-Driven Image/Point Cloud Fusion and Phase-Linked Dataflow in 28 nm CMOS
+10.1007/978-981-92-4805-6_24,2026,Lecture notes in computer science,A Hierarchical Adaptive Posit-CIM Architecture for Edge Transformer Inference
+10.1109/aimlcps68702.2026.11542359,2026,,A High-Throughput Custom Accelerator Architecture for Transformer Models on Edge Devices
+10.1109/jetcas.2026.3660129,2026,IEEE Journal on Emerging and Selected Topics in Circuits and Systems,"A Lossless, Reconfigurable FP8 Compute-in-Memory Accelerator With Domino Logic-Based In-Memory Multiplication and Sign-Group Aggregation for Transformers"
+10.1109/icce-taiwan71481.2026.11652441,2026,IEEE International Conference on Consumer Electronics - Taiwan (ICCE-Taiwan),A Low-Parameter Spike-Mechanism and Self-Attention Accelerator for Spiking Transformers on Edge Devices
+10.1007/978-3-032-22500-9_11,2026,"Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",A Low-Resource Vision Transformer Accelerator for Edge Applications
+10.1109/access.2026.3734515,2026,IEEE Access,A Multi-Role Unified Buffer Architecture for an On-Device Vision Transformer Accelerator
+10.1109/cstic68613.2026.11537588,2026,,A Performance-Driven Digital Computing-in-Memory Compiler with LLM Assisted Analysis Method
+10.5281/zenodo.20433697,2026,Zenodo (CERN European Organization for Nuclear Research),"ADAM-PentaD (QNexus): A Sovereign Complex-Spectral Wavefront Accelerator with Clifford-Algebra Compiler for Cognitively-Immune LLM Inference | [RESEARCH ***HYPOTHESIS***] | [wAI~wErrors, please focus on the ""vector""=vision] | [NO HDL --- ONLY CONCEPT]"
+10.1007/978-3-032-29365-7_12,2026,Lecture notes in computer science,AI-Guided DSE of GEMM Kernels for Vision Transformers on FPGA-Based Edge Platforms
+10.1109/tcad.2026.3697679,2026,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,APTQ+: Attention-FFN-aware Post-Training Quantization for a Layer-wise LLM Accelerator on FPGA
+10.1145/3814576.3814594,2026,International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART),ARES: Dataflow Co-Design for Embedded Swin Transformer Acceleration on SoC-FPGAs
+https://openalex.org/W7212328190,2026,Lume (Universidade Federal do Rio Grande do Sul),Accelerators for vision transformer (ViT) neural networks on rISC-V systems evaluated on edge devices
+10.1109/icct-pacific69083.2026.11518980,2026,,An Efficient Vision Transformer Accelerator with Stage-Pipeline Overlap Architecture
+10.1007/978-3-032-30497-1_4,2026,Lecture notes in computer science,An Empirical Evaluation of LLM Inference Efficiency on Data Center GPUs and Edge Accelerators
+10.1109/tce.2026.3688916,2026,IEEE Transactions on Consumer Electronics,An Energy-Efficient FPGA-Based Transformer Accelerator for AIoT Consumer Electronics Using Dual-Side Diagonal Sparsity
+10.1016/j.rineng.2026.112807,2026,Results in Engineering,An energy-efficient FPGA accelerator for transformer inference using layer-wise precision optimization
+2607.01798v2,2026,arXiv,Approximate Attention Weighting for Sustainable FPGA-Based Vision Transformer Inference
+10.1109/mm.2026.3669502,2026,IEEE Micro,Architecting Long-Context Large Language Model Acceleration With Packing–Prefetch Scheduler and Ultralarge Capacity On-Chip Memories
+10.1109/tvlsi.2026.3659893,2026,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,Area- and Utilization-Efficient LLM Accelerator With Fused Speculative Decoding for Edge-Side Inference
+10.5281/zenodo.18294431,2026,Zenodo (CERN European Organization for Nuclear Research),Artifact Evaluation Repository for the FPGA'26 Paper: TeLLMe: An Efficient End-to-End Ternary LLM Prefill and Decode Accelerator with Table-Lookup Matmul on Edge FPGAs
+2602.13334v1,2026,arXiv,Ask the Expert: Collaborative Inference for Vision Transformers with Near-Edge Accelerators
+10.3390/electronics15061312,2026,Electronics,Attention Distribution-Aware Softmax for NPU-Accelerated On-Device Inference of LLMs: An Edge-Oriented Approximation Design
+10.1109/tcsi.2026.3727987,2026,IEEE Transactions on Circuits and Systems I Regular Papers,BAPE:A Binary or Ternary-Weights Transformer Accelerator Based on Precomputation at the Edge
+10.1109/tcsi.2026.3697149,2026,IEEE Transactions on Circuits and Systems I Regular Papers,BVDT: A 28-nm LUT-Assisted Transformer Accelerator With Basis-Vector Compression and Decomposed Computing
+2607.19438v1,2026,arXiv,BaseRT: Advancing Best-in-Class LLM Inference with Apple M5 Neural Accelerators
+2607.00501v1,2026,arXiv,BaseRT: Best-in-Class LLM Inference on Apple Silicon via Native Metal
+10.1109/isca66397.2026.00182,2026,ACM/IEEE International Symposium on Computer Architecture (ISCA),Bridging Efficiency and Scalability in Llm System Via 3D Hybrid Pim With 2D in-Transit Computation
+10.1007/978-3-032-23871-9_8,2026,Lecture notes in computer science,C3M-ViT: A Configurable Matrix Multiplication Module for Energy-Efficient Vision Transformer Accelerator
+10.1109/lca.2026.3741584,2026,IEEE Computer Architecture Letters,CASCADE: A Memory-Centric Chiplet-Array Accelerator for Energy-Efficient LLM Decoding
+2606.02358v1,2026,arXiv,CHIMERA: A Flexible and Scalable 3.1 TOPS/W AI-MCU with Transformer Accelerator and 563 Gb/s Shared-L2 Memory Subsystem with QoS Guarantees
+2601.20041v3,2026,IEEE International Conference on Acoustics Speech and Signal Processing,CiMRAG: CiM-Aware Domain-Adaptive and Noise-Resilient Retrieval-Augmented Generation for Edge-Based LLMs
+https://openalex.org/W7214511580,2026,HAL (Le Centre pour la Communication Scientifique Directe),Co-optimizing Custom Instructions RISC-V and LLM Specialized Accelerator for Attention-Based Edge AI
+10.7840/kics.2026.51.6.1299,2026,한국통신학회논문지,Comparative Analysis of Transformer Inference Performance on Heterogeneous Edge AI Accelerators
+2609.04266v1,2026,arXiv,Compute-in-Memory Attention: A Time-Domain Analog Softmax Circuit with RC-Tunable Temperature
+10.1109/tcsi.2026.3692866,2026,IEEE Transactions on Circuits and Systems I Regular Papers,DSLA: An Energy-Efficient Dual-Sparsity LLM Accelerator With HiMix-BFP
+10.17185/duepublico/85397,2026,"Universitätsbibliographie, Universität Duisburg-Essen","Deploying time-series transformers on embedded FPGAs: feasibility, hardware-aware optimization, and comparative evaluation"
+https://openalex.org/W7164626613,2026,TigerPrints (Clemson University),Domain-Specific Design on FPGA and NPU for scientific computing and On-Device LLM Inference
+2606.06515v1,2026,arXiv,DxPTA: An Architecture Design Space Exploration with Optical Dataflow-guided Strategy for HW/SW Co-Design of Photonic Transformer Accelerators
+10.1145/3812836.3814998,2026,,Edge-LLM-Bench: Characterising LLM Inference on Raspberry Pi 5 with Hailo-10H NPU Acceleration
+10.48550/arxiv.2604.11512,2026,arXiv (Cornell University),EdgeCIM: A Hardware-Software Co-Design for CIM-Based Acceleration of Small Language Models
+2606.13740v1,2026,arXiv,Efficient On-Device Diffusion LLM Inference with Mobile NPU
+10.1109/icccas70754.2026.11672637,2026,"International Conference on Communications, Circuits and Systems",Energy-Efficient FPGA Accelerator for Vision Transformers via Integer Streaming Attention and Asymmetric Mixed Precision
+10.1109/jetcas.2026.3677596,2026,IEEE Journal on Emerging and Selected Topics in Circuits and Systems,FLARE: A Fine-Grained In-Memory Computing Heterogeneous Multi-Chiplet Accelerator for Large Language Models
+10.1109/tnnls.2026.3677427,2026,IEEE Transactions on Neural Networks and Learning Systems,FLASH: Energy-Efficient FPGA Acceleration via Linear Approximation and Streamlined Two-Stage Pipeline Architectures for Quantized CNN--Transformer Hybrid Networks
+10.1049/cdt2/9183110,2026,IET Computers & Digital Techniques,FPGA‐Based Dual Path ConvNeXt‐Tiny–ViT With Effective Feature Refinement for Skin Cancer Classification
+10.23919/date69613.2026.11539190,2026,,Fast and Energy-Efficient Support for Low-Precision LLMs on PIM
+10.3390/app16199626,2026,Applied Sciences,"Fine-Grained Energy Assessment of Vision Transformer Operators on Hybrid SoC Platforms: A CPU, iGPU, and NPU Case Study"
+2606.31938v1,2026,ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam),FlexViT: A Flexible FPGA-based Accelerator for Edge Vision Transformers
+10.53478/tuba.978-625-6110-86-1.ch03,2026,Turkish Academy of Sciences eBooks,"Foundations of Artificial Intelligence: Big Data, Processors and Large Language Models"
+10.48550/arxiv.2604.07526,2026,arXiv (Cornell University),From LLM to Silicon: RL-Driven ASIC Architecture Exploration for On-Device AI Inference
+2604.17097v1,2026,arXiv,From Natural Language to Silicon: The Representation Bottleneck in LLM Hardware Design
+2609.27249v1,2026,arXiv,From PyTorch to the NPU: LLM-Agent-Driven Model Conversion Across Heterogeneous Inference Runtimes
+2608.28667v1,2026,arXiv,GreenBench: Benchmarking Energy Efficiency and Carbon Footprint of Open-Source LLM Inference on Apple Silicon
+10.1016/j.future.2026.108646,2026,Future Generation Computer Systems,HALO: A heterogeneous accelerator for low-latency and energy-efficient edge LLM inference
+10.23919/date69613.2026.11539338,2026,,HINT: A Hybrid SRAM–MRAM Compute-In-Memory with INput-aware Skipping SAR-ADC for Energy Efficient Ternary LLMs
+10.18127/j19998554-202602-01,2026,Neurocomputers,Hardware accelerator for vision transformer inference on programmable logic using microscaling integer format
+10.1145/3801559,2026,ACM Transactions on Design Automation of Electronic Systems,Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture
+10.1145/3748173.3779189,2026,ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA),Hummingbird+: Advancing FPGA-based LLM Deployment from Research Prototype to Edge Product
+10.1145/3820366,2026,ACM Transactions on Embedded Computing Systems,HyPIM: LLM Acceleration with A Hybrid ReRAM/SRAM 3D-PIM Architecture
+2607.05475v1,2026,arXiv,Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference
+10.1615/jmachlearnmodelcomput.2026064494,2026,Journal of Machine Learning for Modeling and Computing,LAAFD: LLM-based Agents for Accelerated FPGA Design
+10.1109/nnice68970.2026.11466241,2026,"International Conference on Neural Networks, Information and Communication Engineering (NNICE)",LLM-Assisted Design and Optimization of the Non-Restoring Remainder Divider for Embedded RISC-V Processors
+10.5281/zenodo.20618291,2026,Zenodo (CERN European Organization for Nuclear Research),LLM-generated codes: LAAFD: LLM-BASED AGENTS FOR ACCELERATED FPGA DESIGN
+10.26240/heal.ntua.31580,2026,DSpace - NTUA (National Technical University of Athens),LUMAX: A LUT-Based Mixed-Precision Accelerator for LLM Inference on the Edge
+10.1109/mm.2026.3669122,2026,IEEE Micro,LogFlex: Flexible-Bit Log Arithmetic Accelerator for Language Models on Edge
+10.17023/15pp-f369,2026,IEEE RESOURCE CENTERS,Low Power Neuromorphic LLM Accelerators
+10.5281/zenodo.21541600,2026,Zenodo (CERN European Organization for Nuclear Research),Low-Cost LoRA Fine-Tuning and Deployment-Efficiency Profiling of a 0.5B-Parameter Language Model for Closed-Vocabulary Structured Extraction on Consumer Apple Silicon
+2607.26016v1,2026,arXiv,MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator with Inverse-Designed Coherent Crossbar
+10.1145/3816440.3818573,2026,ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED),MVP: A M obile 3D-Stacked V LM Accelerator for Efficient Video Understanding by Leveraging Dynamic Sparse Attention P atterns
+10.1109/coolchips68842.2026.11557077,2026,,MicroXPU: An Energy-Efficient Low-bit LLM Accelerator with Microscaling Format-Tailored Digital Compute-in-Memory Macro
+2609.33207v1,2026,arXiv,MorphAtt: A Neuromorphic Accelerator for Efficient Multi-Head Attention Processing in Spiking Vision Transformers
+2605.23294v1,2026,arXiv,NASiC: 3D NAND-based CAM-Selected Multibit CIM Architecture for Efficient On-Device Mixture-of-Experts LLM Inference
+10.1109/edtm65772.2026.11497385,2026,IEEE Electron Devices Technology & Manufacturing Conference (EDTM),Novel Gate-injected Ferroelectric FET-based Differential Fully-analog Computing-in-memory with In-situ Charge-domain Activation for Energy-efficient LLMs
+10.29284/ijasis.12.1.2026.1-14,2026,International Journal of Advances in Signal and Image Sciences,On-Chip Hyperspectral Image Classification Using Vlsi-Based Transformer Networks
+https://openalex.org/W7163625610,2026,UPCommons institutional repository (Universitat Politècnica de Catalunya),Optimizing self-attention mechanisms on RISC-V vector processors: software acceleration and architectural analysis
+2607.19421v1,2026,arXiv,Opto-ViT-v2: Noise-Resilient On-Chip Fine-Tuning for Photonic Near-Sensor Vision Transformer Accelerators
+10.1145/3831707,2026,ACM Transactions on Design Automation of Electronic Systems,PHONON: Silicon-Photonic Network-on-Interposer for Energy-Efficient and High Performance LLM Inferencing
+10.1145/3821725.3821806,2026,,ParallelPrefill: Efficient LLM Prefill on Mobile NPU via 2D Task Decomposition on Hexagon DSP
+2605.20295v1,2026,arXiv,Quant.npu: Enabling Efficient Mobile NPU Inference for on-device LLMs via Fully Static Quantization
+https://openalex.org/W7166495294,2026,Lund University Publications Student Papers (Lund University),Quantization Techniques for Transformer Models on Ethos-U Hardware Accelerators
+10.5281/zenodo.22898006,2026,Zenodo (CERN European Organization for Nuclear Research),"Quantization, Memory Bandwidth Bottlenecks, and Speculative Decoding in Local Large Language Model (LLM) Inference: An Empirical Benchmark of 4-bit/8-bit Transformers (Llama 3, Mistral) on Consumer GPU, Apple Silicon, and Embedded NPU Architectures"
+10.1109/jssc.2026.3718555,2026,IEEE Journal of Solid-State Circuits,RS-LPU: A ReRAM-on-Logic Stacked Large Language Model Accelerator With Software–Hardware Co-Designed Weight Compression and Speculative Decoding
+10.1109/isqed69900.2026.11534722,2026,International Symposium on Quality Electronic Design (ISQED),Real-Time Edge Semantics for Drone Swarms via FPGA Perception and On-Device LLMs
+10.3390/electronics15051052,2026,Electronics,Reducing Energy Footprint of LLM Inference Through FPGA-Based Heterogeneous Computing Platforms
+10.36548/jei.2026.2.005,2026,Journal of Electronics and Informatics,Resource-Efficient FPGA Implementation of a Self-Attention Core for Edge AI
+10.1007/s44443-026-01313-1,2026,Journal of King Saud University - Computer and Information Sciences,SATIN: a sparse attention application-specific instruction-set processor with custom mixed-precision extensions for energy-efficient edge inference of transformer large language models
+10.1145/3844511,2026,ACM Transactions on Design Automation of Electronic Systems,SATLLM: A Sparsity-aware Accelerator for Ternary-Weight Large Language Models
+2607.09385v1,2026,IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM),STEEL: Sparsity-Aware Fused Attention for Energy-Efficient Long-Sequence Inference on AMD's XDNA NPU
+10.48550/arxiv.2604.22935,2026,arXiv (Cornell University),Secure eFPGA-Enabled Edge LLM Inference: Architectural and Hardware Countermeasures
+2607.29076v2,2026,arXiv,Selective KV Cache Protection for Noise-Resilient LLM Inference on Analog Compute-In-Memory Systems
+10.55092/neuroelectronics20260002,2026,Neuroelectronics.,SleepViT: a compact vision transformer accelerator for sleep stage classification in wearable devices
+10.1109/vlsitsa69131.2026.11527850,2026,"International VLSI Symposium on Technology, Systems and Applications (VLSI-TSA)",SoftApprox: A Hardware-Efficient SoftMax Approximation for FPGA-Based Transformer Inference
+10.1109/tc.2026.3701730,2026,IEEE Transactions on Computers,SpinTran: A Spintronic Transformer Accelerator Using Full-Precision Computing in Memory With Approximate Softmax Functions
+10.1109/tvlsi.2026.3673259,2026,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,T 3 : Transformer Accelerator With Efficient Top- K Sorting and Dynamic Tanh Computation for Marine Edge Computing
+10.1109/isca66397.2026.00185,2026,ACM/IEEE International Symposium on Computer Architecture (ISCA),TAGT: An Efficient Graph Transformer Accelerator with Topology-aware Sparsification and Merging
+10.1109/asp-dac66049.2026.11420766,2026,Asia and South Pacific Design Automation Conference (ASP-DAC),TFLOP: Towards Energy-Efficient LLM Inference An FPGA-Affinity Accelerator with Unified LUT-based OPtimization
+10.21917/ijme.2026.0392,2026,ICTACT Journal on Microelectronics,TRANSFORMER GUIDED NEURAL ARCHITECTURE SEARCH FOR ADAPTIVE FPGA HARDWARE SOFTWARE CO DESIGN OF WEARABLE EDGE INTELLIGENCE SYSTEMS
+10.5281/zenodo.21786210,2026,Zenodo (CERN European Organization for Nuclear Research),"The On-Device LLM Latency Bottleneck Moves with the Hardware: Prefill-Bound on CPU, Decode-Bound on Apple Silicon"
+10.1145/3797905.3807877,2026,ACM International Conference on Supercomputing (ICS),"Three Birds, One Stone: Fast, Accurate-aware and Cost-Efficient Accelerator for Ternary LLM"
+10.1145/3816440.3818568,2026,ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED),TiMM-ViT: Token-Importance-Aware Token Merging with Multi-Exit Training and an FPGA-based Vision Transformer Accelerator for Image Classification
+10.1109/oceans66983.2026.11617118,2026,,Towards Energy-Efficient Underwater Visual Perception via an FPGA Accelerator of Vision Transformers
+10.1109/vlsitsa69131.2026.11527973,2026,"International VLSI Symposium on Technology, Systems and Applications (VLSI-TSA)",Transformer Encoder Architecture for Edge FPGAs
+2602.12962v1,2026,arXiv,TriGen: NPU Architecture for End-to-End Acceleration of Large Language Models based on SW-HW Co-Design
+2604.07628v1,2026,arXiv,Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration
+10.5281/zenodo.20251943,2026,Zenodo (CERN European Organization for Nuclear Research),VDR-LLM-Prolog on FPGA: Exact Integer Arithmetic in Custom Silicon: A 10-Core Q335 Processor on Zynq-7020
+10.5281/zenodo.21869283,2026,Zenodo (CERN European Organization for Nuclear Research),balmame7-mld/fpga-transformer-ccontrol-flow: Initial release — FPGA Transformer accelerator artifact
+10.1109/dac63849.2025.11133077,2025,Proceedings - ACM IEEE Design Automation Conference,3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning
+10.1109/icta68203.2025.11329765,2025,"IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA)",A 1.784 TOPS Multi-Data-Type Multi-Data-Flow Transformer Accelerator for Object Recognition
+10.1109/iscas56072.2025.11044273,2025,IEEE International Symposium on Circuits and Systems proceedings,A 17.1 TOPS/W FP-INT Transformer Inference Accelerator with Sparsity Boosting and Output Importance-Aware Processing
+10.23919/vlsitechnologyandcir65189.2025.11075020,2025,,A 2-Transistor-1-Modulator (2T1m) Electronic-Photonic Hybrid Memory Architecture for Deep Neural Network Cim and Very Large-Scale Transformers
+10.1109/islped65674.2025.11261760,2025,IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED),A 20.98TOPS/W Energy-Efficient Binary BERT Model on Group Vector Systolic CIM Accelerator
+10.1109/esserc66193.2025.11214030,2025,,A 28nm 31.2 TOPS/W Diffusion Transformer Accelerator Using Memory-in-Compute Architecture
+10.1109/tcasai.2025.3596210,2025,IEEE transactions on circuits and systems for artificial intelligence.,A 28nm Spiking Vision Transformer Accelerator With Dual-Path Sparse Compute Core and EMA-Free Self-Attention Engine for Embodied Intelligence
+10.1109/tcsi.2025.3601717,2025,IEEE Transactions on Circuits and Systems I Regular Papers,A 3.51 TOPS/mm 2 Transformer Accelerator Exploiting Bipolar Sparsity and Approximate Gating
+10.1109/iscas56072.2025.11043714,2025,IEEE International Symposium on Circuits and Systems proceedings,A 4.21 TFLOPS/W Memory-Efficient LLM Inference Accelerator with Bit-Layered Non-Uniform Quantization
+10.1109/iscas56072.2025.11043292,2025,IEEE International Symposium on Circuits and Systems proceedings,A 46 TOPS/W In-/Near-Memory Computing Processor for Large Language Model with Extended Sparse Attention
+10.1109/cicc63670.2025.10982870,2025,IEEE Custom Integrated Circuits Conference (CICC),A 52.03TOPS/W DCIM-Based Accelerator with FlashAttention and Sparsity-Aware Alignment for LLMs
+10.1109/a-sscc67472.2025.11349431,2025,IEEE Asian Solid-State Circuits Conference (A-SSCC),A 65nm 942-TOPS/W Dual Drive Strength-based SRAM Compute-in-Memory with Symmetrical Adaptive Sensing Margin for CNNs and Transformers in edge AI applications
+2511.12152v3,2025,arXiv,A Digital SRAM-Based Compute-In-Memory Macro for Weight-Stationary Dynamic Matrix Multiplication in Transformer Attention Score Computation
+10.1145/3787256.3787272,2025,International Conference on Computational Intelligence and Intelligent Systems (CIIS),A High-Performance ReLU-Based Hardware Accelerator with Simplified Quantization for Efficient Vision Transformers on Edge Devices
+10.1145/3787256.3787270,2025,International Conference on Computational Intelligence and Intelligent Systems (CIIS),A Highly Area-Efficient Transformer Accelerator for Edge Devices Based on Cross-Shaped Window Attention
+10.1109/asicon66040.2025.11326469,2025,IEEE International Conference on ASIC (ASICON),A Hybrid Processing-in-Memory and Computing-in-Memory Architecture for Large Language Model Inference in Edge Devices
+10.1109/iscas56072.2025.11043724,2025,IEEE International Symposium on Circuits and Systems proceedings,A Layer-wise N:M Sparsity Aware Transformer Accelerator leveraging Temporal Locality with Butterfly Network
+10.1145/3716368.3735299,2025,ACM Great Lakes Symposium on VLSI (GLSVLSI),A Light-Speed Large Language Model Accelerator with Optical Stochastic Computing
+10.1109/icce63647.2025.10930221,2025,International Conference on Consumer Electronics,A Multi-Chip-Module-Based Architecture Simulator for Scaling Vision Transformer Inference
+10.1109/iedm50572.2025.11353553,2025,Technical digest - International Electron Devices Meeting/Technical digest,A Novel Ferroelectric Charge-Steering Memcapacitor Array based Δ-CIM with Enhanced Parallelism and Self-Adaptive Sparsity for Edge LLMs
+10.1109/cicc63670.2025.10982833,2025,IEEE Custom Integrated Circuits Conference (CICC),A One-Shot Floating-Point Compute-in-Memory Macro Featuring PVT Robustness and Mismatch Tolerance for Edge LLMs
+10.62306/7ds08r28,2025,Digital Science,A Survey on Integrated Training-Inference Architectures for Large Language Models on Multi-GPU Stream Processors
+10.1016/j.sysarc.2025.103512,2025,Journal of Systems Architecture,ADCIM: scalable construction of approximate digital compute-in-memory MACRO for energy-efficient attention computation
+10.48550/arxiv.2510.15312,2025,arXiv (Cornell University),Accelerating Mobile Language Model via Speculative Decoding and NPU-Coordinated Execution
+10.54254/2755-2721/2025.21360,2025,Applied and Computational Engineering,Accelerating Transformer Models: FPGA-Based Hardware Optimization and Heterogeneous Computing Strategies
+10.1109/a-sscc67472.2025.11349545,2025,IEEE Asian Solid-State Circuits Conference (A-SSCC),An Efficient FPGA Accelerator with Spatiotemporal Tubelet Merging for Video Transformers
+2501.07825v1,2025,IEEE Asia-Pacific Conference on Applied Electromagnetics (APACE),An Efficient Sparse Hardware Accelerator for Spike-Driven Transformer
+10.1109/tcsi.2025.3527541,2025,IEEE Transactions on Circuits and Systems I Regular Papers,An Efficient Window-Based Vision Transformer Accelerator via Mixed-Granularity Sparsity
+10.1109/fccm62733.2025.00032,2025,IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM),An Energy-Efficient FPGA-Based Vision Transformer Accelerator via Software-Hardware Co-Design
+10.1109/tcsi.2025.3573092,2025,IEEE Transactions on Circuits and Systems I Regular Papers,An Energy-Efficient Neuromorphic Accelerator Based on Deformable Spiking Transformer for Dynamic Vision Sensor
+10.1109/tcsi.2025.3606813,2025,IEEE Transactions on Circuits and Systems I Regular Papers,An FPGA-Based Frequency-Focused Vision Transformer Accelerator for Real-Time Inference on Edge Platforms
+10.1109/icce63647.2025.10930161,2025,International Conference on Consumer Electronics,An In-Memory Computing-based Efficient Transformer Accelerator Using Stateful Matrix Multiplier for Voice Assistant Consumer Applications
+10.1109/imw61990.2025.11026966,2025,IEEE International Memory Workshop (IMW),Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs
+10.1109/cicc63670.2025.10983594,2025,IEEE Custom Integrated Circuits Conference (CICC),Analog-AI Hardware Accelerators for Low-Latency Transformer-Based Language Models (Invited)
+10.18429/jacow-ipac2025-thpm120,2025,arXiv (Cornell University),Application Of Large Language Models For The Extraction Of Information From Particle Accelerator Technical Documentation
+10.1109/aimlsystems67835.2025.11373945,2025,International Conference on AI-ML Systems (AIMLSystems),ArchTune: A Predictive Energy Estimation Framework for LLM Inference on Edge Accelerators
+2508.08457v1,2025,arXiv,Architecting Long-Context LLM Acceleration with Packing-Prefetch Scheduler and Ultra-Large Capacity On-Chip Memories
+10.48550/arxiv.2512.02924,2025,arXiv (Cornell University),AutoNeural: Co-Designing Vision-Language Models for NPU Inference
+10.1109/isvlsi65124.2025.11130202,2025,IEEE Computer Society Annual Symposium on VLSI,Automating Versatile Time-Series Analysis with Tiny Transformers on Embedded FPGAs
+10.1098/rsta.2023.0395,2025,Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences,AxLaM: energy-efficient accelerator design for language models for edge computing
+2504.15721v1,2025,Proceedings - ACM IEEE Design Automation Conference,BBAL: A Bidirectional Block Floating Point-Based Quantisation Accelerator for Large Language Models
+10.1109/tvlsi.2025.3620613,2025,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,CINELL: An Energy-Efficient Compute-In/Near-Memory eDRAM Processor for Sparse Transformer-Based Large Language Models
+10.1109/iros60139.2025.11247019,2025,IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),Computationally Efficient FPGA-based Large Language Model Inference for Real-Time Decision-Making in Robotic Systems
+10.1109/lca.2025.3532682,2025,IEEE Computer Architecture Letters,Cost-Effective Extension of DRAM-PIM for Group-Wise LLM Quantization
+10.1109/tvlsi.2025.3589359,2025,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,DATA: A Memory-Efficient Deformable Transformer Accelerator via Neural Architecture Search
+10.1109/aicas64808.2025.11173125,2025,IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS),DPP-ViT: Dynamic Patch Pruning for Low Complexity Vision Transformer Accelerator
+10.1109/swc65939.2025.00098,2025,IEEE Smart World Congress (SWC),DSPViT: An FPGA-based Vision Transformer Accelerator with Dynamic Semantic-aware Pruning
+10.1109/mcsoc67473.2025.00096,2025,IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC),Design and Implementation of a BRAM-Banked Double-Buffered Matrix Multiplication Accelerator for Transformer Models on Edge FPGAs
+2503.16731v3,2025,arXiv,Design and Implementation of an FPGA-Based Hardware Accelerator for Transformer
+10.1109/icce-asia67487.2025.11263662,2025,,Dynamic Offloading Optimization for Multi-PIM LLM Inference
+10.1109/apccas67402.2025.11378307,2025,IEEE Asia Pacific Conference on Circuits and Systems (APCCAS),ECHO: An Efficient Co-Designed ASR Accelerator with Hardware-Friendly and Audio-Aware Attention
+10.1109/tcsii.2025.3626209,2025,IEEE Transactions on Circuits & Systems II Express Briefs,ESTU: Enabling Spiking Transformers on Ultra-Low-Power FPGAs
+2511.22334v2,2025,arXiv,"Edge Deployment of Small Language Models, a comprehensive comparison of CPU, GPU and NPU backends"
+10.22214/ijraset.2025.72693,2025,International Journal for Research in Applied Science and Engineering Technology,Edge-Embedded System-on-Chip Architecture for Unified Transformer-Based AI in Cross-Domain Energy Systems
+10.1109/dac63849.2025.11132426,2025,Proceedings - ACM IEEE Design Automation Conference,Efficient Edge Vision Transformer Accelerator with Decoupled Chunk Attention and Hybrid Computing-In-Memory
+10.1109/icm66518.2025.11322486,2025,,Efficient Pruning and Acceleration of Encoder-Based LLM Transformers on eFPGAs
+10.1109/iccad66269.2025.11240951,2025,,Enabling Decoder-only Language Model Inference on a CNN Accelerator
+10.1109/iccad66269.2025.11241006,2025,,Energy-Efficient Accelerator for Scalable Point Transformer Networks with Reduced Data Access
+10.1109/icuis67429.2025.11380536,2025,International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS),Energy-Efficient Co-Processing: A Hybrid CPUAccelerator Pipeline for Low-Bit Quantized Large Language Model Inference
+10.1109/iccd65941.2025.00020,2025,"Proceedings, IEEE International Conference on Computer Design/Proceedings - IEEE International Conference on Computer Design",Enhancing Transformer Inference Efficiency on FPGA Through Fully Fusion and Integer-Only Quantization Techniques
+2510.13401v1,2025,ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam),F-BFQ: Flexible Block Floating-Point Quantization Accelerator for LLMs
+10.1109/mcsoc67473.2025.00114,2025,IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC),FPGA Implementation of Tiny Transformer Using High-Level-Synthesis for Biomedical Applications
+10.1109/mwscas53549.2025.11244310,2025,Conference proceedings,Fast and Energy-Efficient Analog Accelerator for Vision Transformer
+10.1109/iscas56072.2025.11043624,2025,IEEE International Symposium on Circuits and Systems proceedings,FastViT: Real-Time Linear Attention Accelerator for Dense Predictions of Vision Transformer (ViT)
+10.1109/icfpt67023.2025.00048,2025,International Conference on Field-Programmable Technology (FPT),FlightOPU: An FPGA Overlay Processor for LLM with HBM-Aware Multi-Die Architecture
+10.1145/3746238.3746241,2025,,H4H: Hybrid Convolution-Transformer Architecture Search for NPU-CIM Heterogeneous Systems for AR/VR Applications (Abstract)
+2502.19747v3,2025,arXiv,HaLoRA: Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture
+https://openalex.org/W7112220246,2025,Open Repository of the University of Porto (University of Porto),Hardware Accelerated Edge Inference of Small Language Models on FPGA
+2503.19643v1,2025,arXiv,Hardware Efficient Accelerator for Spiking Transformer With Reconfigurable Parallel Time Step Computing
+2511.15397v3,2025,arXiv,Hemlet: A Heterogeneous Compute-in-Memory Chiplet Architecture for Vision Transformers with Group-Level Parallelism
+10.20944/preprints202501.0901.v1,2025,Preprints.org,HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators
+10.1109/icecst66106.2025.11307658,2025,,Hybrid MEMS-FPGA Architectures with Transformer Models for Real-Time Speech and Language Processing
+10.22214/ijraset.2025.70797,2025,International Journal for Research in Applied Science and Engineering Technology,Implementation of Efficient Adaptive Noise Cancellation on FPGA Using LMS and LLMS Algorithms
+10.1109/tcsii.2025.3580135,2025,IEEE Transactions on Circuits & Systems II Express Briefs,KV-Cache Oriented Query-Aware Sparse Attention Accelerator With Cross-Stage Precision-Configurable Digital CIM
+10.1109/isocc66390.2025.11329964,2025,International SoC Design Conference,LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and its Efficient Hardware Architecture
+https://openalex.org/W7137663622,2025,Institutional Repositories DataBase (IRDB),LLM エッジ推論のFPGA実装及び最適化に関する研究 [課題研究報告書]
+10.1109/coins65080.2025.11125797,2025,IEEE International Conference on Omni-layer Intelligent Systems (COINS),LLM-NPU: Towards Efficient Foundation Model Inference on Low-Power Neural Processing Units
+10.1109/iccad66269.2025.11240826,2025,,LLM-on-the-Palm: Mobile LLM Inference with PIM-Enhanced NAND Flash Memory
+2511.06174v2,2025,arXiv,LUT-LLM: Efficient Large Language Model Inference with Memory-based Computations on FPGAs
+10.1007/978-981-95-1021-4_35,2025,Lecture notes in computer science,Lembda: Optimizing LLM Inference on Embedded Platforms via CPU/FPGA Co-processing
+10.1109/a-sscc67472.2025.11349592,2025,IEEE Asian Solid-State Circuits Conference (A-SSCC),LoRA-CIM: A Fully-Digital Hybrid Flash-SRAM CIM Accelerator with LoRA Fine-Tuned LLM in Edge Devices
+10.1109/isocc66390.2025.11329773,2025,International SoC Design Conference,LoRA-PIM: In-Memory Delta-Weight Injection for Multi-Adapter LLM Serving
+10.1109/tcsi.2025.3585054,2025,IEEE Transactions on Circuits and Systems I Regular Papers,Low Power Vision Transformer Accelerator with Hardware-Aware Pruning and Optimized Dataflow
+10.1109/icct-pacific63901.2025.11012790,2025,,Low-Cost Non-Linear Function Approximation for Transformer Deployment on Edge NPU
+10.23919/date64628.2025.10993271,2025,,MCTA: A Multi-Stage Co-Optimized Transformer Accelerator with Energy-Efficient Dynamic Sparse Optimization
+10.1109/jssc.2025.3545731,2025,IEEE Journal of Solid-State Circuits,MINOTAUR: A Posit-Based 0.42–0.50-TOPS/W Edge Transformer Inference and Training Accelerator
+10.1109/iceic64972.2025.10879696,2025,"International Conference on Electronics, Information, and Communication (ICEIC)",MOSA: Matrix Optimized Self-Attention Hardware Accelerator for Mobile Device
+https://openalex.org/W7125885494,2025,DR-NTU (Nanyang Technological University),MSE-Softmax: a zero-DSP FP8 accelerator for efficient transformer inference
+10.1109/dac63849.2025.11132914,2025,Proceedings - ACM IEEE Design Automation Conference,McPAL: Scaling Unstructured Sparse Inference with Multi-Chiplet HBM-PIM Architecture for LLMs
+10.1109/iccad66269.2025.11240807,2025,,MoE-OPU: An FPGA Overlay Processor Leveraging Expert Parallelism for MoE-based Large Language Models
+10.1109/edtm61175.2025.11040643,2025,IEEE Electron Devices Technology & Manufacturing Conference (EDTM),Multi-Scale Thermal Modeling of 3D-Heterogeneous Integrated Processing-Near-Memory Chip for Edge Large Language Model Inference
+https://openalex.org/W4417429088,2025,arXiv (Cornell University),NPUEval: Optimizing NPU Kernels with LLMs and Open Source Compilers
+2511.17235v1,2025,arXiv,NX-CGRA: A Programmable Hardware Accelerator for Core Transformer Algorithms on Edge Devices
+10.1145/3725843.3756039,2025,Proceedings of the ... annual International Symposium on Microarchitecture/Proceedings of the annual International Symposium on Microarchitecture,ORCHES: Orchestrated Test-Time-Compute-based LLM Reasoning on Collaborative GPU-PIM HEterogeneous System
+10.1109/asicon66040.2025.11326063,2025,IEEE International Conference on ASIC (ASICON),Optimizing LLM inference for FPGAs
+2507.07044v2,2025,arXiv,Opto-ViT: Architecting a Near-Sensor Region of Interest-Aware Vision Transformer Accelerator with Silicon Photonics
+10.2139/ssrn.5434397,2025,SSRN Electronic Journal,PNM-X: Low-Power Hybrid Processing-in-Memory Mamba-based Large Language Model Accelerator
+10.1186/s43074-025-00182-7,2025,PhotoniX,Photonic transformer chip: interference is all you need
+2511.05502v1,2025,arXiv,"Production-Grade Local LLM Inference on Apple Silicon: A Comparative Study of MLX, MLC-LLM, Ollama, llama.cpp, and PyTorch MPS"
+2508.08531v1,2025,arXiv,Profiling Large Language Model Inference on Apple Silicon: A Quantization Perspective
+10.1145/3779444,2025,ACM Transactions on Reconfigurable Technology and Systems,REATA: An Efficient Vision Transformer Accelerator Featuring a Resource-Optimized Attention Design on Versal ACAP
+10.1109/tvlsi.2025.3559178,2025,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,RETA-AD: A Reconfigurable and Efficient Transformer Accelerator for Autonomous Driving
+2503.12988v2,2025,Asia and South Pacific Design Automation Conference (ASP-DAC),ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM
+10.1109/tvlsi.2025.3578092,2025,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,RTA: A Reconfigurable Transformer Accelerator Exploiting Sparsity via Low-Bit-Width Prediction
+2509.04162v1,2025,arXiv,Real Time FPGA Based Transformers & VLMs for Vision Tasks: SOTA Designs and Optimizations
+10.1109/fpl68686.2025.00014,2025,International Conference on Field Programmable Logic and Applications (FPL),ReconFormer: A Multi-Level Run-Time Reconfigurable System-on-Chip for Accelerating Transformers
+10.1109/icicse66971.2025.11430095,2025,International Conference on Information Communication and Software Engineering (ICICSE),Research on FPGA Acceleration of Transformer Model for Modulation Recognition
+10.1109/tcasai.2025.3552735,2025,IEEE transactions on circuits and systems for artificial intelligence.,Robustness Against Faults in Configuration Memories of FPGA-Based LLMs
+10.1109/socc66126.2025.11235364,2025,IEEE International System-on-Chip Conference (SOCC),SIMAX: a SIMD-Based Many-Core Accelerator for Matrix-Vector Multiplication for Transformers
+2507.09201v1,2025,ACM Transactions on Embedded Computing Systems,SLIM: A Heterogeneous Accelerator for Edge Inference of Sparse Large Language Model via Adaptive Thresholding
+10.1109/iscas66217.2026.11562300,2025,IEEE International Symposium on Circuits and Systems proceedings,SeVeDo: A Heterogeneous Transformer Accelerator for Low-Bit Inference via Hierarchical Group Quantization and SVD-Guided Mixed Precision
+10.1109/iccad66269.2025.11240783,2025,,Secure Token Pruning Mechanism and Accelerator for Vision Transformer
+10.1109/tai.2025.3544590,2025,IEEE Transactions on Artificial Intelligence,SecureLLAMA: Secure FPGAs Using LLAMA Large Language Models
+10.1109/iccad66269.2025.11240806,2025,,SparCIM: A Heterogeneous CIM-Based Accelerator for Large Language Models with Contextual and Unstructured Bit Sparsity
+10.1145/3731545.3735115,2025,ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC),SpeedLLM: An FPGA Co-design of Large Language Model Inference Accelerator
+10.1109/jetcas.2025.3596593,2025,IEEE Journal on Emerging and Selected Topics in Circuits and Systems,System-Technology Co-Optimization Methodology for LLM Accelerators With Advanced Packaging
+10.1145/3658617.3697671,2025,Asia and South Pacific Design Automation Conference (ASP-DAC),TWDP: A Vision Transformer Accelerator with Token-Weight Dual-Pruning Strategy for Edge Device Deployment
+10.1109/tcad.2025.3608002,2025,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,TranSIC: A Storage in Computing Framework for Designing Efficient Transformer Accelerators in Energy-Constrained Scenarios
+10.1109/access.2025.3621062,2025,IEEE Access,TransInferSim: Toward Fast and Accurate Evaluation of Embedded Hardware Accelerators for Transformer Networks
+2501.06663v2,2025,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,Ultra Memory-Efficient On-FPGA Training of Transformers via Tensor-Compressed Optimization
+2506.09554v2,2025,IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW),Understanding the Performance and Power of LLM Inferencing on Edge Accelerators
+2507.00797v1,2025,Proceedings - ACM IEEE Design Automation Conference,VEDA: Efficient LLM Generation Through Voting-based KV Cache Eviction and Dataflow-flexible Accelerator
+2503.20246v1,2025,IEEE Asia Pacific Conference on Circuits and Systems (APCCAS),VESTA: A Versatile SNN-Based Transformer Accelerator with Unified PEs for Multiple Computational Layers
+2502.16334v2,2025,arXiv,Vision Transformer Accelerator ASIC for Real-Time Low-Power Sleep Staging
+10.1109/dac63849.2025.11133363,2025,Proceedings - ACM IEEE Design Automation Conference,XShift: FPGA-efficient Binarized LLM with Joint Quantization and Sparsification
+10.1145/3620666.3651368,2024,ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS),8-bit Transformer Inference and Fine-tuning for Edge Accelerators
+10.1109/jssc.2024.3419808,2024,IEEE Journal of Solid-State Circuits,A 28-nm 28.8-TOPS/W Attention-Based NN Processor With Correlative CIM Ring Architecture and Dataflow-Reshaped Digital-Assisted CIM Array
+10.1109/aicas59952.2024.10595969,2024,,A 28nm 343.5fps/W Vision Transformer Accelerator with Integer-Only Quantized Attention Block
+10.1109/vlsitechnologyandcir46783.2024.10631311,2024,IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits),"A 28nm 4.35TOPS/mm2 Transformer Accelerator with Basis-vector Based Ultra Storage Compression, Decomposed Computation and Unified LUT-Assisted Cores"
+10.1109/apccas62602.2024.10808854,2024,IEEE Asia Pacific Conference on Circuits and Systems (APCCAS),A 28nm 64.5TOPS/W Sparse Transformer Accelerator with Partial Product-based Speculation and Sparsity-Adaptive Computation
+10.1109/a-sscc60305.2024.10848596,2024,IEEE Asian Solid-State Circuits Conference (A-SSCC),A 28nm 76.25TOPS/W RRAM/SRAM-Collaborative CIM Fine-Tuning Accelerator with RRAM-Endurance/Latency-Aware Weight Allocation for CNN and Transformer
+10.1109/iscas58744.2024.10558649,2024,IEEE International Symposium on Circuits and Systems proceedings,A 3.55 mJ/frame Energy-efficient Mixed-Transformer based Semantic Segmentation Accelerator for Mobile Devices
+10.1109/access.2024.3480977,2024,IEEE Access,A Cost-Efficient FPGA Implementation of Tiny Transformer Model using Neural ODE
+10.1109/ojsscs.2024.3524359,2024,IEEE Open Journal of the Solid-State Circuits Society,A Fully Integrated Energy-Scalable Transformer Accelerator for Language Understanding on Edge Devices
+10.1109/icce-asia63397.2024.10773935,2024,IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia),A Low Power Attention and Softmax Accelerator for Large Language Models Inference
+10.1109/tits.2024.3457815,2024,IEEE Transactions on Intelligent Transportation Systems,A Mixed-Precision Transformer Accelerator With Vector Tiling Systolic Array for License Plate Recognition in Unconstrained Scenarios
+10.1109/hipcw63042.2024.00069,2024,"IEEE International Conference on High Performance Computing, Data and Analytics Workshop (HiPCW)",A Preliminary Performance Analysis of LLM Inference on Edge Accelerators
+10.1016/j.micpro.2025.105223,2024,Microprocessors and Microsystems,A Runtime-Adaptive Transformer Neural Network Accelerator on FPGAs
+10.1145/3676536.3676753,2024,,An Agile Framework for Efficient LLM Accelerator Development and Model Inference
+10.1109/esserc62670.2024.10719540,2024,arXiv,An Analog and Digital Hybrid Attention Accelerator for Transformers with Charge-based In-memory Computing
+2403.20230v1,2024,IEEE International Symposium on Circuits and Systems proceedings,An FPGA-Based Reconfigurable Accelerator for Convolution-Transformer Hybrid EfficientViT
+10.1109/candar64496.2024.00042,2024,International Symposium on Computing and Networking,An FPGA-Oriented Quantization Approach for Vision Transformer with LUT-Friendly Operations
+10.1145/3649329.3658244,2024,Proceedings - ACM IEEE Design Automation Conference,An In-Memory Computing Accelerator with Reconfigurable Dataflow for Multi-Scale Vision Transformer with Hybrid Topology
+2409.19315v2,2024,JuSER Publikationsportal,Analog In-Memory Computing Attention Mechanism for Fast and Energy-Efficient Large Language Models
+10.1109/iai63275.2024.10730301,2024,International Conference on Industrial Artificial Intelligence (IAI),Analysis Towards Deployment and Acceleration for ViT on a Lightweight RISC- V Processor
+10.1109/jssc.2024.3397189,2024,IEEE Journal of Solid-State Circuits,Ayaka: A Versatile Transformer Accelerator With Low-Rank Estimation and Heterogeneous Dataflow
+10.1109/hpsc62738.2024.00025,2024,,BTPA: Hardware-Software Co-Design for Bitwise Based Transformer with Parallelized Accelerator
+10.1145/3676536.3676733,2024,arXiv,Co-Designing Binarized Transformer and Hardware Accelerator for Efficient End-to-End Edge Deployment
+10.1145/3676536.3697132,2024,,Co-designing 2.5D Silicon Photonic Accelerators for Distributed Transformer at the Edge
+10.1109/vlsitechnologyandcir46783.2024.10631397,2024,IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits),Cost-Effective LLM Accelerator Using Processing in Memory Technology
+2412.04372v2,2024,arXiv,Distributed Inference with Minimal Off-Chip Traffic for Transformers on Low-Power MCUs
+10.1109/icccas62034.2024.10651591,2024,"International Conference on Communications, Circuits and Systems",Efficient FPGA-Based Transformer Accelerator Using In-Block Balanced Pruning
+10.1038/s41598-024-75021-z,2024,Scientific Reports,Efficient memristor accelerator for transformer self-attention functionality
+10.1145/3649329.3657317,2024,Proceedings - ACM IEEE Design Automation Conference,Enabling Multiple Tensor-wise Operator Fusion for Transformer Models on Spatial Accelerators
+10.1109/socc62300.2024.10737844,2024,IEEE International System-on-Chip Conference (SOCC),Energy Cost Modelling for Optimizing Large Language Model Inference on Hardware Accelerators
+10.1109/icccas62034.2024.10652850,2024,"International Conference on Communications, Circuits and Systems",Energy Efficient FPGA-Based Accelerator for Dynamic Sparse Transformer
+10.1109/iscas58744.2024.10558631,2024,IEEE International Symposium on Circuits and Systems proceedings,Energy Efficient FPGA-Based Binary Transformer Accelerator for Edge Devices
+10.1007/s44295-024-00040-5,2024,Intelligent Marine Technology and Systems,Energy efficient spike transformer accelerator at the edge
+10.1109/icfpt64416.2024.11113391,2024,International Conference on Field-Programmable Technology (FPT),FINN-T: Compiling Custom Dataflow Accelerators for Quantized Transformers
+10.54097/ffw9q577,2024,Highlights in Science Engineering and Technology,FPGA-Based Vit Inference Accelerator Optimization
+2403.07039v1,2024,arXiv,From English to ASIC: Hardware Implementation with Large Language Model
+10.1109/tcsi.2024.3497187,2024,IEEE Transactions on Circuits and Systems I Regular Papers,GSLP-CIM: A 28-nm Globally Systolic and Locally Parallel CNN/Transformer Accelerator With Scalable and Reconfigurable eDRAM Compute-in-Memory Macro for Flexible Dataflow
+10.1109/aicas59952.2024.10595871,2024,,HLC: A Hardware-friendly Quantization and Cache-based Accelerator for Transformer
+10.1145/3665314.3670806,2024,ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED),Hardware-friendly Hessian-driven Row-wise Quantization and FPGA Acceleration for Transformer-based Models
+10.1109/iscas58744.2024.10558182,2024,IEEE International Symposium on Circuits and Systems proceedings,In-Memory Transformer Self-Attention Mechanism Using Passive Memristor Crossbar
+10.3390/app142311198,2024,Applied Sciences,InMemQK: A Product Quantization Based MatMul Module for Compute-in-Memory Attention Macro
+10.1109/aiot63253.2024.00017,2024,arXiv,Integer-only Quantized Transformers for Embedded FPGA-based Time-series Forecasting in AIoT
+2408.07326v1,2024,arXiv,LPU: A Latency-Optimized and Highly Scalable Processor for Large Language Model Inference
+2405.08888v1,2024,Science Advances,Large Language Models for Human-Machine Collaborative Particle Accelerator Tuning through Natural Language
+10.1109/vlsitechnologyandcir46783.2024.10631515,2024,IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits),MINOTAUR: An Edge Transformer Inference and Training Accelerator with 12 MBytes On-Chip Resistive RAM and Fine-Grained Spatiotemporal Power Gating
+10.1109/twc.2024.3506743,2024,IEEE Transactions on Wireless Communications,MR-Transformer: FPGA Accelerated Deep Learning Attention Model for Modulation Recognition
+10.1109/gcce62371.2024.10760930,2024,IEEE Global Conference on Consumer Electronics (GCCE),MTST: A Multi-Task Scheduling Transformer Accelerator for Edge Computing
+10.1109/jiot.2024.3519511,2024,IEEE Internet of Things Journal,Memristor State Transition Dynamics for Energy-Efficient CiM-Driven LLMs in Industrial IoT
+2409.05902v3,2024,Proceedings - ACM IEEE Design Automation Conference,OPAL: Outlier-Preserved Microscaling Quantization Accelerator for Generative Large Language Models
+10.1109/tcad.2024.3483092,2024,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,OPASCA: Outer Product-Based Accelerator With Unified Architecture for Sparse Convolution and Attention
+2410.07407v1,2024,arXiv,Optimized Spatial Architecture Mapping Flow for Transformer Accelerators
+2411.17309v1,2024,arXiv,PIM-AI: A Novel Architecture for High-Efficiency LLM Inference
+10.1109/vdat63601.2024.10705728,2024,International Symposium on VLSI Design and Test (VDAT),Power Efficient ASIC Design for Vision Transformer using Systolic Array Matrix Multiplier
+10.1109/tc.2024.3504263,2024,IEEE Transactions on Computers,ReViT: Vision Transformer Accelerator With Reconfigurable Semantic-Aware Differential Attention
+2409.00661v1,2024,arXiv,"Research on LLM Acceleration Using the High-Performance RISC-V Processor ""Xiangshan"" (Nanhu Version) Based on the Open-Source Matrix Instruction Set Extension (Vector Dot Product)"
+10.1007/978-3-032-10554-7_20,2024,arXiv,Resource-aware Mixed-precision Quantization for Enhancing Deployability of Transformers for Time-series Forecasting on Embedded FPGAs
+10.3390/electronics13234683,2024,Electronics,Scalable Transformer Accelerator with Variable Systolic Array for Multiple Models in Voice Assistant Applications
+2411.07397v1,2024,arXiv,Spiking Transformer Hardware Accelerators in 3D Integration
+10.1145/3676536.3676837,2024,,TP-DCIM: Transposable Digital SRAM CIM Architecture for Energy-Efficient and High Throughput Transformer Acceleration
+2401.10364v1,2024,arXiv,"Using LLM such as ChatGPT for Designing and Implementing a RISC Processor: Execution,Challenges and Limitations"
+10.23919/date58400.2024.10546804,2024,,ViT- ToGo: Vision Transformer Accelerator with Grouped Token Pruning
+10.1109/iccd63220.2024.00101,2024,"Proceedings, IEEE International Conference on Computer Design/Proceedings - IEEE International Conference on Computer Design",Vision Transformer Inference on a CNN Accelerator
+10.1016/j.asoc.2024.111421,2024,Applied Soft Computing,Vision Transformer-based overlay processor for Edge Computing
+10.1145/3662006.3662066,2024,,WiP: Efficient LLM Prefilling with Mobile NPU
+10.1109/islped58423.2023.10244459,2023,IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED),A Fully-Integrated Energy-Scalable Transformer Accelerator Supporting Adaptive Model Configuration and Word Elimination for Language Understanding on Edge Devices
+10.1109/ipdpsw59300.2023.00029,2023,IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW),A Lightweight Transformer Model using Neural ODE for FPGAs
+10.1109/ijcnn54540.2023.10191067,2023,,A Scalable GPT-2 Inference Hardware Architecture on FPGA
+2308.13922v1,2023,arXiv,An Efficient FPGA-Based Accelerator for Swin Transformer
+10.1109/a-sscc58667.2023.10347933,2023,IEEE Asian Solid-State Circuits Conference (A-SSCC),An Energy-Efficient Heterogeneous Fourier Transform-Based Transformer Accelerator with Frequency-Wise Dynamic Bit-Precision
+10.1109/tcsi.2023.3312775,2023,IEEE Transactions on Circuits and Systems I Regular Papers,An Integer-Only and Group-Vector Systolic Accelerator for Efficiently Mapping Vision Transformer on Edge
+10.1109/tvlsi.2023.3345651,2023,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,An RRAM-Based Computing-in-Memory Architecture and Its Application in Accelerating Transformer Inference
+10.1109/iedm45741.2023.10413767,2023,Technical digest - International Electron Devices Meeting/Technical digest,Design of Analog-AI Hardware Accelerators for Transformer-based Language Models (Invited)
+10.1109/dac56929.2023.10247913,2023,Proceedings - ACM IEEE Design Automation Conference,HAIMA: A Hybrid SRAM and DRAM Accelerator-in-Memory Architecture for Transformer
+2305.19533v3,2023,Proceedings - International Symposium on High-Performance Computer Architecture/Proceedings,Lightening-Transformer: A Dynamically-operated Optically-interconnected Photonic Transformer Accelerator
+10.1109/hipc58850.2023.00039,2023,"IEEE International Conference on High Performance Computing, Data, and Analytics",ME- ViT: A Single-Load Memory-Efficient FPGA Accelerator for Vision Transformers
+10.23919/date56975.2023.10137099,2023,"Design, Automation, and Test in Europe","Mobile Accelerator Exploiting Sparsity of Multi-Heads, Lines, and Blocks in Transformers in Computer Vision"
+10.1109/tcad.2023.3347291,2023,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,Mobile Transformer Accelerator Exploiting Various Line Sparsity and Tile-Based Dynamic Quantization
+2306.06923v1,2023,IEEE International System-on-Chip Conference (SOCC),On the Viability of using LLMs for SW/HW Co-Design: An Example in Designing CiM DNN Accelerators
+10.1109/candar60563.2023.00020,2023,International Symposium on Computing and Networking,Parallel Implementation of Vision Transformer on a Multi-FPGA Cluster
+2312.06532v3,2023,"Proceedings, IEEE International Conference on Computer Design/Proceedings - IEEE International Conference on Computer Design",RACE-IT: A Reconfigurable Analog Computing Engine for In-Memory Transformer Acceleration
+2304.03986v2,2023,arXiv,SwiftTron: An Efficient Hardware Accelerator for Quantized Transformers
+10.1109/dac56929.2023.10247799,2023,Proceedings - ACM IEEE Design Automation Conference,TF-MVP: Novel Sparsity-Aware Transformer Accelerator with Mixed-Length Vector Pruning
+10.1109/iscas46773.2023.10182145,2023,IEEE International Symposium on Circuits and Systems proceedings,Unified Accelerator for Attention and Convolution in Inference Based on FPGA
+10.1109/iscas46773.2023.10181988,2023,IEEE International Symposium on Circuits and Systems proceedings,ViTA: A Vision Transformer Inference Accelerator for Edge Applications
+10.1109/rtas58335.2023.00036,2023,Proceedings - Real-Time Technology and Applications Symposium,Work in Progress: Real-time Transformer Inference on Edge AI Accelerators
+10.1109/vlsitechnologyandcir46769.2022.9830277,2022,IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits),A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm
+10.3390/electronics11121831,2022,Electronics,A Low-Latency Streaming On-Device Automatic Speech Recognition System Using a CNN Acoustic Model on FPGA and a Language Model on Smartphone
+10.1109/iscas48785.2022.9937531,2022,IEEE International Symposium on Circuits and Systems proceedings,A Resource-Saving Energy-Efficient Reconfigurable Hardware Accelerator for BERT-based Deep Neural Network Language Models using FFT Multiplication
+10.1109/isvlsi54635.2022.00092,2022,IEEE Computer Society Annual Symposium on VLSI,Accelerating NLP Tasks on FPGA with Compressed BERT and a Hardware-Oriented Early Exit Method
+10.1109/iscas48785.2022.9937292,2022,IEEE International Symposium on Circuits and Systems proceedings,Analog-memory-based 14nm Hardware Accelerator for Dense Deep Neural Networks including Transformers
+2201.11218v2,2022,arXiv,DNNFuser: Generative Pre-Trained Transformer as a Generalized Mapper for Layer Fusion in DNN Accelerators
+10.52202/068431-2062,2022,neural information processing systems,M3ViT: Mixture-Of-Experts Vision Transformer for Efficient Multi-Task Learning with Model-Accelerator Co-Design
+10.1145/3453688.3461739,2021,ACM Great Lakes Symposium on VLSI (GLSVLSI),Accommodating Transformer onto FPGA
+2110.10957v1,2021,arXiv,Vis-TOP: Visual Transformer Overlay Processor

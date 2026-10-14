@@ -1,0 +1,1940 @@
+% Bibliography -- verified against publisher / arXiv records, October 2026
+
+@inproceedings{vaswani2017,
+  author={Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and {\L}ukasz Kaiser and Illia Polosukhin},
+  title={Attention Is All You Need},
+  booktitle={Advances in Neural Information Processing Systems 30 (NeurIPS)},
+  pages={5998--6008}, year={2017}}
+
+@inproceedings{devlin_bert,
+  author={Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova},
+  title={{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  booktitle={Proc. 2019 Conf. North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), Volume 1},
+  pages={4171--4186}, year={2019}, doi={10.18653/v1/N19-1423}}
+
+@article{roformer,
+  author={Jianlin Su and Murtadha Ahmed and Yu Lu and Shengfeng Pan and Wen Bo and Yunfeng Liu},
+  title={{RoFormer}: Enhanced Transformer with Rotary Position Embedding},
+  journal={Neurocomputing}, volume={568}, pages={127063}, year={2024},
+  doi={10.1016/j.neucom.2023.127063}}
+
+@inproceedings{alibi,
+  author={Ofir Press and Noah A. Smith and Mike Lewis},
+  title={Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation},
+  booktitle={Proc. Int. Conf. Learning Representations (ICLR)}, year={2022},
+  note={arXiv:2108.12409}}
+
+@misc{mistral7b,
+  author={Albert Q. Jiang and Alexandre Sablayrolles and Arthur Mensch and Chris Bamford and Devendra Singh Chaplot and Diego de las Casas and Florian Bressand and Gianna Lengyel and Guillaume Lample and Lucile Saulnier and L{\'e}lio Renard Lavaud and Marie-Anne Lachaux and Pierre Stock and Teven Le Scao and Thibaut Lavril and Thomas Wang and Timoth{\'e}e Lacroix and William El Sayed},
+  title={{Mistral} 7B}, year={2023},
+  eprint={2310.06825}, archivePrefix={arXiv}}
+
+@misc{qwen25,
+  author={{Qwen Team}},
+  title={{Qwen2.5} Technical Report}, year={2024},
+  eprint={2412.15115}, archivePrefix={arXiv},
+  note={Authors listed on arXiv as Qwen: An Yang, Baosong Yang, Beichen Zhang, et al.}}
+
+@article{deepseekr1,
+  author={Daya Guo and Dejian Yang and Haowei Zhang and Junxiao Song and Peiyi Wang and others},
+  title={{DeepSeek-R1} Incentivizes Reasoning in {LLMs} through Reinforcement Learning},
+  journal={Nature}, volume={645}, number={8081}, pages={633--638}, year={2025},
+  doi={10.1038/s41586-025-09422-z},
+  note={DeepSeek-AI; preprint arXiv:2501.12948}}
+
+@misc{minicpm4,
+  author={{MiniCPM Team}},
+  title={{MiniCPM4}: Ultra-Efficient {LLMs} on End Devices}, year={2025},
+  eprint={2506.07900}, archivePrefix={arXiv}}
+
+@inproceedings{vllm,
+  author={Woosuk Kwon and Zhuohan Li and Siyuan Zhuang and Ying Sheng and Lianmin Zheng and Cody Hao Yu and Joseph E. Gonzalez and Hao Zhang and Ion Stoica},
+  title={Efficient Memory Management for Large Language Model Serving with {PagedAttention}},
+  booktitle={Proc. 29th ACM Symp. Operating Systems Principles (SOSP)},
+  pages={611--626}, year={2023}, doi={10.1145/3600006.3613165}}
+
+@inproceedings{flexgen,
+  author={Ying Sheng and Lianmin Zheng and Binhang Yuan and Zhuohan Li and Max Ryabinin and Beidi Chen and Percy Liang and Christopher R{\'e} and Ion Stoica and Ce Zhang},
+  title={{FlexGen}: High-Throughput Generative Inference of Large Language Models with a Single {GPU}},
+  booktitle={Proc. 40th Int. Conf. Machine Learning (ICML)}, series={PMLR}, volume={202},
+  pages={31094--31116}, year={2023}}
+
+@inproceedings{splitwise,
+  author={Pratyush Patel and Esha Choukse and Chaojie Zhang and Aashaka Shah and {\'I}{\~n}igo Goiri and Saeed Maleki and Ricardo Bianchini},
+  title={{Splitwise}: Efficient Generative {LLM} Inference Using Phase Splitting},
+  booktitle={Proc. ACM/IEEE 51st Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={118--132}, year={2024}, doi={10.1109/ISCA59077.2024.00019}}
+
+@inproceedings{sarathi,
+  author={Amey Agrawal and Nitin Kedia and Ashish Panwar and Jayashree Mohan and Nipun Kwatra and Bhargav S. Gulavani and Alexey Tumanov and Ramachandran Ramjee},
+  title={Taming Throughput-Latency Tradeoff in {LLM} Inference with {Sarathi-Serve}},
+  booktitle={Proc. 18th USENIX Symp. Operating Systems Design and Implementation (OSDI)},
+  pages={117--134}, year={2024}}
+
+@inproceedings{distserve,
+  author={Yinmin Zhong and Shengyu Liu and Junda Chen and Jianbo Hu and Yibo Zhu and Xuanzhe Liu and Xin Jin and Hao Zhang},
+  title={{DistServe}: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving},
+  booktitle={Proc. 18th USENIX Symp. Operating Systems Design and Implementation (OSDI)},
+  pages={193--210}, year={2024}}
+
+@inproceedings{flashattention,
+  author={Tri Dao and Daniel Y. Fu and Stefano Ermon and Atri Rudra and Christopher R{\'e}},
+  title={{FlashAttention}: Fast and Memory-Efficient Exact Attention with {IO}-Awareness},
+  booktitle={Advances in Neural Information Processing Systems 35 (NeurIPS)},
+  pages={16344--16359}, year={2022}}
+
+@inproceedings{flashdecoding,
+  author={Ke Hong and Guohao Dai and Jiaming Xu and Qiuli Mao and Xiuhong Li and Jun Liu and Kangdi Chen and Yuhan Dong and Yu Wang},
+  title={{FlashDecoding++}: Faster Large Language Model Inference on {GPUs}},
+  booktitle={Proc. Machine Learning and Systems (MLSys)}, volume={6}, year={2024},
+  note={arXiv:2311.01282}}
+
+@misc{tellme,
+  author={Ye Qiao and Zhiheng Chen and Yifan Zhang and Yian Wang and Sitao Huang},
+  title={{TeLLMe}: An Energy-Efficient Ternary {LLM} Accelerator for Prefilling and Decoding on Edge {FPGAs}},
+  year={2025}, eprint={2504.16266}, archivePrefix={arXiv}}
+
+@inproceedings{tellme2,
+  author={Ye Qiao and Zhiheng Chen and Yifan Zhang and Yian Wang and Sitao Huang},
+  title={{TeLLMe}: An Efficient End-to-End Ternary {LLM} Prefill and Decode Accelerator with Table-Lookup Matmul on Edge {FPGAs}},
+  booktitle={Proc. 2026 ACM/SIGDA Int. Symp. Field Programmable Gate Arrays (FPGA)},
+  pages={247--257}, year={2026}, doi={10.1145/3748173.3779191},
+  note={arXiv:2510.15926 (titled ``TeLLMe v2''); referred to as TeLLMe~v2 in the text}}
+
+@misc{tereffic,
+  author={Chenyang Yin and Zhenyu Bai and Pranav Venkatram and Shivam Aggarwal and Zhaoying Li and Tulika Mitra},
+  title={{TerEffic}: Highly Efficient Ternary {LLM} Inference on {FPGA}},
+  year={2025}, eprint={2502.16473}, archivePrefix={arXiv}}
+
+@inproceedings{hummingbird,
+  author={Jindong Li and Tenglong Li and Ruiqi Chen and Guobin Shen and Dongcheng Zhao and Qian Zhang and Yi Zeng},
+  title={{Hummingbird}: A Smaller and Faster Large Language Model Accelerator on Embedded {FPGA}},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)},
+  pages={1--9}, year={2025}, doi={10.1109/ICCAD66269.2025.11241002},
+  note={arXiv:2507.03308}}
+
+@inproceedings{meadow,
+  author={Abhishek Moitra and Arkapravo Ghosh and Shrey Agarwal and Aporva Amarnath and Karthik Swaminathan and Priyadarshini Panda},
+  title={{MEADOW}: Memory-efficient Dataflow and Data Packing for Low Power Edge {LLMs}},
+  booktitle={Proc. Machine Learning and Systems (MLSys)}, volume={7}, year={2025},
+  note={arXiv:2503.11663}}
+
+@inproceedings{lidate25,
+  author={Jindong Li and Tenglong Li and Guobin Shen and Dongcheng Zhao and Qian Zhang and Yi Zeng},
+  title={Pushing up to the Limit of Memory Bandwidth and Capacity Utilization for Efficient {LLM} Decoding on Embedded {FPGA}},
+  booktitle={Proc. Design, Automation \& Test in Europe Conf. (DATE)},
+  pages={1--7}, year={2025}, doi={10.23919/DATE64628.2025.10993087},
+  note={arXiv:2502.10659}}
+
+@inproceedings{cobra,
+  author={Ye Qiao and Zhiheng Chen and Yian Wang and Yifan Zhang and Yunzhe Deng and Sitao Huang},
+  title={{COBRA}: Algorithm-Architecture Co-optimized Binary Transformer Accelerator for Edge Inference},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)},
+  pages={1--8}, year={2025}, doi={10.1109/ICCAD66269.2025.11240633},
+  note={arXiv:2504.16269}}
+
+@inproceedings{llamaf,
+  author={Han Xu and Yutong Li and Shihao Ji},
+  title={{LlamaF}: An Efficient {Llama2} Architecture Accelerator on Embedded {FPGAs}},
+  booktitle={Proc. IEEE 10th World Forum on Internet of Things (WF-IoT)},
+  pages={1--7}, year={2024}, doi={10.1109/WF-IoT62078.2024.10811385},
+  note={arXiv:2409.11424}}
+
+@inproceedings{lightmamba,
+  author={Renjie Wei and Songqiang Xu and Linfeng Zhong and Zebin Yang and Qingyu Guo and Yuan Wang and Runsheng Wang and Meng Li},
+  title={{LightMamba}: Efficient {Mamba} Acceleration on {FPGA} with Quantization and Hardware Co-design},
+  booktitle={Proc. Design, Automation \& Test in Europe Conf. (DATE)},
+  pages={1--7}, year={2025}, doi={10.23919/DATE64628.2025.10993079},
+  note={arXiv:2502.15260}}
+
+@article{edgellm,
+  author={Mingqiang Huang and Ao Shen and Kai Li and Haoxiang Peng and Boyu Li and Yupeng Su and Hao Yu},
+  title={{EdgeLLM}: A Highly Efficient {CPU}-{FPGA} Heterogeneous Edge Accelerator for Large Language Models},
+  journal={IEEE Trans. Circuits Syst. I, Reg. Papers}, volume={72}, number={7},
+  pages={3352--3365}, year={2025}, doi={10.1109/TCSI.2025.3546256}}
+
+@misc{haris_edge,
+  author={Jude Haris and Rappy Saha and Wenhao Hu and Jos{\'e} Cano},
+  title={Designing Efficient {LLM} Accelerators for Edge Devices},
+  year={2024}, eprint={2408.00462}, archivePrefix={arXiv}}
+
+@inproceedings{flightllm,
+  author={Shulin Zeng and Jun Liu and Guohao Dai and Xinhao Yang and Tianyu Fu and Hongyi Wang and Wenheng Ma and Hanbo Sun and Shiyao Li and Zixiao Huang and Yadong Dai and Jintao Li and Zehao Wang and Ruoyu Zhang and Kairui Wen and Xuefei Ning and Yu Wang},
+  title={{FlightLLM}: Efficient Large Language Model Inference with a Complete Mapping Flow on {FPGAs}},
+  booktitle={Proc. 2024 ACM/SIGDA Int. Symp. Field Programmable Gate Arrays (FPGA)},
+  pages={223--234}, year={2024}, doi={10.1145/3626202.3637562}}
+
+@article{spatial_fpga,
+  author={Hongzheng Chen and Jiahao Zhang and Yixiao Du and Shaojie Xiang and Zichao Yue and Niansong Zhang and Yaohui Cai and Zhiru Zhang},
+  title={Understanding the Potential of {FPGA}-Based Spatial Acceleration for Large Language Model Inference},
+  journal={ACM Trans. Reconfigurable Technol. Syst.}, volume={18}, number={1},
+  pages={1--29}, year={2024}, doi={10.1145/3656177}}
+
+@article{accllm,
+  author={Yanbiao Liang and Huihong Shi and Haikuo Shao and Zhongfeng Wang},
+  title={{AccLLM}: Accelerating Long-Context {LLM} Inference via Algorithm-Hardware Co-Design},
+  journal={IEEE Trans. Very Large Scale Integr. (VLSI) Syst.}, volume={34}, number={4},
+  pages={1217--1227}, year={2026}, doi={10.1109/TVLSI.2026.3658524},
+  note={arXiv:2505.03745}}
+
+@inproceedings{ftrans,
+  author={Bingbing Li and Santosh Pandey and Haowen Fang and Yanjun Lyv and Ji Li and Jieyang Chen and Mimi Xie and Lipeng Wan and Hang Liu and Caiwen Ding},
+  title={{FTRANS}: Energy-Efficient Acceleration of Transformers using {FPGA}},
+  booktitle={Proc. ACM/IEEE Int. Symp. Low Power Electronics and Design (ISLPED)},
+  pages={175--180}, year={2020}, doi={10.1145/3370748.3406567}}
+
+@inproceedings{dtrans,
+  author={Xuanzheng Wang and Shuo Miao and Peng Qu and Youhui Zhang},
+  title={{DTrans}: A Dataflow-transformation {FPGA} Accelerator with Nonlinear-operators fusion aiming for the Generative Model},
+  booktitle={Proc. 34th Int. Conf. Field-Programmable Logic and Applications (FPL)},
+  pages={339--345}, year={2024}, doi={10.1109/FPL64840.2024.00054}}
+
+@inproceedings{lut_tensor,
+  author={Zhiwen Mo and Lei Wang and Jianyu Wei and Zhichen Zeng and Shijie Cao and Lingxiao Ma and Naifeng Jing and Ting Cao and Jilong Xue and Fan Yang and Mao Yang},
+  title={{LUT} Tensor Core: A Software-Hardware Co-Design for {LUT}-Based Low-Bit {LLM} Inference},
+  booktitle={Proc. 52nd Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={514--528}, year={2025}, doi={10.1145/3695053.3731057}}
+
+@inproceedings{tmac,
+  author={Jianyu Wei and Shijie Cao and Ting Cao and Lingxiao Ma and Lei Wang and Yanyong Zhang and Mao Yang},
+  title={{T-MAC}: {CPU} Renaissance via Table Lookup for Low-Bit {LLM} Deployment on Edge},
+  booktitle={Proc. 20th European Conf. Computer Systems (EuroSys)},
+  pages={278--292}, year={2025}, doi={10.1145/3689031.3696099},
+  note={arXiv:2407.00088}}
+
+@inproceedings{tablelut_mac,
+  author={Daniel Gerlinghoff and Benjamin Chen Ming Choong and Rick Siow Mong Goh and Weng-Fai Wong and Tao Luo},
+  title={Table-Lookup {MAC}: Scalable Processing of Quantised Neural Networks in {FPGA} Soft Logic},
+  booktitle={Proc. 2024 ACM/SIGDA Int. Symp. Field Programmable Gate Arrays (FPGA)},
+  pages={235--245}, year={2024}, doi={10.1145/3626202.3637576}}
+
+@inproceedings{figlut,
+  author={Gunho Park and Hyeokjun Kwon and Jiwoo Kim and Jeongin Bae and Baeseong Park and Dongsoo Lee and Youngjoo Lee},
+  title={{FIGLUT}: An Energy-Efficient Accelerator Design for {FP}-{INT} {GEMM} Using Look-Up Tables},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={1098--1111}, year={2025}, doi={10.1109/HPCA61900.2025.00085}}
+
+@inproceedings{mant,
+  author={Weiming Hu and Haoyan Zhang and Cong Guo and Yu Feng and Renyang Guan and Zhendong Hua and Zihan Liu and Yue Guan and Minyi Guo and Jingwen Leng},
+  title={{M-ANT}: Efficient Low-bit Group Quantization for {LLMs} via Mathematically Adaptive Numerical Type},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={1112--1126}, year={2025}, doi={10.1109/HPCA61900.2025.00086}}
+
+@inproceedings{olive,
+  author={Cong Guo and Jiaming Tang and Weiming Hu and Jingwen Leng and Chen Zhang and Fan Yang and Yunxin Liu and Minyi Guo and Yuhao Zhu},
+  title={{OliVe}: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization},
+  booktitle={Proc. 50th Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={1--15}, year={2023}, doi={10.1145/3579371.3589038}}
+
+@misc{tenet,
+  author={Zhirui Huang and Rui Ma and Shijie Cao and Ran Shu and Ian Wang and Ting Cao and Chixiao Chen and Yongqiang Xiong},
+  title={{TENET}: An Efficient Sparsity-Aware {LUT}-Centric Architecture for Ternary {LLM} Inference on Edge},
+  year={2025}, eprint={2509.13765}, archivePrefix={arXiv}}
+
+@inproceedings{bitnetcpp,
+  author={Jinheng Wang and Hansong Zhou and Ting Song and Shijie Cao and Yan Xia and Ting Cao and Jianyu Wei and Shuming Ma and Hongyu Wang and Furu Wei},
+  title={Bitnet.cpp: Efficient Edge Inference for Ternary {LLMs}},
+  booktitle={Proc. 63rd Annu. Meeting of the Association for Computational Linguistics (ACL), Volume 1: Long Papers},
+  pages={9305--9322}, year={2025}, doi={10.18653/v1/2025.acl-long.457},
+  note={arXiv:2502.11880}}
+
+@misc{bitnet_a48,
+  author={Hongyu Wang and Shuming Ma and Furu Wei},
+  title={{BitNet} a4.8: 4-bit Activations for 1-bit {LLMs}},
+  year={2024}, eprint={2411.04965}, archivePrefix={arXiv}}
+
+@inproceedings{smoothquant,
+  author={Guangxuan Xiao and Ji Lin and Mickael Seznec and Hao Wu and Julien Demouth and Song Han},
+  title={{SmoothQuant}: Accurate and Efficient Post-Training Quantization for Large Language Models},
+  booktitle={Proc. 40th Int. Conf. Machine Learning (ICML)}, series={PMLR}, volume={202},
+  pages={38087--38099}, year={2023}}
+
+@inproceedings{awq,
+  author={Ji Lin and Jiaming Tang and Haotian Tang and Shang Yang and Wei-Ming Chen and Wei-Chen Wang and Guangxuan Xiao and Xingyu Dang and Chuang Gan and Song Han},
+  title={{AWQ}: Activation-aware Weight Quantization for On-Device {LLM} Compression and Acceleration},
+  booktitle={Proc. Machine Learning and Systems (MLSys)}, volume={6}, year={2024},
+  note={arXiv:2306.00978}}
+
+@inproceedings{gptq,
+  author={Elias Frantar and Saleh Ashkboos and Torsten Hoefler and Dan Alistarh},
+  title={{GPTQ}: Accurate Post-Training Quantization for Generative Pre-trained Transformers},
+  booktitle={Proc. Int. Conf. Learning Representations (ICLR)}, year={2023},
+  note={arXiv:2210.17323}}
+
+@misc{bitnet158,
+  author={Shuming Ma and Hongyu Wang and Lingxiao Ma and Lei Wang and Wenhui Wang and Shaohan Huang and Li Dong and Ruiping Wang and Jilong Xue and Furu Wei},
+  title={The Era of 1-bit {LLMs}: All Large Language Models are in 1.58 Bits},
+  year={2024}, eprint={2402.17764}, archivePrefix={arXiv}}
+
+@misc{bitnet,
+  author={Hongyu Wang and Shuming Ma and Li Dong and Shaohan Huang and Huaijie Wang and Lingxiao Ma and Fan Yang and Ruiping Wang and Yi Wu and Furu Wei},
+  title={{BitNet}: Scaling 1-bit Transformers for Large Language Models},
+  year={2023}, eprint={2310.11453}, archivePrefix={arXiv}}
+
+@inproceedings{llmnpu,
+  author={Daliang Xu and Hao Zhang and Liming Yang and Ruiqi Liu and Gang Huang and Mengwei Xu and Xuanzhe Liu},
+  title={Fast On-device {LLM} Inference with {NPUs}},
+  booktitle={Proc. 30th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Volume 1},
+  pages={445--462}, year={2025}, doi={10.1145/3669940.3707239}}
+
+@inproceedings{shadownpu,
+  author={Wangsong Yin and Daliang Xu and Mengwei Xu and Gang Huang and Xuanzhe Liu},
+  title={{ShadowNPU}: System and Algorithm Co-design for {NPU}-Centric On-Device {LLM} Inference},
+  booktitle={Proc. 24th Annu. Int. Conf. Mobile Systems, Applications and Services (MobiSys)},
+  pages={294--308}, year={2026}, doi={10.1145/3745756.3809205},
+  note={arXiv:2508.16703}}
+
+@inproceedings{heteroinfer,
+  author={Le Chen and Dahu Feng and Erhu Feng and Yingrui Wang and Rong Zhao and Yubin Xia and Pinjie Xu and Haibo Chen},
+  title={Characterizing Mobile {SoC} for Accelerating Heterogeneous {LLM} Inference},
+  booktitle={Proc. ACM SIGOPS 31st Symp. Operating Systems Principles (SOSP)},
+  pages={359--374}, year={2025}, doi={10.1145/3731569.3764808},
+  note={arXiv:2501.14794}}
+
+@inproceedings{llmflash,
+  author={Keivan Alizadeh and Seyed Iman Mirzadeh and Dmitry Belenko and S. Karen Khatamifard and Minsik Cho and Carlo C. Del Mundo and Mohammad Rastegari and Mehrdad Farajtabar},
+  title={{LLM} in a flash: Efficient Large Language Model Inference with Limited Memory},
+  booktitle={Proc. 62nd Annu. Meeting of the Association for Computational Linguistics (ACL), Volume 1: Long Papers},
+  pages={12562--12584}, year={2024}, doi={10.18653/v1/2024.acl-long.678}}
+
+@inproceedings{melt,
+  author={Stefanos Laskaridis and Kleomenis Katevas and Lorenzo Minto and Hamed Haddadi},
+  title={{MELT}ing Point: Mobile Evaluation of Language Transformers},
+  booktitle={Proc. 30th Annu. Int. Conf. Mobile Computing and Networking (MobiCom)},
+  pages={890--907}, year={2024}, doi={10.1145/3636534.3690668}}
+
+@misc{edgebench,
+  author={Pranay Tummalapalli and Sahil Arayakandy and Ritam Pal and Kautuk Kundan},
+  title={{LLM} Inference at the Edge: Mobile, {NPU}, and {GPU} Performance Efficiency Trade-offs Under Sustained Load},
+  year={2026}, eprint={2603.23640}, archivePrefix={arXiv}}
+
+@inproceedings{jouppi_tpu,
+  author={Norman P. Jouppi and Cliff Young and Nishant Patil and David Patterson and Gaurav Agrawal and Raminder Bajwa and Sarah Bates and Suresh Bhatia and Nan Boden and Al Borchers and Rick Boyle and Pierre-luc Cantin and Clifford Chao and Chris Clark and Jeremy Coriell and Mike Daley and Matt Dau and Jeffrey Dean and Ben Gelb and Tara Vazir Ghaemmaghami and Rajendra Gottipati and William Gulland and Robert Hagmann and C. Richard Ho and Doug Hogberg and John Hu and Robert Hundt and Dan Hurt and Julian Ibarz and Aaron Jaffey and Alek Jaworski and Alexander Kaplan and Harshit Khaitan and Daniel Killebrew and Andy Koch and Naveen Kumar and Steve Lacy and James Laudon and James Law and Diemthu Le and Chris Leary and Zhuyuan Liu and Kyle Lucke and Alan Lundin and Gordon MacKean and Adriana Maggiore and Maire Mahony and Kieran Miller and Rahul Nagarajan and Ravi Narayanaswami and Ray Ni and Kathy Nix and Thomas Norrie and Mark Omernick and Narayana Penukonda and Andy Phelps and Jonathan Ross and Matt Ross and Amir Salek and Emad Samadiani and Chris Severn and Gregory Sizikov and Matthew Snelham and Jed Souter and Dan Steinberg and Andy Swing and Mercedes Tan and Gregory Thorson and Bo Tian and Horia Toma and Erick Tuttle and Vijay Vasudevan and Richard Walter and Walter Wang and Eric Wilcox and Doe Hyun Yoon},
+  title={In-Datacenter Performance Analysis of a Tensor Processing Unit},
+  booktitle={Proc. 44th Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={1--12}, year={2017}, doi={10.1145/3079856.3080246}}
+
+@inproceedings{a3,
+  author={Tae Jun Ham and Sung Jun Jung and Seonghak Kim and Young H. Oh and Yeonhong Park and Yoonho Song and Jung-Hun Park and Sanghee Lee and Kyoung Park and Jae W. Lee and Deog-Kyoon Jeong},
+  title={{A}$^3$: Accelerating Attention Mechanisms in Neural Networks with Approximation},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={328--341}, year={2020}, doi={10.1109/HPCA47549.2020.00035}}
+
+@inproceedings{elsa,
+  author={Tae Jun Ham and Yejin Lee and Seong Hoon Seo and Soosung Kim and Hyunji Choi and Sung Jun Jung and Jae W. Lee},
+  title={{ELSA}: Hardware-Software Co-design for Efficient, Lightweight Self-Attention Mechanism in Neural Networks},
+  booktitle={Proc. ACM/IEEE 48th Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={692--705}, year={2021}, doi={10.1109/ISCA52012.2021.00060}}
+
+@inproceedings{spatten,
+  author={Hanrui Wang and Zhekai Zhang and Song Han},
+  title={{SpAtten}: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning},
+  booktitle={Proc. IEEE Int. Symp. High-Performance Computer Architecture (HPCA)},
+  pages={97--110}, year={2021}, doi={10.1109/HPCA51647.2021.00018}}
+
+@article{energon,
+  author={Zhe Zhou and Junlin Liu and Zhenyu Gu and Guangyu Sun},
+  title={{Energon}: Toward Efficient Acceleration of Transformers Using Dynamic Sparse Attention},
+  journal={IEEE Trans. Comput.-Aided Design Integr. Circuits Syst.}, volume={42}, number={1},
+  pages={136--149}, year={2023}, doi={10.1109/TCAD.2022.3170848}}
+
+@inproceedings{mecla,
+  author={Yubin Qin and Yang Wang and Zhiren Zhao and Xiaolong Yang and Yang Zhou and Shaojun Wei and Yang Hu and Shouyi Yin},
+  title={{MECLA}: Memory-Compute-Efficient {LLM} Accelerator with Scaling Sub-matrix Partition},
+  booktitle={Proc. ACM/IEEE 51st Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={1032--1047}, year={2024}, doi={10.1109/ISCA59077.2024.00079}}
+
+@inproceedings{fact,
+  author={Yubin Qin and Yang Wang and Dazheng Deng and Zhiren Zhao and Xiaolong Yang and Leibo Liu and Shaojun Wei and Yang Hu and Shouyi Yin},
+  title={{FACT}: {FFN}-Attention Co-optimized Transformer Architecture with Eager Correlation Prediction},
+  booktitle={Proc. 50th Annu. Int. Symp. Computer Architecture (ISCA)},
+  pages={1--14}, year={2023}, doi={10.1145/3579371.3589057}}
+
+@inproceedings{cta,
+  author={Haoran Wang and Haobo Xu and Ying Wang and Yinhe Han},
+  title={{CTA}: Hardware-Software Co-design for Compressed Token Attention Mechanism},
+  booktitle={Proc. IEEE Int. Symp. High-Performance Computer Architecture (HPCA)},
+  pages={429--441}, year={2023}, doi={10.1109/HPCA56546.2023.10070997}}
+
+@inproceedings{sofa,
+  author={Huizheng Wang and Jiahao Fang and Xinru Tang and Zhiheng Yue and Jinxi Li and Yubin Qin and Sihan Guan and Qinze Yang and Yang Wang and Chao Li and Yang Hu and Shouyi Yin},
+  title={{SOFA}: A Compute-Memory Optimized Sparsity Accelerator via Cross-Stage Coordinated Tiling},
+  booktitle={Proc. 57th IEEE/ACM Int. Symp. Microarchitecture (MICRO)},
+  pages={1247--1263}, year={2024}, doi={10.1109/MICRO61859.2024.00093}}
+
+@inproceedings{mcbp,
+  author={Huizheng Wang and Zichuan Wang and Zhiheng Yue and Yousheng Long and Taiquan Wei and Jianxun Yang and Yang Wang and Chao Li and Shaojun Wei and Yang Hu and Shouyi Yin},
+  title={{MCBP}: A Memory-Compute Efficient {LLM} Inference Accelerator Leveraging Bit-Slice-enabled Sparsity and Repetitiveness},
+  booktitle={Proc. 58th IEEE/ACM Int. Symp. Microarchitecture (MICRO)},
+  pages={1592--1608}, year={2025}, doi={10.1145/3725843.3756037}}
+
+@article{acceltran,
+  author={Shikhar Tuli and Niraj K. Jha},
+  title={{AccelTran}: A Sparsity-Aware Accelerator for Dynamic Inference With Transformers},
+  journal={IEEE Trans. Comput.-Aided Design Integr. Circuits Syst.}, volume={42}, number={11},
+  pages={4038--4051}, year={2023}, doi={10.1109/TCAD.2023.3273992}}
+
+@inproceedings{salo,
+  author={Guan Shen and Jieru Zhao and Quan Chen and Jingwen Leng and Chao Li and Minyi Guo},
+  title={{SALO}: An Efficient Spatial Accelerator Enabling Hybrid Sparse Attention Mechanisms for Long Sequences},
+  booktitle={Proc. 59th ACM/IEEE Design Automation Conf. (DAC)},
+  pages={571--576}, year={2022}, doi={10.1145/3489517.3530504}}
+
+@inproceedings{edgebert_chip,
+  author={Thierry Tambe and Coleman Hooper and Lillian Pentecost and Tianyu Jia and En-Yu Yang and Marco Donato and Victor Sanh and Paul Whatmough and Alexander M. Rush and David Brooks and Gu-Yeon Wei},
+  title={{EdgeBERT}: Sentence-Level Energy Optimizations for Latency-Aware Multi-Task {NLP} Inference},
+  booktitle={Proc. 54th Annu. IEEE/ACM Int. Symp. Microarchitecture (MICRO-54)},
+  pages={830--844}, year={2021}, doi={10.1145/3466752.3480095}}
+
+@article{h3d,
+  author={Yandong Luo and Shimeng Yu},
+  title={{H3D-Transformer}: A Heterogeneous {3D} ({H3D}) Computing Platform for Transformer Model Acceleration on Edge Devices},
+  journal={ACM Trans. Design Automation of Electronic Systems}, volume={29}, number={3},
+  pages={1--19}, year={2024}, doi={10.1145/3649219}}
+
+@misc{spad,
+  author={Hengrui Zhang and Pratyush Patel and August Ning and David Wentzlaff},
+  title={{SPAD}: Specialized Prefill and Decode Hardware for Disaggregated {LLM} Inference},
+  year={2025}, eprint={2510.08544}, archivePrefix={arXiv}}
+
+@inproceedings{lad,
+  author={Haoran Wang and Yuming Li and Haobo Xu and Ying Wang and Liqi Liu and Jun Yang and Yinhe Han},
+  title={{LAD}: Efficient Accelerator for Generative Inference of {LLM} with Locality Aware Decoding},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={1482--1495}, year={2025}, doi={10.1109/HPCA61900.2025.00111}}
+
+@inproceedings{attacc,
+  author={Jaehyun Park and Jaewan Choi and Kwanhee Kyung and Michael Jaemin Kim and Yongsuk Kwon and Nam Sung Kim and Jung Ho Ahn},
+  title={{AttAcc!} Unleashing the Power of {PIM} for Batched Transformer-based Generative Model Inference},
+  booktitle={Proc. 29th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Volume 2},
+  pages={103--119}, year={2024}, doi={10.1145/3620665.3640422}}
+
+@inproceedings{neupims,
+  author={Guseul Heo and Sangyeop Lee and Jaehong Cho and Hyunmin Choi and Sanghyeon Lee and Hyungkyu Ham and Gwangsun Kim and Divya Mahajan and Jongse Park},
+  title={{NeuPIMs}: {NPU}-{PIM} Heterogeneous Acceleration for Batched {LLM} Inferencing},
+  booktitle={Proc. 29th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Volume 3},
+  pages={722--737}, year={2024}, doi={10.1145/3620666.3651380}}
+
+@inproceedings{lolpim,
+  author={Hyucksung Kwon and Kyungmo Koo and Janghyeon Kim and Woongkyu Lee and Minjae Lee and Gyeonggeun Jung and Hyungdeok Lee and Yousub Jung and Jaehan Park and Yosub Song and Byeongsu Yang and Haerang Choi and Guhyun Kim and Jongsoon Won and Woojae Shin and Changhyun Kim and Gyeongcheol Shin and Yongkee Kwon and Ilkon Kim and Euicheol Lim and John Kim and Jungwook Choi},
+  title={{PIMphony}: Overcoming Bandwidth and Capacity Inefficiency in {PIM}-Based Long-Context {LLM} Inference System},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  year={2026}, doi={10.1109/HPCA68181.2026.11408592},
+  note={Earlier preprint titled ``LoL-PIM: Long-Context LLM Decoding with Scalable DRAM-PIM System'', arXiv:2412.20166}}
+
+@inproceedings{inf2,
+  author={Hongsun Jang and Jaeyong Song and Changmin Shin and Si Ung Noh and Jaewon Jung and Jisung Park and Jinho Lee},
+  title={A Cost-Effective Near-Storage Processing Solution for Offline Inference of Long-Context {LLMs}},
+  booktitle={Proc. 31st ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Volume 2},
+  pages={5--24}, year={2026}, doi={10.1145/3779212.3790119},
+  note={System named HILOS; earlier preprint titled ``INF$^2$: High-Throughput Generative Inference of Large Language Models using Near-Storage Processing'', arXiv:2502.09921}}
+
+@inproceedings{instinfer,
+  author={Xiurui Pan and Endian Li and Qiao Li and Shengwen Liang and Yizhou Shan and Ke Zhou and Yingwei Luo and Xiaolin Wang and Jie Zhang},
+  title={{InstAttention}: In-Storage Attention Offloading for Cost-Effective Long-Context {LLM} Inference},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={1510--1525}, year={2025}, doi={10.1109/HPCA61900.2025.00113},
+  note={Preprint titled ``InstInfer'', arXiv:2409.04992}}
+
+@inproceedings{facil,
+  author={Seong Hoon Seo and Junghoon Kim and Donghyun Lee and Seonah Yoo and Seokwon Moon and Yeonhong Park and Jae W. Lee},
+  title={{FACIL}: Flexible {DRAM} Address Mapping for {SoC}-{PIM} Cooperative On-device {LLM} Inference},
+  booktitle={Proc. IEEE Int. Symp. High Performance Computer Architecture (HPCA)},
+  pages={1720--1733}, year={2025}, doi={10.1109/HPCA61900.2025.00127}}
+
+@inproceedings{ianus,
+  author={Minseok Seo and Xuan Truong Nguyen and Seok Joong Hwang and Yongkee Kwon and Guhyun Kim and Chanwook Park and Ilkon Kim and Jaehan Park and Jeongbin Kim and Woojae Shin and Jongsoon Won and Haerang Choi and Kyuyoung Kim and Daehan Kwon and Chunseok Jeong and Sangheon Lee and Yongseok Choi and Wooseok Byun and Seungcheol Baek and Hyuk-Jae Lee and John Kim},
+  title={{IANUS}: Integrated Accelerator based on {NPU}-{PIM} Unified Memory System},
+  booktitle={Proc. 29th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS), Volume 3},
+  pages={545--560}, year={2024}, doi={10.1145/3620666.3651324}}
+
+@inproceedings{transpim,
+  author={Minxuan Zhou and Weihong Xu and Jaeyoung Kang and Tajana Rosing},
+  title={{TransPIM}: A Memory-based Acceleration via Software-Hardware Co-Design for Transformer},
+  booktitle={Proc. IEEE Int. Symp. High-Performance Computer Architecture (HPCA)},
+  pages={1071--1085}, year={2022}, doi={10.1109/HPCA53966.2022.00082}}
+
+@inproceedings{h2o,
+  author={Zhenyu Zhang and Ying Sheng and Tianyi Zhou and Tianlong Chen and Lianmin Zheng and Ruisi Cai and Zhao Song and Yuandong Tian and Christopher R{\'e} and Clark Barrett and Zhangyang Wang and Beidi Chen},
+  title={{H2O}: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models},
+  booktitle={Advances in Neural Information Processing Systems 36 (NeurIPS)},
+  pages={34661--34710}, year={2023}}
+
+@inproceedings{snapkv,
+  author={Yuhong Li and Yingbing Huang and Bowen Yang and Bharat Venkitesh and Acyr Locatelli and Hanchen Ye and Tianle Cai and Patrick Lewis and Deming Chen},
+  title={{SnapKV}: {LLM} Knows What You are Looking for Before Generation},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)}, volume={37},
+  pages={22947--22970}, year={2024}, doi={10.52202/079017-0722}}
+
+@inproceedings{keyformer,
+  author={Muhammad Adnan and Akhil Arunkumar and Gaurav Jain and Prashant J. Nair and Ilya Soloveychik and Purushotham Kamath},
+  title={{Keyformer}: {KV} Cache Reduction through Key Tokens Selection for Efficient Generative Inference},
+  booktitle={Proceedings of Machine Learning and Systems (MLSys)}, volume={6},
+  pages={114--127}, year={2024}}
+
+@inproceedings{kivi,
+  author={Zirui Liu and Jiayi Yuan and Hongye Jin and Shaochen Zhong and Zhaozhuo Xu and Vladimir Braverman and Beidi Chen and Xia Hu},
+  title={{KIVI}: A Tuning-Free Asymmetric 2bit Quantization for {KV} Cache},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning (ICML)},
+  series={Proceedings of Machine Learning Research}, volume={235},
+  pages={32332--32344}, year={2024}}
+
+@inproceedings{gear,
+  author={Hao Kang and Qingru Zhang and Souvik Kundu and Geonhwa Jeong and Zaoxing Liu and Tushar Krishna and Tuo Zhao},
+  title={{GEAR}: An Efficient Error Reduction Framework for {KV} Cache Compression in {LLM} Inference},
+  booktitle={Proceedings of the 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV)},
+  series={Proceedings of Machine Learning Research}, volume={262},
+  pages={305--321}, year={2024},
+  eprint={2403.05527}, archivePrefix={arXiv},
+  note={arXiv version titled ``GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM''}}
+
+@inproceedings{kvquant,
+  author={Coleman Hooper and Sehoon Kim and Hiva Mohammadzadeh and Michael W. Mahoney and Yakun Sophia Shao and Kurt Keutzer and Amir Gholami},
+  title={{KVQuant}: Towards 10 Million Context Length {LLM} Inference with {KV} Cache Quantization},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)}, volume={37},
+  pages={1270--1303}, year={2024}, doi={10.52202/079017-0040}}
+
+@inproceedings{minicache,
+  author={Akide Liu and Jing Liu and Zizheng Pan and Yefei He and Gholamreza Haffari and Bohan Zhuang},
+  title={{MiniCache}: {KV} Cache Compression in Depth Dimension for Large Language Models},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)}, volume={37},
+  pages={139997--140031}, year={2024}, doi={10.52202/079017-4443}}
+
+@inproceedings{commvq,
+  author={Junyan Li and Yang Zhang and Muhammad Yusuf Hassan and Talha Chafekar and Tianle Cai and Zhile Ren and Pengsheng Guo and Foroozan Karimzadeh and Colorado Reed and Chong Wang and Chuang Gan},
+  title={{CommVQ}: Commutative Vector Quantization for {KV} Cache Compression},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  series={Proceedings of Machine Learning Research}, volume={267},
+  pages={36831--36845}, year={2025}}
+
+@inproceedings{cachegen,
+  author={Yuhan Liu and Hanchen Li and Yihua Cheng and Siddhant Ray and Yuyang Huang and Qizheng Zhang and Kuntai Du and Jiayi Yao and Shan Lu and Ganesh Ananthanarayanan and Michael Maire and Henry Hoffmann and Ari Holtzman and Junchen Jiang},
+  title={{CacheGen}: {KV} Cache Compression and Streaming for Fast Large Language Model Serving},
+  booktitle={Proceedings of the ACM SIGCOMM 2024 Conference}, pages={38--56}, year={2024},
+  doi={10.1145/3651890.3672274}}
+
+@article{mla_hw,
+  author={Robin Geens and Marian Verhelst},
+  title={Hardware-Centric Analysis of {DeepSeek}'s Multi-Head Latent Attention},
+  journal={Electronics Letters}, volume={61}, number={1}, pages={e70504}, year={2025},
+  doi={10.1049/ell2.70504}}
+
+@inproceedings{gta_gla,
+  author={Ted Zadouri and Hubert Strauss and Tri Dao},
+  title={Hardware-Efficient Attention for Fast Decoding},
+  booktitle={Proceedings of the Conference on Language Modeling (COLM)}, year={2025},
+  eprint={2505.21487}, archivePrefix={arXiv}}
+
+@inproceedings{speculative,
+  author={Yaniv Leviathan and Matan Kalman and Yossi Matias},
+  title={Fast Inference from Transformers via Speculative Decoding},
+  booktitle={Proceedings of the 40th International Conference on Machine Learning (ICML)},
+  series={Proceedings of Machine Learning Research}, volume={202},
+  pages={19274--19286}, year={2023}}
+
+@inproceedings{medusa,
+  author={Tianle Cai and Yuhong Li and Zhengyang Geng and Hongwu Peng and Jason D. Lee and Deming Chen and Tri Dao},
+  title={{Medusa}: Simple {LLM} Inference Acceleration Framework with Multiple Decoding Heads},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning (ICML)},
+  series={Proceedings of Machine Learning Research}, volume={235},
+  pages={5209--5235}, year={2024}}
+
+@inproceedings{specee,
+  author={Jiaming Xu and Jiayi Pan and Yongkang Zhou and Siming Chen and Jinhao Li and Yaoxiu Lian and Junyi Wu and Guohao Dai},
+  title={{SpecEE}: Accelerating Large Language Model Inference with Speculative Early Exiting},
+  booktitle={Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA)},
+  pages={467--481}, year={2025}, doi={10.1145/3695053.3730996}}
+
+@inproceedings{isscc26_specdec,
+  author={Yang Wang and Huanyu Wang and Jiaxin Yang and Yutong Su and Ruiqi Guo and Zhiheng Yue and Jiangyuan Gu and Shaojun Wei and Yang Hu and Shouyi Yin},
+  title={A 28nm Speculative-Decoding {LLM} Processor Achieving 105-to-685$\mu$s/Token Latency for Billion-Parameter Models},
+  booktitle={IEEE International Solid-State Circuits Conference (ISSCC)},
+  pages={546--548}, year={2026}, doi={10.1109/ISSCC49663.2026.11408953}}
+
+@inproceedings{ita,
+  author={Gamze Islamoglu and Moritz Scherer and Gianna Paulin and Tim Fischer and Victor J. B. Jung and Angelo Garofalo and Luca Benini},
+  title={{ITA}: An Energy-Efficient Attention and Softmax Accelerator for Quantized Transformers},
+  booktitle={IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)},
+  pages={1--6}, year={2023}, doi={10.1109/ISLPED58423.2023.10244348}}
+
+@inproceedings{sole,
+  author={Wenxun Wang and Shuchang Zhou and Wenyu Sun and Peiqin Sun and Yongpan Liu},
+  title={{SOLE}: Hardware-Software Co-design of Softmax and {LayerNorm} for Efficient Transformer Inference},
+  booktitle={IEEE/ACM International Conference on Computer Aided Design (ICCAD)},
+  pages={1--9}, year={2023}, doi={10.1109/ICCAD57390.2023.10323725}}
+
+@article{kim_electronics,
+  author={Raehyeong Kim and Dayoung Lee and Jinyeol Kim and Joungmin Park and Seung Eun Lee},
+  title={Hardware Accelerator for Approximation-Based Softmax and Layer Normalization in Transformers},
+  journal={Electronics}, volume={14}, number={12}, pages={2337}, year={2025},
+  doi={10.3390/electronics14122337}}
+
+@inproceedings{choi_edge_nongemm,
+  author={Dawon Choi and Hana Kim and Ji-Hoon Kim},
+  title={Hardware-Efficient Softmax and Layer Normalization with Guaranteed Normalization for Edge Devices},
+  booktitle={IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={1246--1250}, year={2026}, doi={10.1109/ISCAS66217.2026.11562304},
+  eprint={2604.23647}, archivePrefix={arXiv}}
+
+@inproceedings{consmax,
+  author={Shiwei Liu and Guanchen Tao and Yifei Zou and Derek Chow and Zichen Fan and Kauna Lei and Bangfei Pan and Dennis Sylvester and Gregory Kielian and Mehdi Saligane},
+  title={{ConSmax}: Hardware-Friendly Alternative Softmax with Learnable Parameters},
+  booktitle={Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},
+  pages={1--9}, year={2024}, doi={10.1145/3676536.3676766}}
+
+@inproceedings{nnlut,
+  author={Joonsang Yu and Junki Park and Seongmin Park and Minsoo Kim and Sihwa Lee and Dong Hyun Lee and Jungwook Choi},
+  title={{NN-LUT}: Neural Approximation of Non-Linear Operations for Efficient Transformer Inference},
+  booktitle={Proceedings of the 59th ACM/IEEE Design Automation Conference (DAC)},
+  pages={577--582}, year={2022}, doi={10.1145/3489517.3530505}}
+
+@inproceedings{peanovit,
+  author={Mohammad Erfan Sadeghi and Arash Fayyazi and Seyedarmin Azizi and Massoud Pedram},
+  title={{PEANO-ViT}: Power-Efficient Approximations of Non-Linearities in Vision Transformers},
+  booktitle={Proceedings of the 29th ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)},
+  pages={1--6}, year={2024}, doi={10.1145/3665314.3670843}}
+
+@article{kang_rmsnorm,
+  author={Yiwen Kang and Dong Wang},
+  title={Hardware-Oriented Approximations of Softmax and {RMSNorm} for Efficient Transformer Inference},
+  journal={Micromachines}, volume={17}, number={1}, pages={84}, year={2026},
+  doi={10.3390/mi17010084}}
+
+@inproceedings{haan,
+  author={Tianfan Peng and Tianhua Xia and Jiajun Qin and Sai Qian Zhang},
+  title={{HAAN}: A Holistic Approach for Accelerating Normalization Operations in Large Language Models},
+  booktitle={Design, Automation \& Test in Europe Conference (DATE)},
+  pages={1--7}, year={2025}, doi={10.23919/DATE64628.2025.10993005},
+  eprint={2502.11832}, archivePrefix={arXiv}}
+
+@misc{operator_fusion,
+  author={Mahsa Salmani and Ilya Soloveychik},
+  title={{LLM} Inference Acceleration via Efficient Operation Fusion},
+  year={2025}, eprint={2502.17728}, archivePrefix={arXiv}, primaryClass={cs.CL}}
+
+@inproceedings{nongemm_bench,
+  author={Rachid Karami and Sheng-Chun Kao and Hyoukjun Kwon},
+  title={Understanding the Performance Horizon of the Latest {ML} Workloads with {NonGEMM} Workloads},
+  booktitle={IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  pages={1--14}, year={2025}, doi={10.1109/ISPASS64960.2025.00011},
+  eprint={2404.11788}, archivePrefix={arXiv}}
+
+@article{rope_cordic,
+  author={Wenjie Li and Gang Wang and Dongxu Lyu and Ningyi Xu and Guanghui He},
+  title={Efficient Hardware Architecture Design for Rotary Position Embedding of Large Language Models},
+  journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, volume={15}, number={2},
+  pages={244--257}, year={2025}, doi={10.1109/JETCAS.2025.3556443}}
+
+@article{ropim,
+  author={Yunhyeong Jeon and Minwoo Jang and Hwanjun Lee and Yeji Jung and Jin Jung and Jonggeon Lee and Jinin So and Daehoon Kim},
+  title={{RoPIM}: A Processing-in-Memory Architecture for Accelerating Rotary Positional Embedding in Transformer Models},
+  journal={IEEE Computer Architecture Letters}, volume={24}, number={1}, pages={41--44}, year={2025},
+  doi={10.1109/LCA.2025.3535470}}
+
+@misc{rome,
+  author={Minqi Chen and Zhongqi Yue and Shihao Zhang and Yun Xu and Peng Wu and Kaixiang Xu and Zeyi Huang and Hanwang Zhang},
+  title={Efficient Matrix Implementation for Rotary Position Embedding},
+  year={2026}, eprint={2604.09742}, archivePrefix={arXiv}}
+
+@article{swiftkv,
+  author={Junming Zhang and Qinyan Zhang and Huajun Sun and Feiyang Gao and Sheng Hu and Rui Nie and Xiangshui Miao},
+  title={{SwiftKV}: A Co-Designed Edge-Oriented Attention Algorithm and Multihead Accelerator for Fast, Efficient {LLM} Decoding},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, year={2026},
+  note={Early access}, doi={10.1109/TVLSI.2026.3730179},
+  eprint={2601.10953}, archivePrefix={arXiv}}
+
+@article{edgemoe,
+  author={Rongjie Yi and Liwei Guo and Shiyun Wei and Ao Zhou and Shangguang Wang and Mengwei Xu},
+  title={{EdgeMoE}: Empowering Sparse Large Language Models on Mobile Devices},
+  journal={IEEE Transactions on Mobile Computing}, volume={24}, number={8}, pages={7059--7073}, year={2025},
+  doi={10.1109/TMC.2025.3546466}}
+
+@inproceedings{duplex,
+  author={Sungmin Yun and Kwanhee Kyung and Juhwan Cho and Jaewan Choi and Jongmin Kim and Byeongho Kim and Sukhan Lee and Kyomin Sohn and Jung Ho Ahn},
+  title={{Duplex}: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching},
+  booktitle={57th IEEE/ACM International Symposium on Microarchitecture (MICRO)}, pages={1429--1443}, year={2024},
+  doi={10.1109/MICRO61859.2024.00105}}
+
+@inproceedings{daop,
+  author={Yujie Zhang and Shivam Aggarwal and Tulika Mitra},
+  title={{DAOP}: Data-Aware Offloading and Predictive Pre-Calculation for Efficient {MoE} Inference},
+  booktitle={Design, Automation \& Test in Europe Conference (DATE)}, pages={1--7}, year={2025},
+  doi={10.23919/DATE64628.2025.10992741}}
+
+@inproceedings{hybrimoe,
+  author={Shuzhang Zhong and Yanfan Sun and Ling Liang and Runsheng Wang and Ru Huang and Meng Li},
+  title={{HybriMoE}: Hybrid {CPU}-{GPU} Scheduling and Cache Management for Efficient {MoE} Inference},
+  booktitle={62nd ACM/IEEE Design Automation Conference (DAC)}, pages={1--7}, year={2025},
+  doi={10.1109/DAC63849.2025.11133274}}
+
+@inproceedings{moelens,
+  author={Yichao Yuan and Lin Ma and Nishil Talati},
+  title={{MoE-Lens}: Towards the Hardware Limit of High-Throughput {MoE} {LLM} Serving Under Resource Constraints},
+  booktitle={Proceedings of the 35th International Symposium on High-Performance Parallel and Distributed Computing (HPDC)},
+  pages={415--429}, year={2026}, doi={10.1145/3806645.3807594}}
+
+@misc{moeinfinity,
+  author={Leyang Xue and Yao Fu and Zhan Lu and Luo Mai and Mahesh Marina},
+  title={{MoE-Infinity}: Efficient {MoE} Inference on Personal Machines with Sparsity-Aware Expert Cache},
+  year={2024}, eprint={2401.14361}, archivePrefix={arXiv}}
+
+@misc{eliseev_moe,
+  author={Artyom Eliseev and Denis Mazur},
+  title={Fast Inference of Mixture-of-Experts Language Models with Offloading},
+  year={2023}, eprint={2312.17238}, archivePrefix={arXiv}}
+
+@inproceedings{edgemoe_vit,
+  author={Rishov Sarkar and Hanxue Liang and Zhiwen Fan and Zhangyang Wang and Cong Hao},
+  title={{Edge-MoE}: Memory-Efficient Multi-Task Vision Transformer Architecture with Task-Level Sparsity via Mixture-of-Experts},
+  booktitle={IEEE/ACM International Conference on Computer Aided Design (ICCAD)}, pages={1--9}, year={2023},
+  doi={10.1109/ICCAD57390.2023.10323651}}
+
+@article{hardsea,
+  author={Shiwei Liu and Chen Mu and Hao Jiang and Yunzhengmao Wang and Jinshan Zhang and Feng Lin and Keji Zhou and Qi Liu and Chixiao Chen},
+  title={{HARDSEA}: Hybrid Analog-{ReRAM} Clustering and Digital-{SRAM} In-Memory Computing Accelerator for Dynamic Sparse Self-Attention in Transformer},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, volume={32}, number={2}, pages={269--282}, year={2024},
+  doi={10.1109/TVLSI.2023.3337777}}
+
+@article{pimgpt,
+  author={Yuting Wu and Ziyu Wang and Wei D. Lu},
+  title={{PIM-GPT}: A Hybrid Process-in-Memory Accelerator for Autoregressive Transformers},
+  journal={npj Unconventional Computing}, volume={1}, number={1}, pages={4}, year={2024},
+  doi={10.1038/s44335-024-00004-2}}
+
+@inproceedings{retransformer,
+  author={Xiaoxuan Yang and Bonan Yan and Hai Li and Yiran Chen},
+  title={{ReTransformer}: {ReRAM}-based Processing-in-Memory Architecture for Transformer Acceleration},
+  booktitle={Proceedings of the 39th International Conference on Computer-Aided Design (ICCAD)}, pages={1--9}, year={2020},
+  doi={10.1145/3400302.3415640}}
+
+@inproceedings{att_reram,
+  author={Haoqiang Guo and Lu Peng and Jian Zhang and Qing Chen and Travis D. LeCompte},
+  title={{ATT}: A Fault-Tolerant {ReRAM} Accelerator for Attention-based Neural Networks},
+  booktitle={IEEE 38th International Conference on Computer Design (ICCD)}, pages={213--221}, year={2020},
+  doi={10.1109/ICCD50377.2020.00047}}
+
+@article{xformer,
+  author={Shrihari Sridharan and Jacob R. Stevens and Kaushik Roy and Anand Raghunathan},
+  title={{X-Former}: In-Memory Acceleration of Transformers},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, volume={31}, number={8}, pages={1223--1233}, year={2023},
+  doi={10.1109/TVLSI.2023.3282046}}
+
+@inproceedings{multcim,
+  author={Fengbin Tu and Zihan Wu and Yiqi Wang and Weiwei Wu and Leibo Liu and Yang Hu and Shaojun Wei and Shouyi Yin},
+  title={{MulTCIM}: A 28nm 2.24$\mu$J/Token Attention-Token-Bit Hybrid Sparse Digital {CIM}-Based Accelerator for Multimodal Transformers},
+  booktitle={IEEE International Solid-State Circuits Conference (ISSCC)}, pages={248--250}, year={2023},
+  doi={10.1109/ISSCC42615.2023.10067842}}
+
+@inproceedings{ctransformer,
+  author={Sangyeob Kim and Sangjin Kim and Wooyoung Jo and Soyeon Kim and Seongyon Hong and Hoi-Jun Yoo},
+  title={{C-Transformer}: A 2.6-18.1$\mu$J/Token Homogeneous {DNN}-Transformer/Spiking-Transformer Processor with Big-Little Network and Implicit Weight Generation for Large Language Models},
+  booktitle={IEEE International Solid-State Circuits Conference (ISSCC)}, pages={368--370}, year={2024},
+  doi={10.1109/ISSCC49657.2024.10454330}}
+
+@inproceedings{tambe_isscc,
+  author={Thierry Tambe and Jeff Zhang and Coleman Hooper and Tianyu Jia and Paul N. Whatmough and Joseph Zuckerman and Maico Cassel Dos Santos and Erik Jens Loscalzo and Davide Giri and Kenneth Shepard and Luca Carloni and Alexander Rush and David Brooks and Gu-Yeon Wei},
+  title={A 12nm 18.1{TFLOPs/W} Sparse Transformer Processor with Entropy-Based Early Exit, Mixed-Precision Predication and Fine-Grained Power Management},
+  booktitle={IEEE International Solid-State Circuits Conference (ISSCC)}, pages={342--344}, year={2023},
+  doi={10.1109/ISSCC42615.2023.10067817}}
+
+@inproceedings{isscc25_llm,
+  author={Yubin Qin and Yang Wang and Jiachen Wang and Zhiwei Lin and Yushu Zhao and Shaojun Wei and Yang Hu and Shouyi Yin},
+  title={An 88.36{TOPS/W} Bit-Level-Weight-Compressed Large-Language-Model Accelerator with Cluster-Aligned {INT-FP-GEMM} and Bi-Dimensional Workflow Reformulation},
+  booktitle={IEEE International Solid-State Circuits Conference (ISSCC)}, pages={420--422}, year={2025},
+  doi={10.1109/ISSCC49661.2025.10904774}}
+
+@inproceedings{tron,
+  author={Salma Afifi and Febin Sunny and Mahdi Nikdast and Sudeep Pasricha},
+  title={Accelerating Neural Networks for Large Language Models and Graph Processing with Silicon Photonics},
+  booktitle={Design, Automation \& Test in Europe Conference \& Exhibition (DATE)}, pages={1--6}, year={2024},
+  doi={10.23919/DATE58400.2024.10546653}}
+
+@misc{braintransformers,
+  author={Zhengzheng Tang and Eva Zhu},
+  title={{BrainTransformers}: {SNN}-{LLM}},
+  year={2024}, eprint={2410.14687}, archivePrefix={arXiv}}
+
+@inproceedings{llmcompass,
+  author={Hengrui Zhang and August Ning and Rohan Baskar Prabhakar and David Wentzlaff},
+  title={{LLMCompass}: Enabling Efficient Hardware Design for Large Language Model Inference},
+  booktitle={ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA)}, pages={1080--1096}, year={2024},
+  doi={10.1109/ISCA59077.2024.00082}}
+
+@inproceedings{mlperf,
+  author={Vijay Janapa Reddi and Christine Cheng and David Kanter and others},
+  title={{MLPerf} Inference Benchmark},
+  booktitle={ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)}, pages={446--459}, year={2020},
+  doi={10.1109/ISCA45697.2020.00045}}
+
+@misc{bench360,
+  author={Linus Stuhlmann and Mauricio Fadel Argerich and Jonathan F{\"u}rst},
+  title={{Bench360}: Benchmarking Local {LLM} Inference from 360 Degrees},
+  year={2025}, eprint={2511.16682}, archivePrefix={arXiv}}
+
+@article{sustainable_edge,
+  author={Erik Johannes Husom and Arda Goknil and Merve Astekin and Lwin Khin Shar and Andre K{\aa}sen and Sagar Sen and Benedikt Andreas Mithassel and Ahmet Soylu},
+  title={Sustainable {LLM} Inference for Edge {AI}: Evaluating Quantized {LLMs} for Energy Efficiency, Output Accuracy, and Inference Latency},
+  journal={ACM Transactions on Internet of Things}, volume={6}, number={4}, pages={1--35}, year={2025},
+  doi={10.1145/3767742}}
+
+@article{kachris,
+  author={Christoforos Kachris},
+  title={A Survey on Hardware Accelerators for Large Language Models},
+  journal={Applied Sciences}, volume={15}, number={2}, pages={586}, year={2025},
+  doi={10.3390/app15020586}}
+
+@misc{koilia,
+  author={Nikoletta Koilia and Christoforos Kachris},
+  title={Hardware Acceleration of {LLMs}: A Comprehensive Survey and Comparison},
+  year={2024}, eprint={2409.03384}, archivePrefix={arXiv}}
+
+@misc{jli_hwperspective,
+  author={Jinhao Li and Jiaming Xu and Shan Huang and Yonghua Chen and Wen Li and Jun Liu and Yaoxiu Lian and Jiayi Pan and Li Ding and Hao Zhou and Yu Wang and Guohao Dai},
+  title={Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective},
+  year={2025}, eprint={2410.04466}, archivePrefix={arXiv}, note={v4}}
+
+@article{ke_component,
+  author={Jia Ke and Xiaohao Wang and Hailin Chen and Wei Zhong and Xinxiong Li and Zenan Fang and Fengwei An},
+  title={A Component-Centric Perspective on Hardware Accelerators for {LLMs}},
+  journal={IEEE Access}, volume={13}, pages={173116--173145}, year={2025},
+  doi={10.1109/ACCESS.2025.3609769}}
+
+@article{kim_giants,
+  author={Young Chan Kim and Seok Kyu Yoon and Sung Soo Han and Chae Won Park and Jun Oh Park and Jun Ha Ko and Hyun Kim},
+  title={Accelerating Language Giants: A Survey of Optimization Strategies for {LLM} Inference on Hardware Platforms},
+  journal={Journal of Systems Architecture}, volume={172}, pages={103690}, year={2026},
+  doi={10.1016/j.sysarc.2026.103690}}
+
+@misc{mahbub_softmax,
+  author={Raaida Noor Mahbub and Hani Saleh and Ghada Alsuhli},
+  title={Hardware Accelerators for Softmax in Large Language Models: A Survey},
+  howpublished={TechRxiv preprint}, year={2026},
+  doi={10.36227/techrxiv.177208047.71459791/v1}}
+
+@article{kvcache_survey,
+  author={Haoyang Li and Yiming Li and Anxin Tian and Tianhao Tang and Zhanchao Xu and Xuejia Chen and Nicole Hu and Wei Dong and Qing Li and Lei Chen},
+  title={A Survey on Large Language Model Acceleration based on {KV} Cache Management},
+  journal={Transactions on Machine Learning Research}, year={2025},
+  eprint={2412.19442}, archivePrefix={arXiv}}
+
+@article{qu_mei,
+  author={Guanqiao Qu and Qiyuan Chen and Wei Wei and Zheng Lin and Xianhao Chen and Kaibin Huang},
+  title={Mobile Edge Intelligence for Large Language Models: A Contemporary Survey},
+  journal={IEEE Communications Surveys \& Tutorials}, volume={27}, number={6}, pages={3820--3860}, year={2025},
+  doi={10.1109/COMST.2025.3527641}}
+
+@article{zheng_edge,
+  author={Yue Zheng and Yuhao Chen and Bin Qian and Xiufang Shi and Yuanchao Shu and Jiming Chen},
+  title={A Review on Edge Large Language Models: Design, Execution, and Applications},
+  journal={ACM Computing Surveys}, volume={57}, number={8}, pages={1--35}, year={2025},
+  doi={10.1145/3719664}}
+
+@article{navardi_genai,
+  author={Mozhgan Navardi and Romina Aalishah and Yuzhe Fu and Yueqian Lin and Hai Li and Yiran Chen and Tinoosh Mohsenin},
+  title={{GenAI} at the Edge: Comprehensive Survey on Empowering Edge Devices},
+  journal={Proceedings of the AAAI Symposium Series}, volume={5}, number={1}, pages={180--187}, year={2025},
+  doi={10.1609/aaaiss.v5i1.35586}}
+
+@article{guo_codesign,
+  author={Cong Guo and Feng Cheng and Zhixu Du and James Kiessling and Jonathan Ku and Shiyu Li and Ziru Li and Mingyuan Ma and Tergel Molom-Ochir and Benjamin Morris and Haoxuan Shan and Jingwei Sun and Yitu Wang and Chiyue Wei and Xueying Wu and Yuhao Wu and Hao Frank Yang and Jingyang Zhang and Junyao Zhang and Qilin Zheng and Guanglei Zhou and Hai Li and Yiran Chen},
+  title={A Survey: Collaborative Hardware and Software Design in the Era of Large Language Models},
+  journal={IEEE Circuits and Systems Magazine}, volume={25}, number={1}, pages={35--57}, year={2025},
+  doi={10.1109/MCAS.2024.3476008}}
+
+@article{bai_resource,
+  author={Guangji Bai and Zheng Chai and Chen Ling and Shiyu Wang and Jiaying Lu and Nan Zhang and Tingwei Shi and Ziyang Yu and Mengdan Zhu and Yifei Zhang and Xinyuan Song and Carl Yang and Yue Cheng and Liang Zhao},
+  title={Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models},
+  journal={ACM Computing Surveys}, year={2026}, doi={10.1145/3845797},
+  eprint={2401.00625}, archivePrefix={arXiv}}
+
+@article{xu_resource,
+  author={Mengwei Xu and Dongqi Cai and Wangsong Yin and Shangguang Wang and Xin Jin and Xuanzhe Liu},
+  title={Resource-efficient Algorithms and Systems of Foundation Models: A Survey},
+  journal={ACM Computing Surveys}, volume={57}, number={5}, pages={1--39}, year={2025},
+  doi={10.1145/3706418}}
+
+@article{friha_edge,
+  author={Othmane Friha and Mohamed Amine Ferrag and Burak Kantarci and Burak Cakmak and Arda Ozgun and Nassira Ghoualmi-Zine},
+  title={{LLM}-Based Edge Intelligence: A Comprehensive Survey on Architectures, Applications, Security and Trustworthiness},
+  journal={IEEE Open Journal of the Communications Society}, volume={5}, pages={5799--5856}, year={2024},
+  doi={10.1109/OJCOMS.2024.3456549}}
+
+@article{chitty_transformer,
+  author={Krishna Teja Chitty-Venkata and Sparsh Mittal and Murali Emani and Venkatram Vishwanath and Arun K. Somani},
+  title={A Survey of Techniques for Optimizing Transformer Inference},
+  journal={Journal of Systems Architecture}, volume={144}, pages={102990}, year={2023},
+  doi={10.1016/j.sysarc.2023.102990}}
+
+@article{kim_converging,
+  author={Seongho Kim and Jihyun Moon and Juntaek Oh and Insu Choi and Joon-Sung Yang},
+  title={Survey and Evaluation of Converging Architecture in {LLMs} Based on Footsteps of Operations},
+  journal={IEEE Open Journal of the Computer Society}, volume={6}, pages={1214--1226}, year={2025},
+  doi={10.1109/OJCS.2025.3587005}}
+
+@misc{xu_ondevice,
+  author={Jiajun Xu and Zhiyuan Li and Wei Chen and Qun Wang and Xin Gao and Qi Cai and Ziyuan Ling},
+  title={On-Device Language Models: A Comprehensive Review},
+  year={2024}, eprint={2409.00088}, archivePrefix={arXiv}}
+
+@inproceedings{li_serving,
+  author={Baolin Li and Yankai Jiang and Vijay Gadepally and Devesh Tiwari},
+  title={{LLM} Inference Serving: Survey of Recent Advances and Opportunities},
+  booktitle={IEEE High Performance Extreme Computing Conference (HPEC)}, pages={1--8}, year={2024},
+  doi={10.1109/HPEC62836.2024.10938426}}
+
+@misc{kim_fullstack,
+  author={Sehoon Kim and Coleman Hooper and Thanakul Wattanawong and Minwoo Kang and Ruohan Yan and Hasan Genc and Grace Dinh and Qijing Huang and Kurt Keutzer and Michael W. Mahoney and Yakun Sophia Shao and Amir Gholami},
+  title={Full Stack Optimization of Transformer Inference: A Survey},
+  year={2023}, eprint={2302.14017}, archivePrefix={arXiv},
+  note={Presented at the ASSYST Workshop at ISCA 2023}}
+
+@article{cai_edge_inf,
+  author={Guanyu Cai and Ruiming Tian and Lang Yang and Yunzhe Jia and Lingkun Li and Jiliang Wang},
+  title={Efficient Inference for Edge Large Language Models: A Survey},
+  journal={Tsinghua Science and Technology}, volume={31}, number={3}, pages={1365--1380}, year={2026},
+  doi={10.26599/TST.2025.9010166}}
+
+@article{edge_eff_slm,
+  author={Rui Wang and Zhiyong Gao and Liuyang Zhang and Shuaibing Yue and Ziyi Gao},
+  title={Empowering Large Language Models to Edge Intelligence: A Survey of Edge Efficient {LLMs} and Techniques},
+  journal={Computer Science Review}, volume={57}, pages={100755}, year={2025},
+  doi={10.1016/j.cosrev.2025.100755}}
+
+@misc{cognitive_edge,
+  author={Xubin Wang and Qing Li and Weijia Jia},
+  title={Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and {AI} Agents for Pervasive Deployment},
+  year={2025}, eprint={2501.03265}, archivePrefix={arXiv}}
+
+@article{chen_edge_inference,
+  author={Zhixiong Chen and Bingjie Zhu and Jiangzhou Wang and Hyundong Shin and Arumugam Nallanathan and Dusit Niyato},
+  title={Network Edge Inference for Large Language Models: Principles, Techniques, and Opportunities},
+  journal={ACM Computing Surveys}, volume={58}, number={12}, pages={1--35}, year={2026},
+  doi={10.1145/3809166}}
+
+@inproceedings{semerikov_frontier,
+  author={Serhiy O. Semerikov and Tetiana A. Vakaliuk and Olga B. Kanevska and Mykhailo V. Moiseienko and Ivan I. Donchev and Andrii O. Kolhatin},
+  title={{LLM} on the Edge: The New Frontier},
+  booktitle={Proceedings of the 5th Edge Computing Workshop (doors 2025)},
+  series={CEUR Workshop Proceedings}, volume={3943}, pages={137--161}, year={2025},
+  url={https://ceur-ws.org/Vol-3943/paper28.pdf}}
+
+@techreport{kitchenham_slr,
+  author      = {Barbara Kitchenham and Stuart Charters},
+  title       = {Guidelines for Performing Systematic Literature Reviews in Software Engineering},
+  institution = {Keele University and Durham University},
+  number      = {EBSE-2007-01},
+  year        = {2007}
+}
+
+@article{prisma2020,
+  author  = {Matthew J. Page and Joanne E. McKenzie and Patrick M. Bossuyt and Isabelle Boutron and Tammy C. Hoffmann and Cynthia D. Mulrow and others},
+  title   = {The {PRISMA} 2020 statement: an updated guideline for reporting systematic reviews},
+  journal = {BMJ},
+  volume  = {372},
+  pages   = {n71},
+  year    = {2021},
+  doi     = {10.1136/bmj.n71}
+}
+
+@article{roofline,
+  author  = {Samuel Williams and Andrew Waterman and David Patterson},
+  title   = {Roofline: An Insightful Visual Performance Model for Multicore Architectures},
+  journal = {Communications of the ACM},
+  volume  = {52},
+  number  = {4},
+  pages   = {65--76},
+  year    = {2009},
+  doi     = {10.1145/1498765.1498785}
+}
+
+@inproceedings{kim2025slimllama,
+  author={S. Kim and J. Lee and H.-J. Yoo},
+  title={{Slim-Llama}: A 4.69mW Large-Language-Model Processor with Binary/Ternary Weights for Billion-Parameter {Llama} Model},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={421--423}, year={2025},
+  doi={10.1109/ISSCC49661.2025.10904761}}
+
+@inproceedings{moon2025trex,
+  author={S. Moon and M. Li and G. K. Chen and P. C. Knag and R. K. Krishnamurthy and M. Seok},
+  title={{T-REX}: A 68-to-567$\mu$s/Token 0.41-to-3.95$\mu$J/Token Transformer Accelerator with Reduced External Memory Access and Enhanced Hardware Utilization in 16nm {FinFET}},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={406--408}, year={2025},
+  doi={10.1109/ISSCC49661.2025.10904793}}
+
+@article{moon2026trexjssc,
+  author={S. Moon and M. Li and G. Chen and P. Knag and R. K. Krishnamurthy and M. Seok},
+  title={{T-REX}: Hardware--Software Co-Optimized Transformer Accelerator With Reduced External Memory Access and Enhanced Hardware Utilization},
+  journal={IEEE J. Solid-State Circuits}, pages={154--167}, year={2026},
+  doi={10.1109/JSSC.2025.3603187}}
+
+@inproceedings{jo2025broca,
+  author={W. Jo and S. Hong and J. Choi and B. Kwon and H. Sang and D. Im and others},
+  title={{BROCA}: A 52.4-to-559.2mW Mobile Social Agent System-on-Chip with Adaptive Bit-Truncate Unit and Acoustic-Cluster Bit Grouping},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={418--420}, year={2025},
+  doi={10.1109/ISSCC49661.2025.10904658}}
+
+@inproceedings{ha2026smolpu,
+  author={S. Ha and J. Lee and Y. Moon and S. Whang and W. Jo and G. Park and S. Kim and S. Um and J. Ryu and Y. Jo and H.-J. Yoo},
+  title={{SMoLPU}: 122.1$\mu$J/Token Sparse {MoE}-Based Speculative Decoding Language Processing Unit with Adaptive-Offload {NPU-CIM} Core},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={312--314}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409285}}
+
+@article{ha2026smolpujssc,
+  author={S. Ha and J. Lee and Y. Moon and S. Whang and W. Jo and G. Park and others},
+  title={{SMoLPU}: An Energy-Efficient Sparse Mixture-of-Experts-Based Speculative Decoding Language Processing Unit},
+  journal={IEEE J. Solid-State Circuits}, year={2026},
+  doi={10.1109/JSSC.2026.3726852}}
+
+@inproceedings{hong2026soulmate,
+  author={S. Hong and J. Choi and J. So and N. Lee and W. Jo and Z. Kalzhan and W. Chin and H.-J. Yoo},
+  title={{SoulMate}: A 9.8mW Mobile Intelligence System-on-Chip with Mixed-Rank Architecture for On-Device {LLM} Personalization},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={540--542}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409048}}
+
+@inproceedings{dong2026reram,
+  author={P. Dong and Y. Tan and X. Liu and P. Luo and Y. Liu and D. Pang and S. Ma and X. Huang and S.-Y. Liu and D. Zhang and Z. Lu and L. Liang and C.-Y. Tsui and F. Tu and L. Zhao and K.-T. Cheng},
+  title={A 14.08-to-135.69Token/s {ReRAM}-on-Logic Stacked Outlier-Free Large-Language-Model Accelerator with Block-Clustered Weight-Compression and Adaptive Parallel-Speculative-Decoding},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={532--534}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409211}}
+
+@article{dong2026rslpu,
+  author={P. Dong and Y. Tan and X. Liu and P. Luo and Y. Liu and D. Pang and others},
+  title={{RS-LPU}: A {ReRAM}-on-Logic Stacked Large Language Model Accelerator With Software--Hardware Co-Designed Weight Compression and Speculative Decoding},
+  journal={IEEE J. Solid-State Circuits}, year={2026},
+  doi={10.1109/JSSC.2026.3718555}}
+
+@inproceedings{liu2026subspace,
+  author={B. Liu and Z. Zou and X. Yan and X. Kang and X. Chen and B. Hu and J. Lin and H. Du and J. Yang and X. Si and H. Cai},
+  title={A 51.6$\mu$J/Token Subspace-Rotation-Based Dual-Quantized Large-Language-Model Accelerator with Fused Scale-Activation {INT} Datapath and Rearranged Bit-Slice {LUT} Computation},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={536--538}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409212}}
+
+@inproceedings{kim2026revolver,
+  author={S. Kim and J. Oh and B. Kim and Y. Choi and G. Park and H.-J. Yoo},
+  title={{Revolver}: Low-Bit {GenAI} Accelerator for Distilled-Model and {CoT} with Phase-Aware-Quantization and Rotation-Based Integer-Scaled Group Quantization},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={534--536}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409015}}
+
+@inproceedings{yoo2026trioracle,
+  author={S. Yoo and H. Kim and M. Son and Y. Chen and S. Jeong and J.-Y. Kim},
+  title={{Tri-Oracle}: A 17.78$\mu$J/Token Vision-Language Model Accelerator with Token-Attention-Weight Redundancy Prediction},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={542--544}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11408987}}
+
+@inproceedings{yoo2026lutssm,
+  author={S. Yoo and D. Kam and G. Park and S. Kwon and D. Lee and Y. Lee},
+  title={{LUT-SSM}: A 99.3{TFLOPS/W} {LUT}-Based State-Space Model Accelerator Using Energy-Efficient Element-Wise Layer Fusion and {LUT}-Friendly Weight-Only Quantization},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={544--546}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409105}}
+
+@inproceedings{cao2026pnm,
+  author={Y. Cao and J. Jiang and H. Jiang and Q. Zhang and X. Liu and J. Cheng and Z. Han and X. Jiang and F. Zuo and S. Wang and F. Bai and Y. Guo and C. Dou and J. Yang and H. Lv and Q. Liu and M. Liu},
+  title={A 1.2{GHz} 12.77{GB/s/mm}$^2$ {3D} Two-{DRAM}-One-Logic Process-Near-Memory Chip for Edge {LLM} Applications},
+  booktitle={Proc. IEEE Int. Solid-State Circuits Conf. (ISSCC)}, pages={524--526}, year={2026},
+  doi={10.1109/ISSCC49663.2026.11409184}}
+
+@article{cao2026pnmjssc,
+  author={Y. Cao and J. Jiang and H. Jiang and Q. Zhang and X. Jiang and F. Zuo and others},
+  title={A Comprehensive Analysis and Chip Implementation of Hybrid-Bonding-Based {3D-DRAM} Process-Near-Memory Design for {LLM} Inference},
+  journal={IEEE J. Solid-State Circuits}, year={2026},
+  doi={10.1109/JSSC.2026.3733213}}
+
+@inproceedings{wu2025cella,
+  author={Z. Wu and Y. Wang and Z. He and B. Yang and Y. Wang and S. Wei and Y. Hu and F. Tu and S. Yin},
+  title={{CELLA}: A 28nm Compute-Memory Co-Optimized Real-Time Digital {CIM}-Based Edge {LLM} Accelerator with 1.78ms-Response in Prefill and 31.32 Token/s in Decoding},
+  booktitle={Proc. IEEE Symp. VLSI Technology and Circuits}, year={2025},
+  doi={10.23919/VLSITechnologyandCir65189.2025.11075101}}
+
+@inproceedings{wang2025llmcim,
+  author={Y. Wang and Z. He and Z. Wu and R. Guo and L. Yan and H. Han and Y. Wang and S. Wei and Y. Hu and F. Tu and S. Yin},
+  title={{LLM-CIM}: A 28nm 126.7{TOPS/W} Input-{LUT}-based Digital {CIM} Macro with Reconfigurable Matrix Multiplication and Nonlinear Operation Modes for {LLMs}},
+  booktitle={Proc. IEEE Symp. VLSI Technology and Circuits}, year={2025},
+  doi={10.23919/VLSITechnologyandCir65189.2025.11074939}}
+
+@inproceedings{chen2026d2cim,
+  author={J. Chen and Z. Xuan and Y. Li and Z. Yan and Z. Li and Y.-F. Yung and Y. Deng and X. Huo and C.-Y. Tsui and K.-T. Cheng and F. Tu},
+  title={{D2CIM}: A 28nm 53.3 {TFLOPS/W} Decoding Digital {CIM} Macro for Efficient {FlashMLA}-based {LLM} Inference},
+  booktitle={Proc. IEEE Custom Integrated Circuits Conf. (CICC)}, year={2026},
+  doi={10.1109/CICC65509.2026.11509467}}
+
+@inproceedings{wang2025pdacc,
+  author={H. Wang and Y. Wang and J. Yang and S. Wei and Y. Hu and S. Yin},
+  title={{PDAcc}: A 541 Tokens/s@{Llama}-1.2B Effective Throughput Prefill-Decode Disaggregated {MCM}-based Accelerator for Multi-task Large Language Model Applications},
+  booktitle={Proc. IEEE Asian Solid-State Circuits Conf. (A-SSCC)}, pages={268--270}, year={2025},
+  doi={10.1109/A-SSCC67472.2025.11349430}}
+
+@article{wang2026pdaccjssc,
+  author={H. Wang and Y. Wang and J. Yang and Y. Hu and S. Yin},
+  title={{PDAcc}: A Prefill-Decode Disaggregated {MCM}-Based Accelerator for Multi-Task Large Language Model Applications},
+  journal={IEEE J. Solid-State Circuits}, pages={5339--5356}, year={2026},
+  doi={10.1109/JSSC.2026.3708458}}
+
+@inproceedings{li2026reasoning,
+  author={M. Li and W. Ren and Z. Li and L. Ye and T. Jia},
+  title={A 122.2$\mu$J/Token Reasoning {LLM} Accelerator with Reinforcement Fine-Tune Featuring Two-Level {KV}-Cache Compression and Spike-Driven Predictive Update},
+  booktitle={Proc. IEEE/JSAP Symp. VLSI Technology and Circuits}, year={2026},
+  doi={10.1109/VLSITechnologyandCir65830.2026.11577555}}
+
+@inproceedings{mun2026spectra,
+  author={H. Mun and J. Meng and C. Chen and H. Byun and Y. He and X. Hu and others},
+  title={Spectra: An Asymmetric-Precision Speculative Decoding {LLM} Accelerator with Product Quantization and Reconfigurable Flip-Flop Buffers in 28nm {CMOS}},
+  booktitle={Proc. IEEE/JSAP Symp. VLSI Technology and Circuits}, year={2026},
+  doi={10.1109/VLSITechnologyandCir65830.2026.11577608}}
+
+@inproceedings{tao2026slmdecoder,
+  author={G. Tao and J. Luo and S. Liu and A. Li and G. Kielian and K. Lei and others},
+  title={An 11.16$\mu$J/token Edge {SLM} Decoder Accelerator with Scalable Ring-based Configuration for Token-level Pipelining in 16nm {FinFET}},
+  booktitle={Proc. IEEE Custom Integrated Circuits Conf. (CICC)}, year={2026},
+  doi={10.1109/CICC65509.2026.11509572}}
+
+@inproceedings{yang2026tacc,
+  author={M. Yang and Y. Wang and C. Lo and X. Zhang and T. Huang and S. Oruganti and others},
+  title={{TACC}: A 42.9 {TOPS/W/mm}$^2$ Ternary/{INT}/{FP} {LLM} Accelerator with Lossless Weight Compression},
+  booktitle={Proc. IEEE Custom Integrated Circuits Conf. (CICC)}, year={2026},
+  doi={10.1109/CICC65509.2026.11509507}}
+
+@inproceedings{li2026tokcim,
+  author={S. Li and Z. Wei and R. He and C. Wang and Y. Gu and T. Dong and others},
+  title={{TOKCIM}: A 65nm All-Digital Compute-in-Memory Transformer Accelerator with Advanced Weight Sparsity Handling and {SoftMax} Acceleration},
+  booktitle={Proc. IEEE Custom Integrated Circuits Conf. (CICC)}, year={2026},
+  doi={10.1109/CICC65509.2026.11509500}}
+
+@inproceedings{hao2025edgeftx,
+  author={M. Hao and R. Li and Z. Yan and T. Li and G. Li and K. Yang and others},
+  title={{EdgeFTX}: A 22 nm 3.6 {mW} Edge Attention-Free Transformer Accelerator with Non-Blocking Scheduling},
+  booktitle={Proc. IEEE Asian Solid-State Circuits Conf. (A-SSCC)}, year={2025},
+  doi={10.1109/A-SSCC67472.2025.11349566}}
+
+@inproceedings{guo2025loracim,
+  author={Z. Guo and T. Shen and J. Fang and J. Jiang and D. Chen and H. Nie and others},
+  title={{LoRA-CIM}: A Fully-Digital Hybrid Flash-{SRAM} {CIM} Accelerator with {LoRA} Fine-Tuned {LLM} in Edge Devices},
+  booktitle={Proc. IEEE Asian Solid-State Circuits Conf. (A-SSCC)}, pages={193--195}, year={2025},
+  doi={10.1109/A-SSCC67472.2025.11349592}}
+
+@article{liu2026hiscim,
+  author={B. Liu and X. Yan and Y. Song and X. Xu and Z. Zou and P. Zheng and others},
+  title={{HiS-CIM}: A 72.65-{TOPS/W} Hetero-{CIM}-Based {LLM} Accelerator Exploiting Hierarchical Weight Compression and Multi-Granular Sparsity},
+  journal={IEEE J. Solid-State Circuits}, year={2026},
+  doi={10.1109/JSSC.2026.3734350}}
+
+@inproceedings{guo2026rcwcim,
+  author={Y.-C. Guo and T.-S. Chang and J.-W. Su},
+  title={{RCW-CIM}: A Digital {CIM}-based {LLM} Accelerator with Read-Compute/Write},
+  booktitle={Proc. IEEE Int. Symp. Circuits and Systems (ISCAS)}, year={2026},
+  note={arXiv:2604.27384}}
+
+@article{lin2026vitallm,
+  author={Z.-W. Lin and T.-S. Chang},
+  title={{VitaLLM}: A Versatile, Ultra-Compact Ternary {LLM} Accelerator with Dependency-Aware Scheduling},
+  journal={IEEE Trans. Circuits Syst. Artif. Intell.}, year={2026},
+  doi={10.1109/TCASAI.2026.3689494}}
+
+@inproceedings{moon2026blockdiffusion,
+  author={Y. Moon and J. Choi and S. Kim and W. Park and W. Jo and Y. Choi and others},
+  title={A 198.7 $\mu$J/token Block Diffusion {LLM} Processor with Mask Token Similarity-Based Activation Reuse},
+  booktitle={Proc. IEEE Int. Symp. Circuits and Systems (ISCAS)}, pages={1591--1595}, year={2026},
+  doi={10.1109/ISCAS66217.2026.11562440}}
+
+@article{an2026cinell,
+  author={S. An and H. Jeong and S. Kim and K. J. Lee},
+  title={{CINELL}: An Energy-Efficient Compute-In/Near-Memory {eDRAM} Processor for Sparse Transformer-Based Large Language Models},
+  journal={IEEE Trans. VLSI Syst.}, volume={34}, number={1}, pages={242--253}, year={2026},
+  doi={10.1109/TVLSI.2025.3620613}}
+
+@article{chen2026fusedspec,
+  author={K. Chen and Z. Zhou and Y. Chen and J. Han},
+  title={Area- and Utilization-Efficient {LLM} Accelerator With Fused Speculative Decoding for Edge-Side Inference},
+  journal={IEEE Trans. VLSI Syst.}, volume={34}, number={4}, pages={1393--1397}, year={2026},
+  doi={10.1109/TVLSI.2026.3659893}}
+
+@article{liu2025arsoc,
+  author={H. Liu and T. Wu and P. Houshmand and H. E. Sumbul and P. Diefenbaugh and U. Arslan and others},
+  title={Harnessing Memory Technology Innovations for On-Device Large Language Models in Augmented Reality {SoCs}},
+  journal={IEEE Solid-State Circuits Mag.}, year={2025},
+  doi={10.1109/MSSC.2025.3596910}}
+
+@article{zhang2025pdswap,
+  author={Y. Zhang and Z. Chen and Y. Qiao and S. Huang},
+  title={{PD-Swap}: Prefill-Decode Logic Swapping for End-to-End {LLM} Inference on Edge {FPGAs} via Dynamic Partial Reconfiguration},
+  journal={arXiv preprint arXiv:2512.11550}, year={2025}}
+
+@article{xiang2025qwen,
+  author={M. Xiang and R. Fernando and B. Wang},
+  title={On-Device {Qwen2.5}: Efficient {LLM} Inference with Model Compression and Hardware Acceleration},
+  journal={arXiv preprint arXiv:2504.17376}, year={2025}}
+
+@inproceedings{he2026lutllm,
+  author={Z. He and S. Ye and R. Ma and Y. Wang and J. Cong},
+  title={{LUT-LLM}: Efficient Language Model Inference with Memory-based Computations on {FPGAs}},
+  booktitle={Proc. IEEE Int. Symp. Field-Programmable Custom Computing Machines (FCCM)}, pages={109--118}, year={2026},
+  doi={10.1109/FCCM68464.2026.00027}}
+
+@article{zhang2026flexllm,
+  author={J. Zhang and Z. He and N. Fraser and M. Blott and Y. Sun and J. Cong},
+  title={{FlexLLM}: Composable {HLS} Library for Flexible Hybrid {LLM} Accelerator Design},
+  journal={arXiv preprint arXiv:2601.15710}, year={2026}}
+
+@article{he2026skipopu,
+  author={Z. He and A. Zhao and X. Shen and C. Wu and L. He},
+  title={{SkipOPU}: An {FPGA}-based Overlay Processor for Large Language Models with Dynamically Allocated Computation},
+  journal={ACM Trans. Reconfigurable Technol. Syst. (accepted); arXiv:2603.14785}, year={2026}}
+
+@article{gupta2026gdn,
+  author={N. Gupta and P. Wang and R. Kannan and V. K. Prasanna},
+  title={A Persistent-State Dataflow Accelerator for Memory-Bound Linear Attention Decode on {FPGA}},
+  journal={arXiv preprint arXiv:2603.05931}, year={2026}}
+
+@inproceedings{tombesi2026spectra,
+  author={G. Tombesi and W. Baisi and J. Yang and E. L. Alvanaki and K. Lee and M. Lippe and others},
+  title={{SPECTRA}: Adaptive Execution of Speculative Decoding on a Runtime-Reconfigurable Tiled Architecture},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)}, year={2026},
+  note={arXiv:2609.24847}}
+
+@inproceedings{zhong2025specmamba,
+  author={L. Zhong and S. Xu and H. Wen and T. Xie and Q. Guo and Y. Wang and others},
+  title={{SpecMamba}: Accelerating {Mamba} Inference on {FPGA} with Speculative Decoding},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)}, year={2025},
+  note={arXiv:2509.19873}}
+
+@inproceedings{wang2025fastmamba,
+  author={A. Wang and H. Shao and S. Ma and Z. Wang},
+  title={{FastMamba}: A High-Speed and Efficient {Mamba} Accelerator on {FPGA} with Accurate Quantization},
+  booktitle={Proc. IEEE Computer Society Annual Symp. VLSI (ISVLSI)}, year={2025},
+  doi={10.1109/ISVLSI65124.2025.11130250}}
+
+@article{xu2026lowrankssm,
+  author={H. Xu and B. Bhat and Y. Chou and Z. Chen and L. Han and Y. Zhang and others},
+  title={{LowRank-SSM}: Hardware-Software Co-Design for Rank-Reduced {Mamba} Acceleration on {FPGA}},
+  journal={arXiv preprint arXiv:2608.02954}, year={2026}}
+
+@inproceedings{wang2026tflop,
+  author={Z. Wang and Z. Tang and F. Liu and C. Guan and L. Jiang and H. Guan},
+  title={{TFLOP}: Towards Energy-Efficient {LLM} Inference -- An {FPGA}-Affinity Accelerator with Unified {LUT}-based Optimization},
+  booktitle={Proc. Asia and South Pacific Design Automation Conf. (ASP-DAC)}, pages={233--236}, year={2026},
+  doi={10.1109/ASP-DAC66049.2026.11420766}}
+
+@article{grailoo2026tempus,
+  author={M. Grailoo and J. N{\'u}{\~n}ez-Y{\'a}{\~n}ez},
+  title={{Tempus}: A Temporally Scalable Resource-Invariant {GEMM} Streaming Framework for {Versal AI Edge}},
+  journal={arXiv preprint arXiv:2605.00536}, year={2026}}
+
+@article{shan2025platinum,
+  author={H. Shan and C. Guo and C. Wei and F. Cheng and J. Zhang and H. Li and others},
+  title={{Platinum}: Path-Adaptable {LUT}-Based Accelerator Tailored for Low-Bit Weight Matrix Multiplication},
+  journal={arXiv preprint arXiv:2511.21910}, year={2025}}
+
+@article{guan2026tom,
+  author={H. Guan and Y. Zhang and W. Wang and Y. Gao and S. Cao and C. Zhang and others},
+  title={{TOM}: A Ternary Read-only Memory Accelerator for {LLM}-powered Edge Intelligence},
+  journal={arXiv preprint arXiv:2602.20662}, year={2026}}
+
+@inproceedings{zhang2026bitrom,
+  author={W. Zhang and X. Li and S. Ando and K. Yoshioka},
+  title={{BitROM}: Weight Reload-Free {CiROM} Architecture Towards Billion-Parameter 1.58-bit {LLM} Inference},
+  booktitle={Proc. Asia and South Pacific Design Automation Conf. (ASP-DAC)}, year={2026},
+  doi={10.1109/ASP-DAC66049.2026.11420813}}
+
+@inproceedings{geens2026lut,
+  author={R. Geens and J. Heldens and J. Dumoulin and M. Verhelst},
+  title={Hardware Generation and Exploration of Lookup Table-Based Accelerators for 1.58-bit {LLM} Inference},
+  booktitle={Proc. IEEE Int. Symp. Performance Analysis of Systems and Software (ISPASS)}, year={2026},
+  note={arXiv:2604.25183}}
+
+@inproceedings{oh2026tsar,
+  author={H. Oh and K. Nam and R. Bhattacharjya and H. Chen and T. Das and S. Yun and others},
+  title={{T-SAR}: A Full-Stack Co-design for {CPU}-Only Ternary {LLM} Inference via In-Place {SIMD} {ALU} Reorganization},
+  booktitle={Proc. Design, Automation \& Test in Europe (DATE)}, year={2026},
+  note={arXiv:2511.13676}}
+
+@inproceedings{pittet2026ssr,
+  author={A. Pittet and S. Zhu and V. Verdan and G. Alonso},
+  title={{SSR}: Sparse Segment Reduction for Ternary {GEMM} Acceleration},
+  booktitle={Proc. Design, Automation \& Test in Europe (DATE)}, pages={1--7}, year={2026},
+  doi={10.23919/DATE69613.2026.11539457}}
+
+@inproceedings{wu2026oasis,
+  author={X. Wu and B. Zhou and Z. Gao and Y. Fu and Q. Zheng and Y. He and H. Li},
+  title={{OASIS}: Outlier-Aware {LUT}-Based {GEMM} with Dual-Side Quantization for {LLM} Inference Acceleration},
+  booktitle={Proc. ACM/IEEE Int. Symp. Computer Architecture (ISCA)}, pages={307--321}, year={2026},
+  doi={10.1109/ISCA66397.2026.00036}}
+
+@article{xuan2026fusioncim,
+  author={Z. Xuan and J. Chen and Y. Li and W. Xuan and H. Chen and X. Huo and others},
+  title={{FusionCIM}: Accelerating {LLM} Inference with Fusion-Driven Computing-in-Memory Architecture},
+  journal={arXiv preprint arXiv:2604.25317}, year={2026}}
+
+@inproceedings{ahn2025cimple,
+  author={B. Ahn and X. Tao and M. D. Gomony and M. Geilen and H. Corporaal},
+  title={{CIMple}: Standard-cell {SRAM}-based {CIM} with {LUT}-based split softmax for attention acceleration},
+  booktitle={Proc. Cross-Disciplinary Conf. Memory-Centric Computing (CCMCC)}, pages={1--10}, year={2025},
+  doi={10.1109/CCMCC67628.2025.11380467}}
+
+@inproceedings{lin2026cdpim,
+  author={Y. Lin and C. Fang and X. Song and Q. Wu and A. Jiang and Y. Bai and others},
+  title={{CD-PIM}: A High-Bandwidth and Compute-Efficient {LPDDR5}-Based {PIM} for Low-Batch {LLM} Acceleration on Edge-Device},
+  booktitle={Proc. Design, Automation \& Test in Europe (DATE)}, year={2026},
+  doi={10.23919/DATE69613.2026.11539558}}
+
+@inproceedings{chen2026p3llm,
+  author={Y. Chen and C. Fang and X. Dai and Y. Wu and T. Tambe and M. Verhelst and others},
+  title={{P3-LLM}: An Integrated {NPU-PIM} Accelerator for Edge {LLM} Inference Using Hybrid Numerical Formats},
+  booktitle={Proc. ACM/IEEE Int. Symp. Computer Architecture (ISCA)}, year={2026},
+  note={arXiv:2511.06838}}
+
+@inproceedings{he2025lpspec,
+  author={S. He and Z. Zhu and Y. He and T. Jia},
+  title={{LP-Spec}: Leveraging {LPDDR} {PIM} for Efficient {LLM} Mobile Speculative Inference with Architecture-Dataflow Co-Optimization},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)}, year={2025},
+  note={arXiv:2508.07227}}
+
+@inproceedings{ma2026ahasd,
+  author={Z. Ma and Z. Fan and W. Li and H. Wu and F. Zhang and X. Ye and others},
+  title={{AHASD}: Asynchronous Heterogeneous Architecture for {LLM} Adaptive Drafting Speculative Decoding on Mobile Devices},
+  booktitle={Proc. ACM/IEEE Design Automation Conf. (DAC)}, year={2026},
+  doi={10.1145/3770743.3803965}}
+
+@inproceedings{zhao2026cosm,
+  author={Y. Zhao and F. Liu and O. Mutlu and M. Gao and J. Liu and H. Guan and others},
+  title={{COSM}: A Cooperative Scheduling Framework for Concurrent {PIM} and {CPU} Execution on Mobile Devices},
+  booktitle={Proc. ACM/IEEE Int. Symp. Computer Architecture (ISCA)}, year={2026},
+  note={arXiv:2606.30553}}
+
+@article{lee2026pimsherpa,
+  author={S. Lee and S. Cha and H. Kim and S. Seo and Y. Ro and S. Lee and others},
+  title={{PIM-SHERPA}: Software Method for On-device {LLM} Inference by Resolving {PIM} Memory Attribute and Layout Inconsistencies},
+  journal={arXiv preprint arXiv:2603.09216}, year={2026}}
+
+@inproceedings{zhao2026pfm,
+  author={S. Zhao and L. Liu and T. Han and M. Wang and Y. Han and Y. Wang},
+  title={Rethinking Unified Memory for {NPU-PIM} Systems: Dual-View Memory for Dynamic Inference of {LLM}},
+  booktitle={Proc. IEEE/ACM Int. Symp. Microarchitecture (MICRO)}, year={2026},
+  note={arXiv:2608.06989}}
+
+@inproceedings{tian2026palute,
+  author={R. Tian and Y. Chen and W. Xu and T. {\v{S}}imuni{\'c} Rosing},
+  title={{PALUTE}: Processing-In-Memory Acceleration via Lookup Table for Edge {LLM} Inference},
+  booktitle={Proc. IEEE/ACM Int. Symp. Low Power Electronics and Design (ISLPED)}, year={2026},
+  note={arXiv:2606.08891}}
+
+@article{chen2025chime,
+  author={Y. Chen and R. Tian and Y. Pan and Z. Li and W. Xu and T. Rosing},
+  title={{CHIME}: Chiplet-based Heterogeneous Near-Memory Acceleration for Edge Multimodal {LLM} Inference},
+  journal={arXiv preprint arXiv:2601.19908}, year={2025}}
+
+@article{xu2025slim,
+  author={W. Xu and H. Choi and P.-K. Hsu and S. Yu and T. Rosing},
+  title={{SLIM}: A Heterogeneous Accelerator for Edge Inference of Sparse Large Language Model via Adaptive Thresholding},
+  journal={arXiv preprint arXiv:2507.09201}, year={2025}}
+
+@article{fang2026hikv,
+  author={C. Fang and J. Yin and M. Shi and M. Verhelst},
+  title={{HiKV}: Hierarchical Importance-Aware {KV} Cache With Hardware Acceleration for {LLM} Decoding},
+  journal={IEEE Trans. Circuits Syst. I, Reg. Papers}, pages={6879--6892}, year={2026},
+  doi={10.1109/TCSI.2026.3716602}}
+
+@article{wu2026crosskv,
+  author={N. Wu and S. Wang and H. Wang and P. Wang and X. Liu and Z. Wang and others},
+  title={{CrossKV}: Accelerating Large Language Model Inference via Cross-Stage Dynamic Co-Optimization for {KV} Cache},
+  journal={IEEE Trans. Circuits Syst. I, Reg. Papers}, pages={4801--4814}, year={2026},
+  doi={10.1109/TCSI.2026.3668423}}
+
+@inproceedings{chen2025titanus,
+  author={P. Chen and X. Yang},
+  title={{Titanus}: Enabling {KV} Cache Pruning and Quantization On-the-Fly for {LLM} Acceleration},
+  booktitle={Proc. Great Lakes Symp. VLSI (GLSVLSI)}, pages={71--77}, year={2025},
+  doi={10.1145/3716368.3735145}}
+
+@inproceedings{fu2025h2eal,
+  author={Z. Fu and X. Guo and W. Zeng and S. Zhong and Y. Zhang and P. Chen and others},
+  title={{H2EAL}: Hybrid-Bonding Architecture with Hybrid Sparse Attention for Efficient Long-Context {LLM} Inference},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)}, year={2025},
+  note={arXiv:2508.16653}}
+
+@inproceedings{kim2026vrex,
+  author={D. Kim and S. Yang and W. Shin and J.-Y. Kim},
+  title={{V-Rex}: Real-Time Streaming Video {LLM} Acceleration via Dynamic {KV} Cache Retrieval},
+  booktitle={Proc. IEEE Int. Symp. High-Performance Computer Architecture (HPCA)}, year={2026},
+  note={arXiv:2512.12284}}
+
+@inproceedings{ha2026edgexpert,
+  author={S. Ha and H. Seo and Y. Jo and Y. Moon and H.-J. Yoo},
+  title={{EdgeXpert}: An Edge Device for Memory-Efficient {LLM} Inference with Mixture-of-Experts and Speculative Decoding},
+  booktitle={Proc. IEEE/ACM Int. Symp. Microarchitecture (MICRO)}, year={2026},
+  note={arXiv:2608.05303}}
+
+@inproceedings{ding2026hemera,
+  author={H. Ding and L. Liang and R. Qiao and D. Zhao and X. Qiu and J. Li and others},
+  title={{HEMERA}: A Heterogeneous Memory-Centric Accelerator with Recursive Dataflow for Edge-Constrained State-Space-Duality Models Inference},
+  booktitle={Proc. IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD)}, year={2026},
+  note={arXiv:2607.22022}}
+
+@article{das2025xamba,
+  author={A. Das and A. Raha and S. Kundu and S. K. Ghosh and D. Mathaikutty and V. Raghunathan},
+  title={{XAMBA}: Enabling Efficient State Space Models on Resource-Constrained Neural Processing Units},
+  journal={arXiv preprint arXiv:2502.06924}, year={2025}}
+
+@inproceedings{kim2025emamba,
+  author={J. Kim and J. Lee and J. Lin and A. Kanani and M. Sun and U. Y. Ogras and others},
+  title={{eMamba}: Efficient Acceleration Framework for {Mamba} Models in Edge Computing},
+  booktitle={Proc. Int. Conf. Hardware/Software Codesign and System Synthesis (CODES+ISSS)}, year={2025},
+  note={arXiv:2508.10370}}
+
+@article{xue2024powerinfer2,
+  author={Z. Xue and Y. Song and Z. Mi and X. Zheng and Y. Xia and H. Chen},
+  title={{PowerInfer-2}: Fast Large Language Model Inference on a Smartphone},
+  journal={arXiv preprint arXiv:2406.06282}, year={2024}}
+
+@inproceedings{hao2026ttsnpu,
+  author={Z. Hao and J. Wei and T. Wang and M. Huang and H. Jiang and S. Jiang and T. Cao and J. Ren},
+  title={Scaling {LLM} Test-Time Compute with Mobile {NPU} on Smartphones},
+  booktitle={Proc. European Conf. Computer Systems (EuroSys)}, pages={2157--2172}, year={2026},
+  doi={10.1145/3767295.3769382}}
+
+@inproceedings{huang2026kvreuse,
+  author={Z. Huang and S. Chen and C. Niu and Y. Sun and Z. Wang and Z. Zhao and others},
+  title={Dynamic Flow, Static Graph: {KV} Cache Reuse for Efficient {LLM} Serving on Mobile {NPUs}},
+  booktitle={Proc. European Conf. Computer Systems (EuroSys)}, year={2027},
+  note={arXiv:2609.34727}}
+
+@article{zhang2026estream,
+  author={J. Zhang and Z. Zheng and F. Wu and X. Huang and J. Wu},
+  title={{EStream}: Fast and Memory-Efficient {MoE} Prefill through Expert Virtualization on Mobile {NPUs}},
+  journal={arXiv preprint arXiv:2609.06551}, year={2026}}
+
+@article{zhang2026hanpu,
+  author={Y. Zhang and D. Xu and X. Huang and W. Yin and Y. Ma and M. Xu and others},
+  title={Empowering Hybrid Attention Models on {NPUs}},
+  journal={arXiv preprint arXiv:2609.32114}, year={2026}}
+
+@article{wei2025agentxpu,
+  author={X. Wei and J. Zhang and H. Li and J. Chen and H. Guan and R. Qu and others},
+  title={{Agent.xpu}: Efficient Scheduling of Agentic {LLM} Workloads on Heterogeneous {SoC}},
+  journal={arXiv preprint arXiv:2506.24045}, year={2025}}
+
+@article{wang2026lever,
+  author={T. Wang and F. Li and Y. Sun and W. Gao and J. Ren},
+  title={{Lever}: Speculative {LLM} Inference on Smartphones},
+  journal={arXiv preprint arXiv:2605.16786}, year={2026}}
+
+@inproceedings{le2026edgellmbench,
+  author={V. Le and O. Incel},
+  title={{Edge-LLM-Bench}: Characterising {LLM} Inference on {Raspberry Pi} 5 with {Hailo-10H} {NPU} Acceleration},
+  booktitle={Proc. 24th Annu. Int. Conf. Mobile Systems, Applications and Services Workshops (MobiSys Workshops)}, pages={44--50}, year={2026},
+  doi={10.1145/3812836.3814998}}
+
+@inproceedings{murthy2026phase,
+  author={A. Murthy and Y. Kotre and P. Sharma and P. Mishra and S. Ganapathi and P. Shukla},
+  title={Phase Matters: Characterizing Heterogeneous Vision-Language Inference on a Mobile {SoC}},
+  booktitle={Proc. 24th Annu. Int. Conf. Mobile Systems, Applications and Services Workshops (MobiSys Workshops)}, pages={322--327}, year={2026},
+  doi={10.1145/3812836.3814781}}
+
+@inproceedings{scheffler2026characterizing,
+  author={J. Scheffler and S. Naumann and F. Mohr and L. Fazlic},
+  title={Characterizing Prefill and Decode Regimes for Edge {LLM} Inference},
+  booktitle={Proc. 49th MIPRO ICT and Electronics Convention}, pages={123--128}, year={2026},
+  doi={10.1109/MIPRO70003.2026.11591742}}
+
+@article{prieto2025edge,
+  author={P. Prieto and P. Abad},
+  title={Edge Deployment of Small Language Models, a comprehensive comparison of {CPU}, {GPU} and {NPU} backends},
+  journal={arXiv preprint arXiv:2511.22334}, year={2025}}
+
+@article{renney2026cloud,
+  author={H. Renney and F. Trad and M. Mattarock and J. Evetts and Z. Wood},
+  title={Cloud to Edge: Benchmarking {LLM} Inference On Hardware-Accelerated Single-Board Computers},
+  journal={arXiv preprint arXiv:2604.24785}, year={2026}}
+
+@article{li2024palmbench,
+  author={Y. Li and J. Liu and H. Zhang and M. B. Narayanan and U. Sharma and S. Zhang and others},
+  title={{PalmBench}: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms},
+  journal={arXiv preprint arXiv:2410.05315}, year={2024}}
+
+@inproceedings{fan2025ellie,
+  author={H. Fan and Y. Lin and V. Prasanna},
+  title={{ELLIE}: Energy-Efficient {LLM} Inference at the Edge Via Prefill-Decode Splitting},
+  booktitle={Proc. IEEE Int. Conf. Application-specific Systems, Architectures and Processors (ASAP)}, pages={139--146}, year={2025},
+  doi={10.1109/ASAP65064.2025.00031}}
+
+@inproceedings{wilhelm2025energy,
+  author={P. Wilhelm and T. Wittkopp and O. Kao},
+  title={Beyond Test-Time Compute Strategies: Advocating Energy-per-Token in {LLM} Inference},
+  booktitle={Proc. 5th Workshop on Machine Learning and Systems (EuroMLSys)}, pages={208--215}, year={2025},
+  doi={10.1145/3721146.3721953}}
+
+@article{bambhaniya2024genz,
+  author={A. Bambhaniya and R. Raj and G. Jeong and S. Kundu and S. Srinivasan and S. Subramanian and others},
+  title={Demystifying {AI} Platform Design for Distributed Inference of Next-Generation {LLM} models},
+  journal={arXiv preprint arXiv:2406.01698}, year={2024}}
+
+@article{yuan2024llmviewer,
+  author={Z. Yuan and Y. Shang and Y. Zhou and Z. Dong and Z. Zhou and C. Xue and others},
+  title={{LLM} Inference Unveiled: Survey and Roofline Model Insights},
+  journal={arXiv preprint arXiv:2402.16363}, year={2024}}
+
+@inproceedings{cho2024llmservingsim,
+  author={J. Cho and M. Kim and H. Choi and G. Heo and J. Park},
+  title={{LLMServingSim}: A {HW/SW} Co-Simulation Infrastructure for {LLM} Inference Serving at Scale},
+  booktitle={Proc. IEEE Int. Symp. Workload Characterization (IISWC)}, pages={15--29}, year={2024},
+  doi={10.1109/IISWC63097.2024.00012}}
+
+@article{atmer2025prefill,
+  author={H. Atmer and Y. Yao and T. Voigt and S. Kaxiras},
+  title={Prefill vs. Decode Bottlenecks: {SRAM}-Frequency Tradeoffs and the Memory-Bandwidth Ceiling},
+  journal={arXiv preprint arXiv:2512.22066}, year={2025}}
+
+@article{ma2026challenges,
+  author={X. Ma and D. Patterson},
+  title={Challenges and Research Directions for Large Language Model Inference Hardware},
+  journal={Computer}, volume={59}, number={5}, pages={55--64}, year={2026},
+  doi={10.1109/MC.2026.3652916}}
+
+@article{li2026atlas,
+  author={C. Li and C. Xue and Y. Ren and X. Dong and Y. Cheng and Y. Hu and others},
+  title={A Full-Stack Performance Evaluation Infrastructure for {3D-DRAM}-based {LLM} Accelerators},
+  journal={arXiv preprint arXiv:2604.08044}, year={2026}}
+
+@article{patel2026memorywall,
+  author  = {S. Patel and R. Singh},
+  title   = {{AI} Hardware Accelerators for Large Language Models: Architectures and the Memory Wall},
+  journal = {arXiv preprint arXiv:2608.28048},
+  year    = {2026}}
+
+@article{blankestijn2026fpga,
+  author  = {A. Blankestijn and U. Odyurt and A. Yousefzadeh},
+  title   = {Recent Developments in Transformer Inference Deployment on {FPGA} Platforms: A Survey},
+  journal = {J. Syst. Archit.},
+  volume  = {177},
+  year    = {2026},
+  doi     = {10.1016/j.sysarc.2026.103841}}
+
+@article{kang2024fpgaasic,
+  author  = {B. J. Kang and H. I. Lee and S. K. Yoon and Y. C. Kim and S. B. Jeong and S. O and H. Kim},
+  title   = {A Survey of {FPGA} and {ASIC} Designs for Transformer Inference Acceleration and Optimization},
+  journal = {J. Syst. Archit.},
+  volume  = {155},
+  pages   = {103247},
+  year    = {2024},
+  doi     = {10.1016/j.sysarc.2024.103247}}
+
+@misc{kachris2026algorithmics,
+  author       = {C. Kachris},
+  title        = {Transformer Algorithmics: A Tutorial on Efficient Implementation of Transformers on Hardware},
+  howpublished = {Preprints.org (not peer reviewed)},
+  note         = {Posted 11 Feb. 2026},
+  year         = {2026}}
+
+@misc{song2025fpgallm,
+  author       = {F. Song and E. Bozorgzadeh},
+  title        = {Survey of {FPGA}-Based Accelerators for Large Language Models},
+  howpublished = {SSRN preprint 5547308},
+  note         = {Posted 30 Sep. 2025},
+  year         = {2025}}
+
+@article{xu2025hwnnsurvey,
+  author  = {B. Xu and A. Banerjee and S. Gupta},
+  title   = {Hardware Acceleration for Neural Networks: A Comprehensive Survey},
+  journal = {arXiv preprint arXiv:2512.23914},
+  year    = {2025}}
+
+@article{wolters2024cim,
+  author  = {C. Wolters and X. Yang and U. Schlichtmann and T. Suzumura},
+  title   = {Memory Is All You Need: An Overview of Compute-in-Memory Architectures for Accelerating Large Language Model Inference},
+  journal = {arXiv preprint arXiv:2406.08413},
+  year    = {2024}}
+
+@article{yuan2024roofline,
+  author  = {Z. Yuan and Y. Shang and Y. Zhou and Z. Dong and Z. Zhou and C. Xue and B. Wu and Z. Li and Q. Gu and Y. J. Lee and Y. Yan and B. Chen and G. Sun and K. Keutzer},
+  title   = {{LLM} Inference Unveiled: Survey and Roofline Model Insights},
+  journal = {arXiv preprint arXiv:2402.16363},
+  year    = {2024}}
+
+@article{li2026posenc,
+  author  = {J. Li},
+  title   = {Position Encoding in Transformers: From Absolute and Relative Methods to Rotary Position Embeddings and Long-Context Scaling},
+  journal = {arXiv preprint arXiv:2608.10021},
+  year    = {2026}}
+
+@article{saha2025vitedge,
+  author  = {S. Saha and L. Xu},
+  title   = {Vision Transformers on the Edge: A Comprehensive Survey of Model Compression and Acceleration Strategies},
+  journal = {Neurocomputing},
+  year    = {2025},
+  doi     = {10.1016/j.neucom.2025.130417}}
+
+@article{liu2026moesurvey,
+  author  = {J. Liu and P. Tang and W. Wang and Y. Ren and X. Hou and P.-A. Heng and M. Guo and C. Li},
+  title   = {A Survey on Inference Optimization Techniques for Mixture of Experts Models},
+  journal = {ACM Comput. Surv.},
+  year    = {2026},
+  doi     = {10.1145/3794845}}
+
+@article{zhou2024efficientinf,
+  author  = {Z. Zhou and X. Ning and K. Hong and T. Fu and J. Xu and S. Li and Y. Lou and L. Wang and Z. Yuan and X. Li and S. Yan and G. Dai and X.-P. Zhang and Y. Dong and Y. Wang},
+  title   = {A Survey on Efficient Inference for Large Language Models},
+  journal = {arXiv preprint arXiv:2404.14294},
+  year    = {2024}}
+
+@inproceedings{shi2024kvreview,
+  author    = {L. Shi and H. Zhang and Y. Yao and Z. Li and H. Zhao},
+  title     = {Keep the Cost Down: A Review on Methods to Optimize {LLM}'s {KV}-Cache Consumption},
+  booktitle = {Proc. Conf. Language Modeling (COLM)},
+  year      = {2024}}
+
+@inproceedings{jiang2026kvsurvey,
+  author    = {J. Jiang and P. Yang and R. Zhang and F. Liu},
+  title     = {Towards Efficient Large Language Model Serving: A Survey on System-Aware {KV} Cache Optimization},
+  booktitle = {Findings Assoc. Comput. Linguistics: ACL 2026},
+  pages     = {38450--38476},
+  year      = {2026},
+  doi       = {10.18653/v1/2026.findings-acl.1916}}
+
+@article{li2026kvmemhier,
+  author  = {J. Li and T. Wang and Y. Chen},
+  title   = {From Tensor Buffer to Distributed Memory Hierarchy: A Survey of {KV} Cache Management for {LLM} Serving},
+  journal = {arXiv preprint arXiv:2607.02574},
+  year    = {2026}}
+
+@inproceedings{vahdatpour2026codesign,
+  author    = {M. S. Vahdatpour and Y. Zhang},
+  title     = {Energy Efficient Software Hardware CoDesign for Machine Learning: From {TinyML} to Large Language Models},
+  booktitle = {EMC2 Workshop at ASPLOS},
+  year      = {2026}}
+
+@article{luo2024embeddedinfra,
+  author  = {X. Luo and D. Liu and H. Kong and S. Huai and H. Chen and G. Xiong and W. Liu},
+  title   = {Efficient Deep Learning Infrastructures for Embedded Computing Systems: A Comprehensive Survey and Future Envision},
+  journal = {ACM Trans. Embed. Comput. Syst.},
+  year    = {2024}}
+
+@article{forcha2026fpgacodesign,
+  author  = {P. Forcha and H. Kajekusumadhar and M. Peter and M. Kawser and A. C. Mo and C. Bobda},
+  title   = {Model Compression and Hardware-Aware Acceleration for Deep Learning on {FPGAs}: A Co-Design Taxonomy and Comparative Analysis},
+  journal = {arXiv preprint arXiv:2608.21657},
+  year    = {2026}}
+
+@inproceedings{fu2025fpgareview,
+  author    = {Y. Fu and J. Li and C. Cheng and L. Ma and others},
+  title     = {A Review of {FPGA}-Driven {LLM} Acceleration},
+  booktitle = {Proc. IEEE Int. Symp. Embedded Multicore/Many-core Systems-on-Chip (MCSoC)},
+  year      = {2025}}
+
+@article{gu2026datacenter,
+  author  = {Y. Gu and J. Wang and R. Das},
+  title   = {Balancing Generality and Specialization: A Survey on {AI} Datacenter Hardware Architecture},
+  journal = {arXiv preprint arXiv:2609.26829},
+  year    = {2026}}
+
+@article{roy2026activation,
+  author  = {S. Roy and J. {N K}},
+  title   = {A Survey on Different Strategies for Hardware Implementation of Activation Functions},
+  journal = {J. Embedded Digital Syst. Des.},
+  volume  = {1},
+  number  = {1},
+  pages   = {1--14},
+  year    = {2026},
+  doi     = {10.5281/zenodo.18397422}}
+
+@article{golec2026tinyllm,
+  author  = {M. Golec and S. Bani Melhem and others},
+  title   = {Tiny Large Language Models for {IoT} Networks: Potentials and Challenges},
+  journal = {Comput. Electr. Eng.},
+  year    = {2026}}
+
+@inproceedings{chen2025hsa,
+  author    = {C.-T. Chen and H. Mun and J. Meng and M. S. Abdelfattah and J.-s. Seo},
+  title     = {Hybrid Systolic Array Accelerator with Optimized Dataflow for Edge Large Language Model Inference},
+  booktitle = {Proc. IEEE/ACM Int. Symp. Low Power Electronics and Design (ISLPED)},
+  year      = {2025},
+  note      = {arXiv:2507.09010}}
+
+@article{huang2026blockdiff,
+  author  = {W.-H. Huang and K. Lee and M.-Y. Lee and W. Sun and C.-J. Shih and G. Tanksali and A. Khandelwal and P.-J. Chen and Y. C. Lin and S. Yu},
+  title   = {Hardware Acceleration of Block-Diffusion {LLM} for Edge Devices},
+  journal = {arXiv preprint arXiv:2609.01084},
+  year    = {2026}}
+
+@inproceedings{lin2026vitallmchip,
+  author    = {Z.-W. Lin and T.-S. Chang},
+  title     = {{VitaLLM}: A Versatile and Tiny Accelerator for Mixed-Precision {LLM} Inference on Edge Devices},
+  booktitle = {Proc. IEEE Int. Symp. Circuits Syst. (ISCAS)},
+  year      = {2026},
+  note      = {arXiv:2605.00320}}
+
+@article{yang2026fasttps,
+  author  = {W. Yang and D. Zhang and K. Cao and T. Siddagangaiah and R. Patwari and Z. Pu and S. Kong and Z. Yang and H. Zhu and V. Sharma and Y. Gao and T. Li and F. Yang and J. Chen and Y. Chen and F. Zhao and A. Ng and E. Delaye and A. Sirasao and S. Nag},
+  title   = {{FastTPS}: An Optimized Method for {LLM} Token Phase for {AI} Accelerators},
+  journal = {arXiv preprint arXiv:2607.11211},
+  year    = {2026}}
+
+@misc{ropefasttrack2026,
+  title        = {{RoPE} on the Fast Track: Latency-Optimized {LLM} Inference on {GPUs} with Low-Rank {QKV} Factorization and Rotary Positional Embedding},
+  howpublished = {IEEE Xplore document 11378253},
+  year         = {2026}}
+
+@article{he2024hlstransform,
+  author  = {A. He and D. Key and M. Bulling and A. Chang and S. Shapiro and E. Lee},
+  title   = {{HLSTransform}: Energy-Efficient {Llama} 2 Inference on {FPGAs} Via High Level Synthesis},
+  journal = {arXiv preprint arXiv:2405.00738},
+  year    = {2024}}
+
+@inproceedings{yunusoglu2026aifpga,
+  author    = {A. Yunusoglu and T. Coskun and H. Vishwamith and M. Isik and I. C. Dikmen},
+  title     = {A Reconfigurable Framework for {AI}-{FPGA} Agent Integration and Acceleration},
+  booktitle = {Proc. Int. Symp. Quality Electronic Design (ISQED)},
+  year      = {2026}}
+
+@article{liang2026ropebits,
+  author  = {F. Liang and Y. Zhang and J. Jia},
+  title   = {{RoPE}-Aware Bit Allocation for {KV}-Cache Quantization},
+  journal = {arXiv preprint arXiv:2606.24033},
+  year    = {2026}}
+
+@article{belano2024softex,
+  author  = {A. Belano and Y. Tortorella and A. Garofalo and L. Benini and D. Rossi and F. Conti},
+  title   = {A Flexible Template for Edge Generative {AI} with High-Accuracy Accelerated Softmax \& {GELU}},
+  journal = {arXiv preprint arXiv:2412.06321},
+  year    = {2024}}
+
+@article{alexandridis2026mive,
+  author  = {K. Alexandridis and G. Dimitrakopoulos},
+  title   = {{MIVE}: A Minimalist Integer Vector Engine for Softmax {LayerNorm} and {RMSNorm} Acceleration},
+  journal = {arXiv preprint arXiv:2606.17781},
+  year    = {2026}}
+
+@inproceedings{yu2026nli,
+  author    = {J. Yu and X. Han and X. Hu and C. Xu and Z. Jiang and D. Yang},
+  title     = {{NLI}: Non-uniform Linear Interpolation Approximation of Nonlinear Operations for Efficient {LLMs} Inference},
+  booktitle = {Proc. Int. Conf. Learning Representations (ICLR)},
+  year      = {2026}}
+
+@inproceedings{price2026mugi,
+  author    = {D. Price and P. Vellaisamy and J. Shen and D. Wu},
+  title     = {{Mugi}: Value Level Parallelism For Efficient {LLMs}},
+  booktitle = {Proc. ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year      = {2026},
+  doi       = {10.1145/3779212.3790189}}
+
+@article{wang2025vexp,
+  author    = {R. Wang and G. Islamoglu and A. Belano and V. Potocnik and F. Conti and A. Garofalo and L. Benini},
+  title     = {{VEXP}: A Low-Cost {RISC-V} {ISA} Extension for Accelerated Softmax Computation in Transformers},
+  journal = {arXiv preprint arXiv:2504.11227},
+  year      = {2025}}
+
+@inproceedings{xiang2026dapa,
+  author    = {M. Xiang and B. Wang},
+  title     = {{DAPA}: Distribution Aware Piecewise Activation Functions for On-Device Transformer Inference and Training},
+  booktitle = {Proc. 63rd ACM/IEEE Design Automation Conf. (DAC)},
+  year      = {2026},
+  doi       = {10.1145/3770743.3804274}}
+
+@inproceedings{sur2026lightningrms,
+  author    = {Y. Sur and O. Ozturk},
+  title     = {{LightningRMS}: A High-Throughput Mixed-Precision {RMSNorm} Accelerator for Transformer Inference},
+  booktitle = {Proc. Great Lakes Symp. VLSI (GLSVLSI)},
+  year      = {2026},
+  doi       = {10.1145/3787109.3815212}}
+
+@inproceedings{schaible2026chebyshev,
+  author    = {B. Schaible and A. S. Bharadwaj and U. Schlichtmann and J. Hu},
+  title     = {A Systolic Array Architecture for Nonlinear Activation Functions and Softmax Computation using {Chebyshev} Polynomials},
+  booktitle = {Proc. IEEE Int. Conf. Omni-layer Intelligent Systems (COINS)},
+  year      = {2026}}
+
+@article{sotoporras2026camta,
+  author  = {C. Soto-Porras and J. Fonseca-Cruz and P. Ramirez-Morera and E. Obregon-Fonseca and L. G. Leon-Vega and J. Castro-Godinez},
+  title   = {{CAMTA}: A Reconfigurable Multi-Region Activation Unit for Nonlinear Function Approximation},
+  journal = {arXiv preprint arXiv:2608.02988},
+  year    = {2026}}
+
+@article{sun2026unisfu,
+  author  = {M. Sun and Y. Huang and M. Cao and J. Park and P. P. Pande and U. Y. Ogras},
+  title   = {{Uni-SFU}: Algorithm-{HW} Co-Design for Universal {SFUs} via Mixed-Degree Piecewise Approximation},
+  journal = {arXiv preprint arXiv:2608.11577},
+  year    = {2026}}
+
+@inproceedings{prasad2026nxcgra,
+  author    = {R. Prasad},
+  title     = {{NX-CGRA}: A Programmable Hardware Accelerator for Core Transformer Algorithms on Edge Devices},
+  booktitle = {Proc. Design, Automation \& Test in Europe (DATE)},
+  year      = {2026}}
+
+@article{li2026npustage,
+  author  = {P. Li and J. Qi and Q. Chen},
+  title   = {When {NPUs} Are Not Always Faster: A Stage-Level Analysis of Mobile {LLM} Inference},
+  journal = {arXiv preprint arXiv:2605.27435},
+  year    = {2026}}
+
+@inproceedings{tao2026cicc,
+  author    = {G. Tao and J. Luo and S. Liu and A. Li and G. Kielian and K. Lei and Q. Zhang and D. Sylvester and M. Saligane},
+  title     = {An 11.16 $\mu$J/token Edge {SLM} Decoder Accelerator with Scalable Ring-based Configuration for Token-level Pipelining in 16nm {FinFET}},
+  booktitle = {Proc. IEEE Custom Integrated Circuits Conf. (CICC)},
+  year      = {2026}}
+
+@article{hu2026nifa,
+  author  = {J. Hu and R. R. Sunketa and L. Zhao and A. Gajjar and L. Buonanno and A. Arora},
+  title   = {{NIFA}: Nonlinear {IMC} Enhanced {FPGA} for Efficient {ML} Inference},
+  journal = {arXiv preprint arXiv:2607.15123},
+  year    = {2026}}
+
+@article{lou2026dllmnpu,
+  author  = {B. Lou and H. Wu and K. Lau and G. MacDonald and J. Nie and Y. Lai and C. Xiao and X. Guo and J. Cheng and R. Antonova and R. Mullins and A. Zhao},
+  title   = {{NPU} Design for Diffusion Language Model Inference},
+  journal = {arXiv preprint arXiv:2601.20706},
+  year    = {2026}}
+
+@article{moralesmonge2026pr,
+  author  = {R. Morales-Monge and N. Jimenez-Chacon and J. G. Villalobos-Alvarado and L. G. Leon-Vega and J. Castro-Godinez},
+  title   = {Interpolation of Non-Linear Functions for {LLMs} using Partial Reconfiguration in {FPGAs}},
+  journal = {arXiv preprint arXiv:2608.03033},
+  year    = {2026}}
+
+@inproceedings{gu2025cent,
+  author    = {Y. Gu and A. Khadem and S. Umesh and N. Liang and X. Servot and O. Mutlu and R. Iyer and R. Das},
+  title     = {{PIM} Is All You Need: A {CXL}-Enabled {GPU}-Free System for Large Language Model Inference},
+  booktitle = {Proc. 30th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year      = {2025},
+  doi       = {10.1145/3676641.3716267}}
+
+@article{li2025compair,
+  author  = {H. Li and S. Ma and H. Qu and W. Zhang and J. Chen and J. Lin and F. Tu and R. Zhao},
+  title   = {{CompAir}: Synergizing Complementary {PIMs} and In-Transit {NoC} Computation for Efficient {LLM} Acceleration},
+  journal = {arXiv preprint arXiv:2509.13710},
+  year    = {2025}}
+
+@article{ando2025cgla,
+  author  = {T. Ando and Y. Eto and A. Takeuchi and Y. Nakashima},
+  title   = {Efficient Kernel Mapping and Comprehensive System Evaluation of {LLM} Acceleration on a {CGLA}},
+  journal = {IEEE Access},
+  year    = {2025},
+  doi     = {10.1109/ACCESS.2025.3636266}}
+
+@article{chen2026batch1,
+  author  = {J. Chen},
+  title   = {Memory-Bound but Not Bandwidth-Limited: The Physical {AI} Inference Gap in Batch-1 {LLM} Decode},
+  journal = {arXiv preprint arXiv:2605.30571},
+  year    = {2026}}
+
+@article{miao2026kaleido,
+  author  = {W. Miao and H. Liu and W. Hu and Z. Liu and A. Chen and J. Yu and Y. Yao and Y. Gan and J. Zhao and J. Leng and M. Guo and Y. Feng},
+  title   = {{Kaleido}: Algorithm-Hardware Co-Design for Video Diffusion Transformers by Exploiting Latent Space Correlations},
+  journal = {arXiv preprint arXiv:2607.13770},
+  year    = {2026}}
+
+@misc{llamacpp,
+  author       = {Gerganov, Georgi and {ggml-org contributors}},
+  title        = {llama.cpp: {LLM} inference in {C/C++}},
+  howpublished = {\url{https://github.com/ggml-org/llama.cpp}},
+  note         = {Release b11501, accessed October 2026},
+  year         = {2026}
+}
+
+@inproceedings{wolf2020transformers,
+  author    = {Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
+  title     = {Transformers: State-of-the-Art Natural Language Processing},
+  booktitle = {Proc. Conf. Empirical Methods in Natural Language Processing: System Demonstrations (EMNLP)},
+  pages     = {38--45},
+  year      = {2020},
+  doi       = {10.18653/v1/2020.emnlp-demos.6}
+}
+
+@article{grattafiori2024llama3,
+  author  = {Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and others},
+  title   = {The {Llama} 3 Herd of Models},
+  journal = {arXiv preprint arXiv:2407.21783},
+  year    = {2024}
+}
+
+@inproceedings{lee2025ropefast,
+  author    = {Lee, Gilhyeon and Jang, Jihoon and Goh, Kyungmin and Kim, Hyun},
+  title     = {{RoPE} on the Fast Track: Latency-Optimized {LLM} Inference on {GPUs} with Low-Rank {QKV} Factorization and Rotary Positional Embedding},
+  booktitle = {Proc. IEEE Asia Pacific Conf. Circuits and Systems (APCCAS)},
+  pages     = {1--5},
+  year      = {2025},
+  doi       = {10.1109/APCCAS67402.2025.11378253}
+}
+
+@article{baek2025fireq,
+  author  = {Baek, Daehyeon and Choi, Jieun and Son, Jimyoung and Bin, Kyungmin and Choi, Seungbeom and Moon, Kihyo and Jang, Minsung and Lee, Hyojung},
+  title   = {{FireQ}: Fast {INT4-FP8} Kernel and {RoPE}-aware Quantization for {LLM} Inference Acceleration},
+  journal = {arXiv preprint arXiv:2505.20839},
+  year    = {2025}
+}
+
+@article{wu2025polarquant,
+  author  = {Wu, Songhao and Lv, Ang and Feng, Xiao and Zhang, Yufei and Zhang, Xun and Yin, Guojun and Lin, Wei and Yan, Rui},
+  title   = {{PolarQuant}: Leveraging Polar Transformation for Efficient Key Cache Quantization and Decoding Acceleration},
+  journal = {arXiv preprint arXiv:2502.00527},
+  year    = {2025}
+}
+
+@article{deepseekv2,
+  author  = {{DeepSeek-AI}},
+  title   = {{DeepSeek-V2}: A Strong, Economical, and Efficient Mixture-of-Experts Language Model},
+  journal = {arXiv preprint arXiv:2405.04434},
+  year    = {2024}
+}
+
+@inproceedings{dao2024mamba2,
+  author    = {Dao, Tri and Gu, Albert},
+  title     = {Transformers are {SSMs}: Generalized Models and Efficient Algorithms Through Structured State Space Duality},
+  booktitle = {Proc. 41st Int. Conf. Machine Learning (ICML)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {235},
+  year      = {2024}
+}
+
+@inproceedings{yang2025gdn,
+  author    = {Yang, Songlin and Kautz, Jan and Hatamizadeh, Ali},
+  title     = {Gated Delta Networks: Improving {Mamba2} with Delta Rule},
+  booktitle = {Proc. Int. Conf. Learning Representations (ICLR)},
+  year      = {2025}
+}
+
+@article{lieber2024jamba,
+  author  = {Lieber, Opher and Lenz, Barak and Bata, Hofit and Cohen, Gal and Osin, Jhonathan and Dalmedigos, Itay and others},
+  title   = {Jamba: A Hybrid {Transformer-Mamba} Language Model},
+  journal = {arXiv preprint arXiv:2403.19887},
+  year    = {2024}
+}
+
+@article{nie2025llada,
+  author  = {Nie, Shen and Zhu, Fengqi and You, Zebin and Zhang, Xiaolu and Ou, Jingyang and Hu, Jun and others},
+  title   = {Large Language Diffusion Models},
+  journal = {arXiv preprint arXiv:2502.09992},
+  year    = {2025}
+}
+
+@inproceedings{arriola2025bd3lm,
+  author    = {Arriola, Marianne and Gokaslan, Aaron and Chiu, Justin T. and Yang, Zhihan and Qi, Zhixuan and Han, Jiaqi and others},
+  title     = {Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models},
+  booktitle = {Proc. Int. Conf. Learning Representations (ICLR)},
+  year      = {2025}
+}
+
+@article{wu2025fastdllm,
+  author  = {Wu, Chengyue and Zhang, Hao and Xue, Shuchen and Liu, Zhijian and Diao, Shizhe and Zhu, Ligeng and others},
+  title   = {{Fast-dLLM}: Training-free Acceleration of Diffusion {LLM} by Enabling {KV} Cache and Parallel Decoding},
+  journal = {arXiv preprint arXiv:2505.22618},
+  year    = {2025}
+}
+
+@inproceedings{li2024eagle,
+  author    = {Li, Yuhui and Wei, Fangyun and Zhang, Chao and Zhang, Hongyang},
+  title     = {{EAGLE}: Speculative Sampling Requires Rethinking Feature Uncertainty},
+  booktitle = {Proc. 41st Int. Conf. Machine Learning (ICML)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {235},
+  year      = {2024}
+}
+
+@article{snell2024ttc,
+  author  = {Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral},
+  title   = {Scaling {LLM} Test-Time Compute Optimally can be More Effective than Scaling Model Parameters},
+  journal = {arXiv preprint arXiv:2408.03314},
+  year    = {2024}
+}
+
+@article{openai2025gptoss,
+  author  = {{OpenAI}},
+  title   = {gpt-oss-120b \& gpt-oss-20b Model Card},
+  journal = {arXiv preprint arXiv:2508.10925},
+  year    = {2025}
+}

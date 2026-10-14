@@ -1,0 +1,45 @@
+{
+ "device": "cpu",
+ "dtype": "torch.float32",
+ "torch": "2.4.1",
+ "transformers": "4.46.3",
+ "name": "AMD Ryzen 7 5800HS (8C/16T)",
+ "runs": [
+  {
+   "context": 512,
+   "latency_ms_median": 339.83265000000085,
+   "share_pct": {
+    "Other": 99.16,
+    "Sampling": 0.84
+   },
+   "time_ms": {
+    "Other": 336.955,
+    "Sampling": 2.854
+   }
+  },
+  {
+   "context": 2048,
+   "latency_ms_median": 413.71314999999953,
+   "share_pct": {
+    "Other": 99.34,
+    "Sampling": 0.66
+   },
+   "time_ms": {
+    "Other": 410.882,
+    "Sampling": 2.749
+   }
+  },
+  {
+   "context": 4096,
+   "latency_ms_median": 547.1287999999994,
+   "share_pct": {
+    "Other": 99.5,
+    "Sampling": 0.5
+   },
+   "time_ms": {
+    "Other": 544.384,
+    "Sampling": 2.741
+   }
+  }
+ ]
+}
