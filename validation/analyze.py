@@ -80,32 +80,32 @@ a1.plot(lim, lim, color="0.5", lw=0.7, ls="--"); a1.set_xscale("log"); a1.set_ys
 a1.set_xlim(lim); a1.set_ylim(lim)
 a1.set_xlabel("measured decode (tok/s)"); a1.set_ylabel("model prediction (tok/s)")
 a1.set_title("(a) model vs. measurement", fontsize=8.5)
-h1 = [a1.scatter([], [], color=col, s=14, label=lab) for lab, col in (("laptop GPU", GEMM), ("laptop CPU", MEM))]
+h1 = [a1.scatter([], [], color=col, s=14, label=lab) for lab, col in (("RTX 3050 (GPU)", GEMM), ("Ryzen 7 5800HS (CPU)", MEM))]
 h2 = [a1.scatter([], [], marker=m, facecolor="none", edgecolor="0.3", s=14, label=q.replace("f16", "FP16")) for q, m in mk.items()]
 h3 = [a1.scatter([], [], marker="o", facecolor="white", edgecolor="0.3", s=14, label="fit point")]
 lg = a1.legend(handles=h1 + h3, fontsize=5.8, frameon=False, loc="upper left"); a1.add_artist(lg)
 a1.legend(handles=h2, fontsize=5.8, frameon=False, loc="lower right")
 # (b) context sweep, Q4_0
 ns = np.array([0, 1024, 4096, 8192])
-for dev, col, lab in (("gpu", GEMM, "GPU"), ("cpu", MEM, "CPU")):
+for dev, col, lab in (("gpu", GEMM, "RTX 3050"), ("cpu", MEM, "Ryzen 7")):
     m = meas[(dev, "Q4_0")]
     a2.plot(ns / 1024, [m[n] for n in ns], "o-", color=col, ms=3.5, label=f"{lab} measured")
     a2.plot(ns / 1024, [pred(dev, "Q4_0", n) for n in ns], "--", color=col, lw=1, label=f"{lab} model")
 a2.set_xticks([0, 1, 4, 8]); a2.set_yscale("log"); a2.set_xlabel("context length (k tokens)"); a2.set_ylabel("decode tok/s (Q4_0)")
 a2.set_title("(b) KV term vs. context", fontsize=8.5)
-a2.legend(fontsize=5.6, frameon=False, ncol=2, loc="center", bbox_to_anchor=(0.52, 0.63), columnspacing=0.7, handlelength=1.6)
+a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="center", bbox_to_anchor=(0.52, 0.63), columnspacing=0.5, handlelength=1.4)
 # (c) eager-PyTorch anatomy
 cats = ["GEMV", "Attn+KV", "Softmax", "Norm", "RoPE", "Act", "Sampling", "Other"]
 cols = [GEMM, MEM, "#7A2E14", "#C2643F", "#DE936F", "#F0C2A8", "#5a1f0d", "#BBBBBB"]
-bars = [("CPU 512", prof["cpu"]["runs"][0]), ("CPU 4k", prof["cpu"]["runs"][2]),
-        ("GPU 512", prof["cuda"]["runs"][0]), ("GPU 8k", prof["cuda"]["runs"][2])]
+bars = [("Ryzen 7, 512", prof["cpu"]["runs"][0]), ("Ryzen 7, 4k", prof["cpu"]["runs"][2]),
+        ("RTX 3050, 512", prof["cuda"]["runs"][0]), ("RTX 3050, 8k", prof["cuda"]["runs"][2])]
 for i, (lab, run) in enumerate(bars):
     left = 0
     for c, col in zip(cats, cols):
         v = run["share_pct"].get(c, 0)
         a3.barh(i, v, left=left, color=col, edgecolor="white", lw=0.3, label=c if i == 0 else None)
         left += v
-a3.set_yticks(range(len(bars))); a3.set_yticklabels([b[0] for b in bars], fontsize=7); a3.invert_yaxis()
+a3.set_yticks(range(len(bars))); a3.set_yticklabels([b[0] for b in bars], fontsize=6.2); a3.invert_yaxis()
 a3.set_xlim(0, 100); a3.set_xlabel("share of token time, eager PyTorch (%)")
 a3.set_title("(c) measured operator anatomy", fontsize=8.5)
 a3.legend(fontsize=5.4, frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.45, -0.36))
