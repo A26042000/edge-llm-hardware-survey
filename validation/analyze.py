@@ -108,7 +108,7 @@ for i, (lab, run) in enumerate(bars):
 a3.set_yticks(range(len(bars))); a3.set_yticklabels([b[0] for b in bars], fontsize=6.2); a3.invert_yaxis()
 a3.set_xlim(0, 100); a3.set_xlabel("share of token time, eager PyTorch (%)")
 a3.set_title("(c) measured operator anatomy", fontsize=8.5)
-a3.legend(fontsize=5.4, frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.45, -0.36))
+a3.legend(fontsize=5.4, frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.45, -0.50))
 fig.tight_layout()
 fig.savefig(os.path.join(OUT, "validation.pdf"), bbox_inches="tight")
 fig.savefig(os.path.join(OUT, "validation.png"), dpi=160, bbox_inches="tight")
