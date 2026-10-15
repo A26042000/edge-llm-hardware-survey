@@ -93,7 +93,7 @@ for dev, col, lab in (("gpu", GEMM, "RTX 3050"), ("cpu", MEM, "Ryzen 7")):
     a2.plot(ns / 1024, [pred(dev, "Q4_0", n) for n in ns], "--", color=col, lw=1, label=f"{lab} model")
 a2.set_xticks([0, 1, 4, 8]); a2.set_yscale("log"); a2.set_xlabel("context length (k tokens)"); a2.set_ylabel("decode tok/s (Q4_0)")
 a2.set_title("(b) KV term vs. context", fontsize=8.5)
-a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="center", bbox_to_anchor=(0.52, 0.63), columnspacing=0.5, handlelength=1.4)
+a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="center", bbox_to_anchor=(0.55, 0.50), columnspacing=0.5, handlelength=1.4)
 # (c) eager-PyTorch anatomy
 cats = ["GEMV", "Attn+KV", "Softmax", "Norm", "RoPE", "Act", "Sampling", "Other"]
 cols = [GEMM, MEM, "#7A2E14", "#C2643F", "#DE936F", "#F0C2A8", "#5a1f0d", "#BBBBBB"]
