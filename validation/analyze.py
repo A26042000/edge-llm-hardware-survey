@@ -80,7 +80,7 @@ a1.plot(lim, lim, color="0.5", lw=0.7, ls="--"); a1.set_xscale("log"); a1.set_ys
 a1.set_xlim(lim); a1.set_ylim(lim)
 a1.set_xlabel("measured decode (tok/s)"); a1.set_ylabel("model prediction (tok/s)")
 a1.set_title("(a) model vs. measurement", fontsize=8.5)
-h1 = [a1.scatter([], [], color=col, s=14, label=lab) for lab, col in (("RTX 3050 (GPU)", GEMM), ("Ryzen 7 5800HS (CPU)", MEM))]
+h1 = [a1.scatter([], [], color=col, s=14, label=lab) for lab, col in (("RTX 3050 (GPU)", GEMM), ("Ryzen 7 (CPU)", MEM))]
 h2 = [a1.scatter([], [], marker=m, facecolor="none", edgecolor="0.3", s=14, label=q.replace("f16", "FP16")) for q, m in mk.items()]
 h3 = [a1.scatter([], [], marker="o", facecolor="white", edgecolor="0.3", s=14, label="fit point")]
 lg = a1.legend(handles=h1 + h3, fontsize=5.8, frameon=False, loc="upper left"); a1.add_artist(lg)
@@ -93,7 +93,7 @@ for dev, col, lab in (("gpu", GEMM, "RTX 3050"), ("cpu", MEM, "Ryzen 7")):
     a2.plot(ns / 1024, [pred(dev, "Q4_0", n) for n in ns], "--", color=col, lw=1, label=f"{lab} model")
 a2.set_xticks([0, 1, 4, 8]); a2.set_yscale("log"); a2.set_xlabel("context length (k tokens)"); a2.set_ylabel("decode tok/s (Q4_0)")
 a2.set_title("(b) KV term vs. context", fontsize=8.5)
-a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.30), columnspacing=0.6, handlelength=1.4)
+a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.44), columnspacing=0.6, handlelength=1.4)
 # (c) eager-PyTorch anatomy
 cats = ["GEMV", "Attn+KV", "Softmax", "Norm", "RoPE", "Act", "Sampling", "Other"]
 cols = [GEMM, MEM, "#7A2E14", "#C2643F", "#DE936F", "#F0C2A8", "#5a1f0d", "#BBBBBB"]
