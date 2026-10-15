@@ -59,7 +59,7 @@ CENSUS = [
     ("RS-LPU",                "dong2026reram",       2026, "ReRAM-on-logic ASIC (55 nm)", "1w", "D",   ["GEMM"], "Si", ""),
     ("Revolver",              "kim2026revolver",     2026, "ASIC (28 nm)",                "1w", "P+D", ["GEMM"], "Si", ""),
     ("LUT-SSM",               "yoo2026lutssm",       2026, "ASIC (28 nm FD-SOI)",         "mw", "P+D", ["GEMM", "ACT"], "Si", ""),
-    ("Cao et al. (3D PNM)",   "cao2026pnm",          2026, "3D DRAM--logic near-memory (28 nm)",  "fw", "D",   ["GEMM"], "Si", ""),
+    ("Cao et al. (3D near-mem.)",   "cao2026pnm",          2026, "3D DRAM--logic near-memory (28 nm)",  "fw", "D",   ["GEMM"], "Si", ""),
     ("Spectra",               "mun2026spectra",      2026, "ASIC (28 nm)",                "mw", "P+D", ["GEMM", "KV"], "Si", ""),
     ("TACC",                  "yang2026tacc",        2026, "ASIC (16 nm)",                "mw", "P+D", ["GEMM"], "Si", ""),
     ("Qin et al. (ISSCC)",    "isscc25_llm",         2025, "ASIC (28 nm)",                "mw", "P+D", ["GEMM", "SM", "ACT"], "Si", ""),
