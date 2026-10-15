@@ -1,0 +1,110 @@
+{
+ "Embedded FPGA (KV260, 4 GB DDR4)": {
+  "Qwen2.5-0.5B": {
+   "max_ctx_int8kv": 477997,
+   "max_ctx_2bitkv": 1911991,
+   "ceiling_8k": 65.0
+  },
+  "Llama-3.2-1B": {
+   "max_ctx_int8kv": 156360,
+   "max_ctx_2bitkv": 625443,
+   "ceiling_8k": 25.5
+  },
+  "Llama-3.2-3B": {
+   "max_ctx_int8kv": 27497,
+   "max_ctx_2bitkv": 109990,
+   "ceiling_8k": 9.3
+  },
+  "Llama-3.1-8B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 4.2
+  },
+  "Qwen2.5-14B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 2.3
+  }
+ },
+ "Laptop GPU (RTX 3050, 4 GB GDDR6)": {
+  "Qwen2.5-0.5B": {
+   "max_ctx_int8kv": 492794,
+   "max_ctx_2bitkv": 1971176,
+   "ceiling_8k": 633.2
+  },
+  "Llama-3.2-1B": {
+   "max_ctx_int8kv": 161909,
+   "max_ctx_2bitkv": 647638,
+   "ceiling_8k": 247.9
+  },
+  "Llama-3.2-3B": {
+   "max_ctx_int8kv": 29082,
+   "max_ctx_2bitkv": 116331,
+   "ceiling_8k": 90.1
+  },
+  "Llama-3.1-8B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 41.1
+  },
+  "Qwen2.5-14B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 22.8
+  }
+ },
+ "Jetson Orin Nano (8 GB shared)": {
+  "Qwen2.5-0.5B": {
+   "max_ctx_int8kv": 847907,
+   "max_ctx_2bitkv": 3391631,
+   "ceiling_8k": 230.2
+  },
+  "Llama-3.2-1B": {
+   "max_ctx_int8kv": 295077,
+   "max_ctx_2bitkv": 1180308,
+   "ceiling_8k": 90.2
+  },
+  "Llama-3.2-3B": {
+   "max_ctx_int8kv": 67130,
+   "max_ctx_2bitkv": 268522,
+   "ceiling_8k": 32.8
+  },
+  "Llama-3.1-8B": {
+   "max_ctx_int8kv": 21965,
+   "max_ctx_2bitkv": 87862,
+   "ceiling_8k": 14.9
+  },
+  "Qwen2.5-14B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 8.3
+  }
+ },
+ "Flagship phone (12 GB LPDDR5X)": {
+  "Qwen2.5-0.5B": {
+   "max_ctx_int8kv": 847907,
+   "max_ctx_2bitkv": 3391631,
+   "ceiling_8k": 203.2
+  },
+  "Llama-3.2-1B": {
+   "max_ctx_int8kv": 295077,
+   "max_ctx_2bitkv": 1180308,
+   "ceiling_8k": 79.6
+  },
+  "Llama-3.2-3B": {
+   "max_ctx_int8kv": 67130,
+   "max_ctx_2bitkv": 268522,
+   "ceiling_8k": 28.9
+  },
+  "Llama-3.1-8B": {
+   "max_ctx_int8kv": 21965,
+   "max_ctx_2bitkv": 87862,
+   "ceiling_8k": 13.2
+  },
+  "Qwen2.5-14B": {
+   "max_ctx_int8kv": 0,
+   "max_ctx_2bitkv": 0,
+   "ceiling_8k": 7.3
+  }
+ }
+}

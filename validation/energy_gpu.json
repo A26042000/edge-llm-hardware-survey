@@ -1,0 +1,84 @@
+{
+ "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+ "model": "Llama-3.2-1B-Instruct",
+ "runs": [
+  {
+   "precision": "Q4_0",
+   "depth": 0,
+   "tok_s": 117.532255,
+   "tok_s_std": 0.91144,
+   "p_idle_W": 9.38,
+   "p_mean_W": 26.33,
+   "p_max_W": 30.02,
+   "n_samples": 37,
+   "wall_s": 9.3,
+   "J_per_tok_total": 0.224,
+   "J_per_tok_incremental": 0.1442
+  },
+  {
+   "precision": "Q4_0",
+   "depth": 8192,
+   "tok_s": 97.072502,
+   "tok_s_std": 0.592984,
+   "p_idle_W": 9.44,
+   "p_mean_W": 28.17,
+   "p_max_W": 30.06,
+   "n_samples": 53,
+   "wall_s": 13.0,
+   "J_per_tok_total": 0.2902,
+   "J_per_tok_incremental": 0.193
+  },
+  {
+   "precision": "Q8_0",
+   "depth": 0,
+   "tok_s": 86.350435,
+   "tok_s_std": 0.611063,
+   "p_idle_W": 9.3,
+   "p_mean_W": 26.75,
+   "p_max_W": 30.02,
+   "n_samples": 51,
+   "wall_s": 12.8,
+   "J_per_tok_total": 0.3098,
+   "J_per_tok_incremental": 0.2021
+  },
+  {
+   "precision": "Q8_0",
+   "depth": 8192,
+   "tok_s": 75.141114,
+   "tok_s_std": 0.272487,
+   "p_idle_W": 9.59,
+   "p_mean_W": 28.75,
+   "p_max_W": 30.22,
+   "n_samples": 65,
+   "wall_s": 16.0,
+   "J_per_tok_total": 0.3826,
+   "J_per_tok_incremental": 0.255
+  },
+  {
+   "precision": "f16",
+   "depth": 0,
+   "tok_s": 53.513148,
+   "tok_s_std": 0.500056,
+   "p_idle_W": 9.5,
+   "p_mean_W": 27.68,
+   "p_max_W": 30.03,
+   "n_samples": 83,
+   "wall_s": 20.5,
+   "J_per_tok_total": 0.5173,
+   "J_per_tok_incremental": 0.3398
+  },
+  {
+   "precision": "f16",
+   "depth": 8192,
+   "tok_s": 48.499304,
+   "tok_s_std": 0.063701,
+   "p_idle_W": 9.31,
+   "p_mean_W": 28.75,
+   "p_max_W": 30.24,
+   "n_samples": 99,
+   "wall_s": 23.8,
+   "J_per_tok_total": 0.5928,
+   "J_per_tok_incremental": 0.4009
+  }
+ ]
+}
