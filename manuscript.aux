@@ -17,6 +17,8 @@
 \providecommand*\HyPL@Entry[1]{}
 \emailauthor{100049354@ku.ac.ae}{Alia Aldashti}
 \emailauthor{hani.saleh@ku.ac.ae}{Hani Saleh\corref {cor1}}
+\emailauthor{mahmoud.alqutayri@ku.ac.ae}{Mahmoud Al-Qutayri}
+\emailauthor{ghada.alsuhli@buid.ac.ae}{Ghada Alsuhli}
 \Newlabel{cor1}{1}
 \citation{vaswani2017}
 \citation{devlin_bert}
@@ -28,7 +30,7 @@
 \citation{patel2026memorywall,ma2026challenges,yuan2024llmviewer}
 \HyPL@Entry{0<</S/D>>}
 \Newlabel{ku}{a}
-\Newlabel{socc}{b}
+\Newlabel{buid}{b}
 \providecommand \oddpage@label [2]{}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
@@ -50,57 +52,60 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Contributions}{2}{subsection.1.3}\protected@file@percent }
 \citation{prisma2020}
 \citation{kitchenham_slr}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The survey at a glance. The core sections follow the binding constraint of edge LLM inference from compute (prefill) to memory (batch-1 decode) to the non-GEMM residual, within which positional-encoding hardware is consolidated for the first time at survey level; the taxonomy and design census supply the data from which the comparison, lessons, and gap analysis are derived.}}{4}{figure.1}\protected@file@percent }
-\newlabel{fig:glance}{{1}{4}{The survey at a glance. The core sections follow the binding constraint of edge LLM inference from compute (prefill) to memory (batch-1 decode) to the non-GEMM residual, within which positional-encoding hardware is consolidated for the first time at survey level; the taxonomy and design census supply the data from which the comparison, lessons, and gap analysis are derived}{figure.1}{}}
-\newlabel{fig:glance@cref}{{[figure][1][]1}{[1][3][]4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Review Methodology}{4}{section.2}\protected@file@percent }
-\newlabel{sec:method}{{2}{4}{Review Methodology}{section.2}{}}
-\newlabel{sec:method@cref}{{[section][2][]2}{[1][4][]4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Research questions}{4}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Information sources and search}{4}{subsection.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Eligibility}{4}{subsection.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Selection process}{5}{subsection.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Data extraction and evidence level}{5}{subsection.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Corpus overview}{5}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Review Methodology}{3}{section.2}\protected@file@percent }
+\newlabel{sec:method}{{2}{3}{Review Methodology}{section.2}{}}
+\newlabel{sec:method@cref}{{[section][2][]2}{[1][3][]3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Research questions}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Information sources and search}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Eligibility}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Selection process}{3}{subsection.2.4}\protected@file@percent }
 \citation{distserve,splitwise}
 \citation{flashattention}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces PRISMA 2020 flow of the logged search, run in October 2026 over a publication window that ends at the September 2026 cut-off (queries, dates, and counts in \ref  {app:model}); the census itself was compiled iteratively during the review, and the flow shows how the two relate. The logged queries retrieve 76\% of the census designs; most of the remainder are circuits papers that describe themselves outside the query vocabulary (a ``processor'' rather than an ``accelerator'', a milliwatt figure rather than ``edge''), which venue sweeps recover. The hand assessment found 54{} further eligible designs, none of which targets RoPE; adding them changes no conclusion of the census (\cref  {tab:robust}).}}{6}{figure.2}\protected@file@percent }
-\newlabel{fig:prisma}{{2}{6}{PRISMA 2020 flow of the logged search, run in October 2026 over a publication window that ends at the September 2026 cut-off (queries, dates, and counts in \ref {app:model}); the census itself was compiled iteratively during the review, and the flow shows how the two relate. The logged queries retrieve \precallCensus \% of the census designs; most of the remainder are circuits papers that describe themselves outside the query vocabulary (a ``processor'' rather than an ``accelerator'', a milliwatt figure rather than ``edge''), which venue sweeps recover. The hand assessment found \paudit {} further eligible designs, none of which targets RoPE; adding them changes no conclusion of the census (\cref {tab:robust})}{figure.2}{}}
-\newlabel{fig:prisma@cref}{{[figure][2][]2}{[1][5][]6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Composition of the cited corpus ($n=257$) by publication year and type; legend counts in parentheses. Edge-regime designs are those of the census (\cref  {tab:census}); ``other hardware'' are accelerators outside the edge regime that serve as baselines or sources of datapath ideas. 84\% of the cited works appeared in 2024 or later. Computed from the bibliography by the released scripts.}}{6}{figure.3}\protected@file@percent }
-\newlabel{fig:corpus}{{3}{6}{Composition of the cited corpus ($n=\ncited $) by publication year and type; legend counts in parentheses. Edge-regime designs are those of the census (\cref {tab:census}); ``other hardware'' are accelerators outside the edge regime that serve as baselines or sources of datapath ideas. \npctrecent \% of the cited works appeared in 2024 or later. Computed from the bibliography by the released scripts}{figure.3}{}}
-\newlabel{fig:corpus@cref}{{[figure][3][]3}{[1][5][]6}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Background}{6}{section.3}\protected@file@percent }
-\newlabel{sec:background}{{3}{6}{Background}{section.3}{}}
-\newlabel{sec:background@cref}{{[section][3][]3}{[1][6][]6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}The LLM inference workflow}{6}{subsection.3.1}\protected@file@percent }
-\newlabel{sec:workflow}{{3.1}{6}{The LLM inference workflow}{subsection.3.1}{}}
-\newlabel{sec:workflow@cref}{{[subsection][1][3]3.1}{[1][6][]6}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Abbreviations used in this survey.}}{6}{table.1}\protected@file@percent }
-\newlabel{tab:abbrev}{{1}{6}{Abbreviations used in this survey}{table.1}{}}
-\newlabel{tab:abbrev@cref}{{[table][1][]1}{[1][6][]6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The survey at a glance. The core sections follow the binding constraint of edge LLM inference from compute (prefill) to memory (batch-1 decode) to the non-GEMM residual, with positional encoding as a case study; the taxonomy and design census supply the data from which the comparison, lessons, and gap analysis are derived.}}{4}{figure.1}\protected@file@percent }
+\newlabel{fig:glance}{{1}{4}{The survey at a glance. The core sections follow the binding constraint of edge LLM inference from compute (prefill) to memory (batch-1 decode) to the non-GEMM residual, with positional encoding as a case study; the taxonomy and design census supply the data from which the comparison, lessons, and gap analysis are derived}{figure.1}{}}
+\newlabel{fig:glance@cref}{{[figure][1][]1}{[1][3][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Data extraction and evidence level}{4}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Corpus overview}{4}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Background}{4}{section.3}\protected@file@percent }
+\newlabel{sec:background}{{3}{4}{Background}{section.3}{}}
+\newlabel{sec:background@cref}{{[section][3][]3}{[1][4][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}The LLM inference workflow}{4}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:workflow}{{3.1}{4}{The LLM inference workflow}{subsection.3.1}{}}
+\newlabel{sec:workflow@cref}{{[subsection][1][3]3.1}{[1][4][]4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces PRISMA 2020 flow of the logged search, run in October 2026 over a publication window that ends at the September 2026 cut-off (queries, dates, and counts in \ref  {app:model}); the census itself was compiled iteratively during the review, and the flow shows how the two relate. The logged queries retrieve 76\% of the census designs; most of the remainder are circuits papers that describe themselves outside the query vocabulary (a ``processor'' rather than an ``accelerator'', a milliwatt figure rather than ``edge''), which venue sweeps recover. The hand assessment found 54{} further eligible designs, none of which targets RoPE; adding them changes no conclusion of the census (\cref  {tab:robust}).}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:prisma}{{2}{5}{PRISMA 2020 flow of the logged search, run in October 2026 over a publication window that ends at the September 2026 cut-off (queries, dates, and counts in \ref {app:model}); the census itself was compiled iteratively during the review, and the flow shows how the two relate. The logged queries retrieve \precallCensus \% of the census designs; most of the remainder are circuits papers that describe themselves outside the query vocabulary (a ``processor'' rather than an ``accelerator'', a milliwatt figure rather than ``edge''), which venue sweeps recover. The hand assessment found \paudit {} further eligible designs, none of which targets RoPE; adding them changes no conclusion of the census (\cref {tab:robust})}{figure.2}{}}
+\newlabel{fig:prisma@cref}{{[figure][2][]2}{[1][4][]5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Composition of the cited corpus ($n=258$) by publication year and type; legend counts in parentheses. Edge-regime designs are those of the census (\cref  {tab:census}); ``other hardware'' are accelerators outside the edge regime that serve as baselines or sources of datapath ideas. 84\% of the cited works appeared in 2024 or later. Computed from the bibliography by the released scripts.}}{5}{figure.3}\protected@file@percent }
+\newlabel{fig:corpus}{{3}{5}{Composition of the cited corpus ($n=\ncited $) by publication year and type; legend counts in parentheses. Edge-regime designs are those of the census (\cref {tab:census}); ``other hardware'' are accelerators outside the edge regime that serve as baselines or sources of datapath ideas. \npctrecent \% of the cited works appeared in 2024 or later. Computed from the bibliography by the released scripts}{figure.3}{}}
+\newlabel{fig:corpus@cref}{{[figure][3][]3}{[1][4][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Transformer operations relevant to hardware}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:ops}{{3.2}{5}{Transformer operations relevant to hardware}{subsection.3.2}{}}
+\newlabel{sec:ops@cref}{{[subsection][2][3]3.2}{[1][5][]5}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Abbreviations used in this survey.}}{5}{table.1}\protected@file@percent }
+\newlabel{tab:abbrev}{{1}{5}{Abbreviations used in this survey}{table.1}{}}
+\newlabel{tab:abbrev@cref}{{[table][1][]1}{[1][4][]5}}
+\newlabel{eq:attn}{{1}{5}{Transformer operations relevant to hardware}{equation.3.1}{}}
+\newlabel{eq:attn@cref}{{[equation][1][]1}{[1][5][]5}}
 \citation{roformer}
+\citation{nongemm_bench,ita,sole}
 \citation{roofline}
 \citation{edgebench}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Transformer operations relevant to hardware}{7}{subsection.3.2}\protected@file@percent }
-\newlabel{sec:ops}{{3.2}{7}{Transformer operations relevant to hardware}{subsection.3.2}{}}
-\newlabel{sec:ops@cref}{{[subsection][2][3]3.2}{[1][6][]7}}
-\newlabel{eq:attn}{{1}{7}{Transformer operations relevant to hardware}{equation.3.1}{}}
-\newlabel{eq:attn@cref}{{[equation][1][]1}{[1][7][]7}}
-\newlabel{eq:softmax}{{2}{7}{Transformer operations relevant to hardware}{equation.3.2}{}}
-\newlabel{eq:softmax@cref}{{[equation][2][]2}{[1][7][]7}}
-\newlabel{eq:norm}{{3}{7}{Transformer operations relevant to hardware}{equation.3.3}{}}
-\newlabel{eq:norm@cref}{{[equation][3][]3}{[1][7][]7}}
-\newlabel{eq:rope}{{4}{7}{Transformer operations relevant to hardware}{equation.3.4}{}}
-\newlabel{eq:rope@cref}{{[equation][4][]4}{[1][7][]7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces One decoder block of a Llama-style LLM during batch-1 decode, tagged by operation type. The dense GEMV work (blue) is what quantization and compute-in-memory make cheap; the non-GEMM operations (orange) and the memory-only KV cache (green) are not served by that datapath. Dashed arrows show the key and value of the current token being appended to the cache after the RoPE rotation, and the full cache being re-read by the two attention products; dotted lines are the residual connections. This colour coding is used throughout the survey.}}{7}{figure.4}\protected@file@percent }
-\newlabel{fig:decoder}{{4}{7}{One decoder block of a Llama-style LLM during batch-1 decode, tagged by operation type. The dense GEMV work (blue) is what quantization and compute-in-memory make cheap; the non-GEMM operations (orange) and the memory-only KV cache (green) are not served by that datapath. Dashed arrows show the key and value of the current token being appended to the cache after the RoPE rotation, and the full cache being re-read by the two attention products; dotted lines are the residual connections. This colour coding is used throughout the survey}{figure.4}{}}
-\newlabel{fig:decoder@cref}{{[figure][4][]4}{[1][7][]7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hardware metrics and the roofline}{7}{subsection.3.3}\protected@file@percent }
-\newlabel{sec:metrics}{{3.3}{7}{Hardware metrics and the roofline}{subsection.3.3}{}}
-\newlabel{sec:metrics@cref}{{[subsection][3][3]3.3}{[1][7][]7}}
 \citation{qu_mei,chen_edge_inference}
-\citation{nongemm_bench,ita,sole}
+\newlabel{eq:softmax}{{2}{6}{Transformer operations relevant to hardware}{equation.3.2}{}}
+\newlabel{eq:softmax@cref}{{[equation][2][]2}{[1][5][]6}}
+\newlabel{eq:norm}{{3}{6}{Transformer operations relevant to hardware}{equation.3.3}{}}
+\newlabel{eq:norm@cref}{{[equation][3][]3}{[1][6][]6}}
+\newlabel{eq:rope}{{4}{6}{Transformer operations relevant to hardware}{equation.3.4}{}}
+\newlabel{eq:rope@cref}{{[equation][4][]4}{[1][6][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hardware metrics and the roofline}{6}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:metrics}{{3.3}{6}{Hardware metrics and the roofline}{subsection.3.3}{}}
+\newlabel{sec:metrics@cref}{{[subsection][3][3]3.3}{[1][6][]6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces One decoder block of a Llama-style LLM during batch-1 decode, tagged by operation type. The dense GEMV work (blue) is what quantization and compute-in-memory make cheap; the non-GEMM operations (orange) and the memory-only KV cache (green) are not served by that datapath. Dashed arrows show the key and value of the current token being appended to the cache after the RoPE rotation, and the full cache being re-read by the two attention products; dotted lines are the residual connections. This colour coding is used throughout the survey.}}{6}{figure.4}\protected@file@percent }
+\newlabel{fig:decoder}{{4}{6}{One decoder block of a Llama-style LLM during batch-1 decode, tagged by operation type. The dense GEMV work (blue) is what quantization and compute-in-memory make cheap; the non-GEMM operations (orange) and the memory-only KV cache (green) are not served by that datapath. Dashed arrows show the key and value of the current token being appended to the cache after the RoPE rotation, and the full cache being re-read by the two attention products; dotted lines are the residual connections. This colour coding is used throughout the survey}{figure.4}{}}
+\newlabel{fig:decoder@cref}{{[figure][4][]4}{[1][6][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}The edge continuum and this survey's scope}{6}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:scope}{{3.4}{6}{The edge continuum and this survey's scope}{subsection.3.4}{}}
+\newlabel{sec:scope@cref}{{[subsection][4][3]3.4}{[1][6][]6}}
 \citation{chitty_transformer}
 \citation{kim_fullstack}
 \citation{koilia}
@@ -129,9 +134,7 @@
 \citation{xu_resource}
 \citation{cai_edge_inf}
 \citation{chen_edge_inference}
-\citation{kachris,koilia}
-\citation{jli_hwperspective,kim_giants,chitty_transformer}
-\citation{kang2024fpgaasic,blankestijn2026fpga,song2025fpgallm}
+\citation{kachris,koilia,jli_hwperspective,kim_giants,chitty_transformer,kang2024fpgaasic,blankestijn2026fpga,song2025fpgallm}
 \citation{jli_hwperspective}
 \citation{patel2026memorywall}
 \citation{ke_component}
@@ -142,35 +145,19 @@
 \citation{zhou2024efficientinf}
 \citation{liu2026moesurvey}
 \citation{li2026posenc}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Component roofline. Arithmetic intensity of the main components of Llama-3.1-8B (public configuration; 4-bit weights, 8-bit KV cache, 2k context) against the rooflines of three representative platform classes (nominal parameters in \cref  {tab:modelparams}); points are placed on the phone-SoC roof. Batch-1 decode components (GEMV, attention) lie deep in the memory-bound region (shaded) of every platform, whereas prefill and batched decode reach the compute roof. Computed by the released script (\ref  {app:model}).}}{8}{figure.5}\protected@file@percent }
-\newlabel{fig:roofline}{{5}{8}{Component roofline. Arithmetic intensity of the main components of Llama-3.1-8B (public configuration; 4-bit weights, 8-bit KV cache, 2k context) against the rooflines of three representative platform classes (nominal parameters in \cref {tab:modelparams}); points are placed on the phone-SoC roof. Batch-1 decode components (GEMV, attention) lie deep in the memory-bound region (shaded) of every platform, whereas prefill and batched decode reach the compute roof. Computed by the released script (\ref {app:model})}{figure.5}{}}
-\newlabel{fig:roofline@cref}{{[figure][5][]5}{[1][8][]8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}The edge continuum and this survey's scope}{8}{subsection.3.4}\protected@file@percent }
-\newlabel{sec:scope}{{3.4}{8}{The edge continuum and this survey's scope}{subsection.3.4}{}}
-\newlabel{sec:scope@cref}{{[subsection][4][3]3.4}{[1][8][]8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}GEMM, non-GEMM, and the framing of this survey}{8}{subsection.3.5}\protected@file@percent }
-\newlabel{sec:framing}{{3.5}{8}{GEMM, non-GEMM, and the framing of this survey}{subsection.3.5}{}}
-\newlabel{sec:framing@cref}{{[subsection][5][3]3.5}{[1][8][]8}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Related Surveys and the Identified Gap}{8}{section.4}\protected@file@percent }
-\newlabel{sec:related}{{4}{8}{Related Surveys and the Identified Gap}{section.4}{}}
-\newlabel{sec:related@cref}{{[section][4][]4}{[1][8][]8}}
-\citation{qu_mei,friha_edge}
-\citation{zheng_edge}
-\citation{xu_ondevice}
-\citation{navardi_genai}
-\citation{luo2024embeddedinfra}
-\citation{chen_edge_inference}
-\citation{cai_edge_inf}
-\citation{xu_resource,bai_resource}
-\citation{edge_eff_slm}
+\citation{qu_mei,friha_edge,zheng_edge,xu_ondevice,navardi_genai,luo2024embeddedinfra,chen_edge_inference,cai_edge_inf,xu_resource,bai_resource,edge_eff_slm}
 \citation{ke_component}
 \citation{jli_hwperspective}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Scope comparison of surveys on LLM and Transformer inference hardware and edge deployment (2023 to September 2026). {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 108}\ = organizing axis; {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 119}\ = covered; {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 109}\ = not covered, under the rubric of \ref  {app:rubric}. Classifications follow our reading of each survey, including full-text keyword checks where the text was available; no aggregate score is computed.}}{9}{table.2}\protected@file@percent }
-\newlabel{tab:surveys}{{2}{9}{Scope comparison of surveys on LLM and Transformer inference hardware and edge deployment (2023 to September 2026). \full \ = organizing axis; \half \ = covered; \none \ = not covered, under the rubric of \ref {app:rubric}. Classifications follow our reading of each survey, including full-text keyword checks where the text was available; no aggregate score is computed}{table.2}{}}
-\newlabel{tab:surveys@cref}{{[table][2][]2}{[1][8][]9}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}An Edge-Regime, Component-Aware Taxonomy and Design Census}{9}{section.5}\protected@file@percent }
-\newlabel{sec:taxonomy}{{5}{9}{An Edge-Regime, Component-Aware Taxonomy and Design Census}{section.5}{}}
-\newlabel{sec:taxonomy@cref}{{[section][5][]5}{[1][9][]9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Component roofline. Arithmetic intensity of the main components of Llama-3.1-8B (public configuration; 4-bit weights, 8-bit KV cache, 2k context) against the rooflines of three representative platform classes (nominal parameters in \cref  {tab:modelparams}); points are placed on the phone-SoC roof. Batch-1 decode components (GEMV, attention) lie deep in the memory-bound region (shaded) of every platform, whereas prefill and batched decode reach the compute roof. Computed by the released script (\ref  {app:model}).}}{7}{figure.5}\protected@file@percent }
+\newlabel{fig:roofline}{{5}{7}{Component roofline. Arithmetic intensity of the main components of Llama-3.1-8B (public configuration; 4-bit weights, 8-bit KV cache, 2k context) against the rooflines of three representative platform classes (nominal parameters in \cref {tab:modelparams}); points are placed on the phone-SoC roof. Batch-1 decode components (GEMV, attention) lie deep in the memory-bound region (shaded) of every platform, whereas prefill and batched decode reach the compute roof. Computed by the released script (\ref {app:model})}{figure.5}{}}
+\newlabel{fig:roofline@cref}{{[figure][5][]5}{[1][6][]7}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Related Surveys and the Identified Gap}{7}{section.4}\protected@file@percent }
+\newlabel{sec:related}{{4}{7}{Related Surveys and the Identified Gap}{section.4}{}}
+\newlabel{sec:related@cref}{{[section][4][]4}{[1][7][]7}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}An Edge-Regime, Component-Aware Taxonomy and Design Census}{7}{section.5}\protected@file@percent }
+\newlabel{sec:taxonomy}{{5}{7}{An Edge-Regime, Component-Aware Taxonomy and Design Census}{section.5}{}}
+\newlabel{sec:taxonomy@cref}{{[section][5][]5}{[1][7][]7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Five axes}{7}{subsection.5.1}\protected@file@percent }
 \citation{kim2025slimllama}
 \citation{moon2025trex}
 \citation{lin2026vitallm}
@@ -213,56 +200,57 @@
 \citation{edgemoe}
 \citation{ha2026smolpu,ha2026edgexpert}
 \citation{zhang2026estream}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Scope comparison of surveys on LLM and Transformer inference hardware and edge deployment (2023 to September 2026). {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 108}\ = organizing axis; {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 119}\ = covered; {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 109}\ = not covered, under the rubric of \ref  {app:rubric}. Classifications follow our reading of each survey, including full-text keyword checks where the text was available; no aggregate score is computed.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:surveys}{{2}{8}{Scope comparison of surveys on LLM and Transformer inference hardware and edge deployment (2023 to September 2026). \full \ = organizing axis; \half \ = covered; \none \ = not covered, under the rubric of \ref {app:rubric}. Classifications follow our reading of each survey, including full-text keyword checks where the text was available; no aggregate score is computed}{table.2}{}}
+\newlabel{tab:surveys@cref}{{[table][2][]2}{[1][7][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}The design census}{8}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:census_rule}{{5.2}{8}{Classification rule and robustness}{section*.1}{}}
+\newlabel{sec:census_rule@cref}{{[subsection][2][5]5.2}{[1][8][]8}}
+\@writefile{toc}{\contentsline {paragraph}{Classification rule and robustness}{8}{section*.1}\protected@file@percent }
 \citation{kim2025slimllama,moon2025trex,ha2026smolpu,dong2026reram,li2026reasoning}
 \citation{kim2025slimllama}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Five axes}{10}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}The design census}{10}{subsection.5.2}\protected@file@percent }
-\newlabel{sec:census_rule}{{5.2}{10}{Classification rule and robustness}{section*.1}{}}
-\newlabel{sec:census_rule@cref}{{[subsection][2][5]5.2}{[1][10][]10}}
-\@writefile{toc}{\contentsline {paragraph}{Classification rule and robustness}{10}{section*.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The edge-regime, component-aware taxonomy with representative designs. A design is placed by reading the axes in order: resource regime, inference phase, operation type and component, and finally platform, which appears only at the leaves so that one component can be compared across FPGA, ASIC, NPU, and CIM/PIM realizations. The RoPE leaf (highlighted) is consolidated in \cref  {sec:rope}; the full classification of every census design is given in \cref  {tab:census}.}}{11}{figure.6}\protected@file@percent }
-\newlabel{fig:taxonomy}{{6}{11}{The edge-regime, component-aware taxonomy with representative designs. A design is placed by reading the axes in order: resource regime, inference phase, operation type and component, and finally platform, which appears only at the leaves so that one component can be compared across FPGA, ASIC, NPU, and CIM/PIM realizations. The RoPE leaf (highlighted) is consolidated in \cref {sec:rope}; the full classification of every census design is given in \cref {tab:census}}{figure.6}{}}
-\newlabel{fig:taxonomy@cref}{{[figure][6][]6}{[1][10][]11}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Robustness of the census conclusions. Each row recomputes the gap matrix (\cref  {fig:gapheat}) on a subset or a reclassification of the census; the middle columns give the cells the text relies on (several-W/single-W/mW), and the last five columns state whether each conclusion still holds. K1: GEMM is the most-targeted component overall; K2: fewer than one in ten single-watt and milliwatt designs (pooled) target RoPE; K3: at most one milliwatt design targets MoE routing; K4: at least five milliwatt designs handle the KV cache; K5: Softmax is the most-covered non-GEMM operator at milliwatt scale. The last row gives the fraction of 10000 random reclassifications (each design moved to a neighbouring power class with probability 0.2 and each component tag dropped with probability 0.1) in which the conclusion holds.}}{11}{table.3}\protected@file@percent }
-\newlabel{tab:robust}{{3}{11}{Robustness of the census conclusions. Each row recomputes the gap matrix (\cref {fig:gapheat}) on a subset or a reclassification of the census; the middle columns give the cells the text relies on (several-W/single-W/mW), and the last five columns state whether each conclusion still holds. K1: GEMM is the most-targeted component overall; K2: fewer than one in ten single-watt and milliwatt designs (pooled) target RoPE; K3: at most one milliwatt design targets MoE routing; K4: at least five milliwatt designs handle the KV cache; K5: Softmax is the most-covered non-GEMM operator at milliwatt scale. The last row gives the fraction of 10000 random reclassifications (each design moved to a neighbouring power class with probability 0.2 and each component tag dropped with probability 0.1) in which the conclusion holds}{table.3}{}}
-\newlabel{tab:robust@cref}{{[table][3][]3}{[1][10][]11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Evolution of the design census ($n=84$; 2026 counts up to the September cut-off). (a) Designs per year by evidence level: measured silicon has become the largest category. (b) Designs per year by power class: the share of milliwatt and single-watt designs grows as deployment descends to the edge.}}{11}{figure.7}\protected@file@percent }
-\newlabel{fig:timeline}{{7}{11}{Evolution of the design census ($n=\ncensus $; 2026 counts up to the September cut-off). (a) Designs per year by evidence level: measured silicon has become the largest category. (b) Designs per year by power class: the share of milliwatt and single-watt designs grows as deployment descends to the edge}{figure.7}{}}
-\newlabel{fig:timeline@cref}{{[figure][7][]7}{[1][10][]11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The edge-regime, component-aware taxonomy with representative designs. A design is placed by reading the axes in order: resource regime, inference phase, operation type and component, and finally platform, which appears only at the leaves so that one component can be compared across FPGA, ASIC, NPU, and CIM/PIM realizations. The RoPE leaf (highlighted) is consolidated in \cref  {sec:rope}; the full classification of every census design is given in \cref  {tab:census}.}}{9}{figure.6}\protected@file@percent }
+\newlabel{fig:taxonomy}{{6}{9}{The edge-regime, component-aware taxonomy with representative designs. A design is placed by reading the axes in order: resource regime, inference phase, operation type and component, and finally platform, which appears only at the leaves so that one component can be compared across FPGA, ASIC, NPU, and CIM/PIM realizations. The RoPE leaf (highlighted) is consolidated in \cref {sec:rope}; the full classification of every census design is given in \cref {tab:census}}{figure.6}{}}
+\newlabel{fig:taxonomy@cref}{{[figure][6][]6}{[1][8][]9}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Component Complexity and the Edge Bottleneck Shift}{9}{section.6}\protected@file@percent }
+\newlabel{sec:bottleneck}{{6}{9}{Component Complexity and the Edge Bottleneck Shift}{section.6}{}}
+\newlabel{sec:bottleneck@cref}{{[section][6][]6}{[1][9][]9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}A uniform per-component characterization}{9}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}A first-order per-component model}{9}{subsection.6.2}\protected@file@percent }
+\newlabel{sec:model}{{6.2}{9}{A first-order per-component model}{subsection.6.2}{}}
+\newlabel{sec:model@cref}{{[subsection][2][6]6.2}{[1][9][]9}}
+\newlabel{eq:model}{{5}{9}{A first-order per-component model}{equation.6.5}{}}
+\newlabel{eq:model@cref}{{[equation][5][]5}{[1][9][]9}}
 \citation{meadow}
 \citation{lidate25,hummingbird}
 \citation{ita}
 \citation{sole}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Component Complexity and the Edge Bottleneck Shift}{12}{section.6}\protected@file@percent }
-\newlabel{sec:bottleneck}{{6}{12}{Component Complexity and the Edge Bottleneck Shift}{section.6}{}}
-\newlabel{sec:bottleneck@cref}{{[section][6][]6}{[1][12][]12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}A uniform per-component characterization}{12}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}A first-order per-component model}{12}{subsection.6.2}\protected@file@percent }
-\newlabel{sec:model}{{6.2}{12}{A first-order per-component model}{subsection.6.2}{}}
-\newlabel{sec:model@cref}{{[subsection][2][6]6.2}{[1][12][]12}}
-\newlabel{eq:model}{{5}{12}{A first-order per-component model}{equation.6.5}{}}
-\newlabel{eq:model@cref}{{[equation][5][]5}{[1][12][]12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}The bottleneck shifts with the regime}{12}{subsection.6.3}\protected@file@percent }
-\newlabel{sec:shift}{{6.3}{12}{The bottleneck shifts with the regime}{subsection.6.3}{}}
-\newlabel{sec:shift@cref}{{[subsection][3][6]6.3}{[1][12][]12}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Robustness of the census conclusions. Each row recomputes the gap matrix (\cref  {fig:gapheat}) on a subset or a reclassification of the census; the middle columns give the cells the text relies on (several-W/single-W/mW), and the last five columns state whether each conclusion still holds. K1: GEMM is the most-targeted component overall; K2: fewer than one in ten single-watt and milliwatt designs (pooled) target RoPE; K3: at most one milliwatt design targets MoE routing; K4: at least five milliwatt designs handle the KV cache; K5: Softmax is the most-covered non-GEMM operator at milliwatt scale. The last row gives the fraction of 10000 random reclassifications (each design moved to a neighbouring power class with probability 0.2 and each component tag dropped with probability 0.1) in which the conclusion holds.}}{10}{table.3}\protected@file@percent }
+\newlabel{tab:robust}{{3}{10}{Robustness of the census conclusions. Each row recomputes the gap matrix (\cref {fig:gapheat}) on a subset or a reclassification of the census; the middle columns give the cells the text relies on (several-W/single-W/mW), and the last five columns state whether each conclusion still holds. K1: GEMM is the most-targeted component overall; K2: fewer than one in ten single-watt and milliwatt designs (pooled) target RoPE; K3: at most one milliwatt design targets MoE routing; K4: at least five milliwatt designs handle the KV cache; K5: Softmax is the most-covered non-GEMM operator at milliwatt scale. The last row gives the fraction of 10000 random reclassifications (each design moved to a neighbouring power class with probability 0.2 and each component tag dropped with probability 0.1) in which the conclusion holds}{table.3}{}}
+\newlabel{tab:robust@cref}{{[table][3][]3}{[1][9][]10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Evolution of the design census ($n=84$; 2026 counts up to the September cut-off). (a) Designs per year by evidence level: measured silicon has become the largest category. (b) Designs per year by power class: the share of milliwatt and single-watt designs grows as deployment descends to the edge.}}{10}{figure.7}\protected@file@percent }
+\newlabel{fig:timeline}{{7}{10}{Evolution of the design census ($n=\ncensus $; 2026 counts up to the September cut-off). (a) Designs per year by evidence level: measured silicon has become the largest category. (b) Designs per year by power class: the share of milliwatt and single-watt designs grows as deployment descends to the edge}{figure.7}{}}
+\newlabel{fig:timeline@cref}{{[figure][7][]7}{[1][9][]10}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Per-component complexity and edge verdict. $n$ is the context length, $d$ the model width, $d_{\mathrm  {ff}}$ the FFN width, $V$ the vocabulary size; decode costs are per generated token at batch size one. ``On-chip'' is the working set that must remain resident under an SRAM/BRAM budget.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:complexity}{{4}{10}{Per-component complexity and edge verdict. $n$ is the context length, $d$ the model width, $d_{\mathrm {ff}}$ the FFN width, $V$ the vocabulary size; decode costs are per generated token at batch size one. ``On-chip'' is the working set that must remain resident under an SRAM/BRAM budget}{table.4}{}}
+\newlabel{tab:complexity@cref}{{[table][4][]4}{[1][9][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}The bottleneck shifts with the regime}{10}{subsection.6.3}\protected@file@percent }
+\newlabel{sec:shift}{{6.3}{10}{The bottleneck shifts with the regime}{subsection.6.3}{}}
+\newlabel{sec:shift@cref}{{[subsection][3][6]6.3}{[1][10][]10}}
 \citation{grattafiori2024llama3}
 \citation{llamacpp}
 \citation{wolf2020transformers}
 \citation{nongemm_bench}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Per-component complexity and edge verdict. $n$ is the context length, $d$ the model width, $d_{\mathrm  {ff}}$ the FFN width, $V$ the vocabulary size; decode costs are per generated token at batch size one. ``On-chip'' is the working set that must remain resident under an SRAM/BRAM budget.}}{13}{table.4}\protected@file@percent }
-\newlabel{tab:complexity}{{4}{13}{Per-component complexity and edge verdict. $n$ is the context length, $d$ the model width, $d_{\mathrm {ff}}$ the FFN width, $V$ the vocabulary size; decode costs are per generated token at batch size one. ``On-chip'' is the working set that must remain resident under an SRAM/BRAM budget}{table.4}{}}
-\newlabel{tab:complexity@cref}{{[table][4][]4}{[1][12][]13}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Parameters of the first-order model (\cref  {eq:model}). Platform values are rounded, representative nominal figures for each class, not measurements of a specific product; the script in \ref  {app:model} exposes every value for change. \Cref  {sec:validation} tests the model on two measured devices.}}{13}{table.5}\protected@file@percent }
-\newlabel{tab:modelparams}{{5}{13}{Parameters of the first-order model (\cref {eq:model}). Platform values are rounded, representative nominal figures for each class, not measurements of a specific product; the script in \ref {app:model} exposes every value for change. \Cref {sec:validation} tests the model on two measured devices}{table.5}{}}
-\newlabel{tab:modelparams@cref}{{[table][5][]5}{[1][12][]13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Validation on two measured edge devices}{13}{subsection.6.4}\protected@file@percent }
-\newlabel{sec:validation}{{6.4}{13}{Validation on two measured edge devices}{subsection.6.4}{}}
-\newlabel{sec:validation@cref}{{[subsection][4][6]6.4}{[1][13][]13}}
-\newlabel{eq:modeltau}{{6}{13}{Validation on two measured edge devices}{equation.6.6}{}}
-\newlabel{eq:modeltau@cref}{{[equation][6][]6}{[1][13][]13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Where the latency of one decode token goes. (a) Per-component share for Llama-3.2-1B (public configuration) at a 2k-token context in four representative configurations (\cref  {tab:modelparams}); the total per-token time is printed beside each bar. (b) Non-GEMM share in the weight-resident configuration as a function of the non-GEMM throughput, for three context lengths; the two streamed configurations are marked for reference. The model is a first-order upper bound on exposed non-GEMM latency (no overlap); it replaces illustrative breakdowns with counts that follow from the model configuration and can be recomputed for any model and platform with the released script.}}{14}{figure.8}\protected@file@percent }
-\newlabel{fig:anatomy}{{8}{14}{Where the latency of one decode token goes. (a) Per-component share for Llama-3.2-1B (public configuration) at a 2k-token context in four representative configurations (\cref {tab:modelparams}); the total per-token time is printed beside each bar. (b) Non-GEMM share in the weight-resident configuration as a function of the non-GEMM throughput, for three context lengths; the two streamed configurations are marked for reference. The model is a first-order upper bound on exposed non-GEMM latency (no overlap); it replaces illustrative breakdowns with counts that follow from the model configuration and can be recomputed for any model and platform with the released script}{figure.8}{}}
-\newlabel{fig:anatomy@cref}{{[figure][8][]8}{[1][13][]14}}
+\citation{tellme2}
+\citation{li2026reasoning,ha2026smolpu}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Parameters of the first-order model (\cref  {eq:model}). Platform values are rounded, representative nominal figures for each class, not measurements of a specific product; the script in \ref  {app:model} exposes every value for change. \Cref  {sec:validation} tests the model on two measured devices.}}{11}{table.5}\protected@file@percent }
+\newlabel{tab:modelparams}{{5}{11}{Parameters of the first-order model (\cref {eq:model}). Platform values are rounded, representative nominal figures for each class, not measurements of a specific product; the script in \ref {app:model} exposes every value for change. \Cref {sec:validation} tests the model on two measured devices}{table.5}{}}
+\newlabel{tab:modelparams@cref}{{[table][5][]5}{[1][10][]11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Validation on two measured edge devices}{11}{subsection.6.4}\protected@file@percent }
+\newlabel{sec:validation}{{6.4}{11}{Validation on two measured edge devices}{subsection.6.4}{}}
+\newlabel{sec:validation@cref}{{[subsection][4][6]6.4}{[1][11][]11}}
+\newlabel{eq:modeltau}{{6}{11}{Validation on two measured edge devices}{equation.6.6}{}}
+\newlabel{eq:modeltau@cref}{{[equation][6][]6}{[1][11][]11}}
 \citation{tellme,tellme2}
 \citation{tereffic}
 \citation{tenet}
@@ -284,20 +272,20 @@
 \citation{wu2026oasis}
 \citation{tian2026palute}
 \citation{pittet2026ssr}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Where the latency of one decode token goes. (a) Per-component share for Llama-3.2-1B (public configuration) at a 2k-token context in four representative configurations (\cref  {tab:modelparams}); the total per-token time is printed beside each bar. (b) Non-GEMM share in the weight-resident configuration as a function of the non-GEMM throughput, for three context lengths; the two streamed configurations are marked for reference. The model is a first-order upper bound on exposed non-GEMM latency (no overlap); it replaces illustrative breakdowns with counts that follow from the model configuration and can be recomputed for any model and platform with the released script.}}{12}{figure.8}\protected@file@percent }
+\newlabel{fig:anatomy}{{8}{12}{Where the latency of one decode token goes. (a) Per-component share for Llama-3.2-1B (public configuration) at a 2k-token context in four representative configurations (\cref {tab:modelparams}); the total per-token time is printed beside each bar. (b) Non-GEMM share in the weight-resident configuration as a function of the non-GEMM throughput, for three context lengths; the two streamed configurations are marked for reference. The model is a first-order upper bound on exposed non-GEMM latency (no overlap); it replaces illustrative breakdowns with counts that follow from the model configuration and can be recomputed for any model and platform with the released script}{figure.8}{}}
+\newlabel{fig:anatomy@cref}{{[figure][8][]8}{[1][11][]12}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Prefill at the Edge}{12}{section.7}\protected@file@percent }
+\newlabel{sec:prefill}{{7}{12}{Prefill at the Edge}{section.7}{}}
+\newlabel{sec:prefill@cref}{{[section][7][]7}{[1][12][]12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Ternary and table-lookup matrix engines}{12}{subsection.7.1}\protected@file@percent }
 \citation{spatial_fpga}
 \citation{flightllm}
 \citation{edgellm}
 \citation{haris_edge}
 \citation{llamaf,lightmamba}
-\citation{ftrans}
-\citation{a3}
-\citation{elsa}
-\citation{spatten}
-\citation{energon}
-\citation{salo}
-\citation{mecla}
-\citation{fact}
-\citation{sofa}
+\citation{ftrans,a3,elsa,spatten,energon,salo}
+\citation{mecla,fact,sofa}
 \citation{distserve,splitwise}
 \citation{spad}
 \citation{zhang2025pdswap}
@@ -305,15 +293,6 @@
 \citation{kim2026revolver}
 \citation{zhang2026flexllm}
 \citation{wei2025agentxpu}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Validation of \cref  {eq:model} on a laptop CPU (Ryzen\nobreakspace  {}7 5800HS) and GPU (RTX\nobreakspace  {}3050 Laptop), Llama-3.2-1B, batch\nobreakspace  {}1. (a) Predicted vs.\ measured decode throughput (llama.cpp) for three weight precisions and four context depths. CPU predictions use only the measured read bandwidth. GPU predictions use $\beta $ and $\tau $ of \cref  {eq:modeltau} fitted on the two hollow points. (b) Context sweep at Q4\_0: the KV term matches on the GPU, whereas CPU attention is kernel-limited. (c) Measured operator shares of one decode step in eager PyTorch (FP32 on the CPU, FP16 on the GPU) at short and long contexts.}}{15}{figure.9}\protected@file@percent }
-\newlabel{fig:validation}{{9}{15}{Validation of \cref {eq:model} on a laptop CPU (Ryzen~7 5800HS) and GPU (RTX~3050 Laptop), Llama-3.2-1B, batch~1. (a) Predicted vs.\ measured decode throughput (llama.cpp) for three weight precisions and four context depths. CPU predictions use only the measured read bandwidth. GPU predictions use $\beta $ and $\tau $ of \cref {eq:modeltau} fitted on the two hollow points. (b) Context sweep at Q4\_0: the KV term matches on the GPU, whereas CPU attention is kernel-limited. (c) Measured operator shares of one decode step in eager PyTorch (FP32 on the CPU, FP16 on the GPU) at short and long contexts}{figure.9}{}}
-\newlabel{fig:validation@cref}{{[figure][9][]9}{[1][14][]15}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Prefill at the Edge}{15}{section.7}\protected@file@percent }
-\newlabel{sec:prefill}{{7}{15}{Prefill at the Edge}{section.7}{}}
-\newlabel{sec:prefill@cref}{{[section][7][]7}{[1][15][]15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Ternary and table-lookup matrix engines}{15}{subsection.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Spatial and dataflow FPGA mappings}{15}{subsection.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Phase-switched designs}{15}{subsection.7.3}\protected@file@percent }
 \citation{attacc}
 \citation{neupims}
 \citation{lolpim}
@@ -328,6 +307,15 @@
 \citation{cao2026pnm}
 \citation{zhao2026cosm}
 \citation{lee2026pimsherpa}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Validation of \cref  {eq:model} on an AMD Ryzen\nobreakspace  {}7 5800HS CPU and an NVIDIA RTX\nobreakspace  {}3050 GPU, Llama-3.2-1B, batch\nobreakspace  {}1. (a) Predicted vs.\ measured decode throughput (llama.cpp) for three weight precisions and four context depths. CPU predictions use only the measured read bandwidth. GPU predictions use $\beta $ and $\tau $ of \cref  {eq:modeltau} fitted on the two hollow points. (b) Context sweep at Q4\_0: the KV term matches on the GPU, whereas CPU attention is kernel-limited. (c) Measured operator shares of one decode step in eager PyTorch (FP32 on the CPU, FP16 on the GPU) at short and long contexts.}}{13}{figure.9}\protected@file@percent }
+\newlabel{fig:validation}{{9}{13}{Validation of \cref {eq:model} on an AMD Ryzen~7 5800HS CPU and an NVIDIA RTX~3050 GPU, Llama-3.2-1B, batch~1. (a) Predicted vs.\ measured decode throughput (llama.cpp) for three weight precisions and four context depths. CPU predictions use only the measured read bandwidth. GPU predictions use $\beta $ and $\tau $ of \cref {eq:modeltau} fitted on the two hollow points. (b) Context sweep at Q4\_0: the KV term matches on the GPU, whereas CPU attention is kernel-limited. (c) Measured operator shares of one decode step in eager PyTorch (FP32 on the CPU, FP16 on the GPU) at short and long contexts}{figure.9}{}}
+\newlabel{fig:validation@cref}{{[figure][9][]9}{[1][12][]13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Spatial and dataflow FPGA mappings}{13}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Phase-switched designs}{13}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Decode at the Edge}{13}{section.8}\protected@file@percent }
+\newlabel{sec:decode}{{8}{13}{Decode at the Edge}{section.8}{}}
+\newlabel{sec:decode@cref}{{[section][8][]8}{[1][13][]13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The KV cache: placement, shape, and size}{13}{subsection.8.1}\protected@file@percent }
 \citation{lad}
 \citation{duplex}
 \citation{mla_hw}
@@ -354,13 +342,6 @@
 \citation{he2025lpspec,ma2026ahasd}
 \citation{tombesi2026spectra}
 \citation{wang2026lever}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Decode at the Edge}{16}{section.8}\protected@file@percent }
-\newlabel{sec:decode}{{8}{16}{Decode at the Edge}{section.8}{}}
-\newlabel{sec:decode@cref}{{[section][8][]8}{[1][16][]16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}The KV cache: placement, shape, and size}{16}{subsection.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Amortizing the weight pass: speculation and early exit}{16}{subsection.8.2}\protected@file@percent }
-\newlabel{sec:spec}{{8.2}{16}{Amortizing the weight pass: speculation and early exit}{subsection.8.2}{}}
-\newlabel{sec:spec@cref}{{[subsection][2][8]8.2}{[1][16][]16}}
 \citation{swiftkv}
 \citation{tellme,tellme2}
 \citation{lidate25,hummingbird}
@@ -370,6 +351,10 @@
 \citation{nongemm_bench}
 \citation{isscc25_llm}
 \citation{mahbub_softmax}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Amortizing the weight pass: speculation and early exit}{14}{subsection.8.2}\protected@file@percent }
+\newlabel{sec:spec}{{8.2}{14}{Amortizing the weight pass: speculation and early exit}{subsection.8.2}{}}
+\newlabel{sec:spec@cref}{{[subsection][2][8]8.2}{[1][14][]14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Decode-specialized attention datapaths}{14}{subsection.8.3}\protected@file@percent }
 \citation{ita}
 \citation{consmax}
 \citation{sole}
@@ -386,70 +371,38 @@
 \citation{sur2026lightningrms}
 \citation{nnlut}
 \citation{peanovit}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Decode-specialized attention datapaths}{17}{subsection.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {9}Non-GEMM Operations at the Edge}{17}{section.9}\protected@file@percent }
-\newlabel{sec:nongemm}{{9}{17}{Non-GEMM Operations at the Edge}{section.9}{}}
-\newlabel{sec:nongemm@cref}{{[section][9][]9}{[1][17][]17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Softmax}{17}{subsection.9.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Layer normalization and RMSNorm}{17}{subsection.9.2}\protected@file@percent }
 \citation{alexandridis2026mive}
 \citation{yu2026nli}
 \citation{price2026mugi}
 \citation{sun2026unisfu,schaible2026chebyshev,sotoporras2026camta}
 \citation{li2026posenc}
-\citation{edgellm}
-\citation{llmnpu}
-\citation{shadownpu}
-\citation{murthy2026phase}
-\citation{alibi}
 \citation{llamaf}
-\citation{ropim}
-\citation{rome}
-\citation{chen2026batch1}
-\citation{lee2025ropefast}
+\citation{lidate25,hummingbird,tellme2,swiftkv,he2026skipopu,zhang2026flexllm}
 \citation{rope_cordic}
 \citation{ropim}
 \citation{rome}
-\citation{chen2025hsa}
 \citation{liu2026subspace}
-\citation{lidate25}
-\citation{hummingbird}
-\citation{tellme}
-\citation{tellme2}
-\citation{swiftkv}
-\citation{he2026skipopu,zhang2026flexllm}
-\citation{gu2025cent,li2025compair}
-\citation{lin2026vitallm}
-\citation{ando2025cgla}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Activations and shared nonlinear units}{18}{subsection.9.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Positional-encoding hardware: a consolidation}{18}{subsection.9.4}\protected@file@percent }
-\newlabel{sec:rope}{{9.4}{18}{Positional-encoding hardware: a consolidation}{subsection.9.4}{}}
-\newlabel{sec:rope@cref}{{[subsection][4][9]9.4}{[1][18][]18}}
+\citation{chen2025hsa}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Non-GEMM Operations at the Edge}{15}{section.9}\protected@file@percent }
+\newlabel{sec:nongemm}{{9}{15}{Non-GEMM Operations at the Edge}{section.9}{}}
+\newlabel{sec:nongemm@cref}{{[section][9][]9}{[1][14][]15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Softmax}{15}{subsection.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Layer normalization and RMSNorm}{15}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Activations and shared nonlinear units}{15}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Positional encoding: a case study in when a cheap operator becomes expensive}{15}{subsection.9.4}\protected@file@percent }
+\newlabel{sec:rope}{{9.4}{15}{Positional encoding: a case study in when a cheap operator becomes expensive}{subsection.9.4}{}}
+\newlabel{sec:rope@cref}{{[subsection][4][9]9.4}{[1][15][]15}}
+\citation{ropim}
+\citation{lee2025ropefast}
+\citation{llmnpu}
+\citation{shadownpu}
+\citation{murthy2026phase}
+\citation{edgellm}
 \citation{kvquant}
 \citation{chen2026p3llm}
 \citation{huang2026blockdiff}
 \citation{huang2026kvreuse}
 \citation{baek2025fireq,wu2025polarquant}
-\citation{zhang2025pdswap}
-\citation{rope_cordic}
-\citation{ropim}
-\citation{rome}
-\citation{chen2025hsa}
-\citation{liu2026subspace}
-\citation{lidate25}
-\citation{hummingbird}
-\citation{tellme}
-\citation{tellme2}
-\citation{swiftkv}
-\citation{he2026skipopu}
-\citation{zhang2026flexllm}
-\citation{gu2025cent,li2025compair}
-\citation{huang2026blockdiff}
-\citation{llmnpu}
-\citation{shadownpu}
-\citation{murthy2026phase}
-\citation{llamaf}
-\citation{ando2025cgla}
 \citation{tellme2}
 \citation{he2026skipopu}
 \citation{lidate25}
@@ -488,26 +441,29 @@
 \citation{tellme2}
 \citation{dtrans}
 \citation{operator_fusion}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Reported implementation costs of operator-level units}{19}{subsection.9.5}\protected@file@percent }
-\newlabel{sec:ppa}{{9.5}{19}{Reported implementation costs of operator-level units}{subsection.9.5}{}}
-\newlabel{sec:ppa@cref}{{[subsection][5][9]9.5}{[1][19][]19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Operator fusion}{19}{subsection.9.6}\protected@file@percent }
-\newlabel{sec:fusion}{{9.6}{19}{Operator fusion}{subsection.9.6}{}}
-\newlabel{sec:fusion@cref}{{[subsection][6][9]9.6}{[1][19][]19}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Catalogue of hardware work that implements, engineers, or offloads rotary positional encoding (literature to September 2026). Role: \emph  {dedicated} = RoPE is the primary object; \emph  {embedded} = RoPE unit inside a larger accelerator; \emph  {offload} = RoPE deliberately executed elsewhere. ``n/s'' = not stated in the source. Regime classes as in \cref  {sec:scope}; DC = data-center scale.}}{20}{table.6}\protected@file@percent }
-\newlabel{tab:rope}{{6}{20}{Catalogue of hardware work that implements, engineers, or offloads rotary positional encoding (literature to September 2026). Role: \emph {dedicated} = RoPE is the primary object; \emph {embedded} = RoPE unit inside a larger accelerator; \emph {offload} = RoPE deliberately executed elsewhere. ``n/s'' = not stated in the source. Regime classes as in \cref {sec:scope}; DC = data-center scale}{table.6}{}}
-\newlabel{tab:rope@cref}{{[table][6][]6}{[1][19][]20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The RoPE hardware design space, spanned by how the rotation angle is obtained (rows) and where the rotation executes (columns). Known designs cluster in the datapath and shared-unit columns; commercial NPU stacks fall back to the CPU; and the KV-read-path column---made relevant by pre-RoPE key quantization, compressed key storage, and KV reuse (\cref  {sec:rope})---has no design with a disclosed angle-generation strategy. The first RoPE datapath in measured silicon combines a step-angle lookup with an angle-accumulation recurrence\nobreakspace  {}\cite  {liu2026subspace}. No design reconfigures its strategy between prefill and decode.}}{20}{figure.10}\protected@file@percent }
-\newlabel{fig:rope}{{10}{20}{The RoPE hardware design space, spanned by how the rotation angle is obtained (rows) and where the rotation executes (columns). Known designs cluster in the datapath and shared-unit columns; commercial NPU stacks fall back to the CPU; and the KV-read-path column---made relevant by pre-RoPE key quantization, compressed key storage, and KV reuse (\cref {sec:rope})---has no design with a disclosed angle-generation strategy. The first RoPE datapath in measured silicon combines a step-angle lookup with an angle-accumulation recurrence~\cite {liu2026subspace}. No design reconfigures its strategy between prefill and decode}{figure.10}{}}
-\newlabel{fig:rope@cref}{{[figure][10][]10}{[1][19][]20}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Reported implementation costs of operator-level non-GEMM and RoPE hardware, from primary sources only. \textbf  {The rows must not be ranked against each other}: they span measured silicon, FPGA prototypes, post-layout and post-synthesis evaluation, and simulation, at nodes from 7\,nm to FPGA fabric, under different workloads and precisions. NR = not reported; missing values are not estimated. $^\dagger $Relative figure against the authors' own baseline. FPGA power is board- or tool-reported and not comparable with ASIC unit power.}}{21}{table.7}\protected@file@percent }
-\newlabel{tab:ppa}{{7}{21}{Reported implementation costs of operator-level non-GEMM and RoPE hardware, from primary sources only. \textbf {The rows must not be ranked against each other}: they span measured silicon, FPGA prototypes, post-layout and post-synthesis evaluation, and simulation, at nodes from 7\,nm to FPGA fabric, under different workloads and precisions. NR = not reported; missing values are not estimated. $^\dagger $Relative figure against the authors' own baseline. FPGA power is board- or tool-reported and not comparable with ASIC unit power}{table.7}{}}
-\newlabel{tab:ppa@cref}{{[table][7][]7}{[1][19][]21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Reported implementation costs of operator-level units}{16}{subsection.9.5}\protected@file@percent }
+\newlabel{sec:ppa}{{9.5}{16}{Reported implementation costs of operator-level units}{subsection.9.5}{}}
+\newlabel{sec:ppa@cref}{{[subsection][5][9]9.5}{[1][16][]16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.6}Operator fusion}{16}{subsection.9.6}\protected@file@percent }
+\newlabel{sec:fusion}{{9.6}{16}{Operator fusion}{subsection.9.6}{}}
+\newlabel{sec:fusion@cref}{{[subsection][6][9]9.6}{[1][16][]16}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Edge-Enabling Workload Transformations}{16}{section.10}\protected@file@percent }
+\newlabel{sec:transform}{{10}{16}{Edge-Enabling Workload Transformations}{section.10}{}}
+\newlabel{sec:transform@cref}{{[section][10][]10}{[1][16][]16}}
 \citation{smoothquant}
 \citation{awq}
 \citation{gptq}
+\citation{alsuhli2025numbersystems}
+\citation{jaradat2025hybridpruning}
 \citation{bitnet,bitnet158,bitnet_a48}
 \citation{tellme2,tereffic,tenet,lut_tensor,tmac,bitnetcpp}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The RoPE hardware design space, spanned by how the rotation angle is obtained (rows) and where the rotation executes (columns). Known designs cluster in the datapath and shared-unit columns; commercial NPU stacks fall back to the CPU; and the KV-read-path column, made relevant by pre-RoPE key quantization, compressed key storage, and KV reuse (\cref  {sec:rope}), has no design with a disclosed angle-generation strategy. The first RoPE datapath in measured silicon combines a step-angle lookup with an angle-accumulation recurrence\nobreakspace  {}\cite  {liu2026subspace}. No design reconfigures its strategy between prefill and decode.}}{17}{figure.10}\protected@file@percent }
+\newlabel{fig:rope}{{10}{17}{The RoPE hardware design space, spanned by how the rotation angle is obtained (rows) and where the rotation executes (columns). Known designs cluster in the datapath and shared-unit columns; commercial NPU stacks fall back to the CPU; and the KV-read-path column, made relevant by pre-RoPE key quantization, compressed key storage, and KV reuse (\cref {sec:rope}), has no design with a disclosed angle-generation strategy. The first RoPE datapath in measured silicon combines a step-angle lookup with an angle-accumulation recurrence~\cite {liu2026subspace}. No design reconfigures its strategy between prefill and decode}{figure.10}{}}
+\newlabel{fig:rope@cref}{{[figure][10][]10}{[1][16][]17}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Reported implementation costs of operator-level non-GEMM and RoPE hardware, from primary sources only. \textbf  {The rows must not be ranked against each other}: they span measured silicon, FPGA prototypes, post-layout and post-synthesis evaluation, and simulation, at nodes from 7\,nm to FPGA fabric, under different workloads and precisions. NR = not reported; missing values are not estimated. $^\dagger $Relative figure against the authors' own baseline. FPGA power is board- or tool-reported and not comparable with ASIC unit power.}}{17}{table.6}\protected@file@percent }
+\newlabel{tab:ppa}{{6}{17}{Reported implementation costs of operator-level non-GEMM and RoPE hardware, from primary sources only. \textbf {The rows must not be ranked against each other}: they span measured silicon, FPGA prototypes, post-layout and post-synthesis evaluation, and simulation, at nodes from 7\,nm to FPGA fabric, under different workloads and precisions. NR = not reported; missing values are not estimated. $^\dagger $Relative figure against the authors' own baseline. FPGA power is board- or tool-reported and not comparable with ASIC unit power}{table.6}{}}
+\newlabel{tab:ppa@cref}{{[table][6][]6}{[1][16][]17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Quantization and ternarization}{17}{subsection.10.1}\protected@file@percent }
 \citation{edgemoe}
 \citation{eliseev_moe,moeinfinity}
 \citation{daop}
@@ -534,28 +490,24 @@
 \citation{edgebench}
 \citation{xue2024powerinfer2}
 \citation{hao2026ttsnpu}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Edge-Enabling Workload Transformations}{22}{section.10}\protected@file@percent }
-\newlabel{sec:transform}{{10}{22}{Edge-Enabling Workload Transformations}{section.10}{}}
-\newlabel{sec:transform@cref}{{[section][10][]10}{[1][22][]22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Quantization and ternarization}{22}{subsection.10.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Mixture-of-experts routing at the edge}{22}{subsection.10.2}\protected@file@percent }
-\newlabel{sec:moe}{{10.2}{22}{Mixture-of-experts routing at the edge}{subsection.10.2}{}}
-\newlabel{sec:moe@cref}{{[subsection][2][10]10.2}{[1][22][]22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Attention alternatives: state-space and linear-attention models}{22}{subsection.10.3}\protected@file@percent }
-\newlabel{sec:ssm}{{10.3}{22}{Attention alternatives: state-space and linear-attention models}{subsection.10.3}{}}
-\newlabel{sec:ssm@cref}{{[subsection][3][10]10.3}{[1][22][]22}}
-\@writefile{toc}{\contentsline {section}{\numberline {11}Emerging and Heterogeneous Edge Hardware}{22}{section.11}\protected@file@percent }
-\newlabel{sec:emerging}{{11}{22}{Emerging and Heterogeneous Edge Hardware}{section.11}{}}
-\newlabel{sec:emerging@cref}{{[section][11][]11}{[1][22][]22}}
 \citation{hardsea}
 \citation{pimgpt}
-\citation{att_reram,retransformer,xformer}
+\citation{att_reram,retransformer,xformer,halawani2019reram,bettayeb2024memristor}
 \citation{multcim,ctransformer,wang2025llmcim,li2026tokcim,guo2026rcwcim}
 \citation{wu2025cella}
 \citation{guo2026rcwcim}
 \citation{tron}
 \citation{braintransformers}
 \citation{moon2026blockdiffusion}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Mixture-of-experts routing at the edge}{18}{subsection.10.2}\protected@file@percent }
+\newlabel{sec:moe}{{10.2}{18}{Mixture-of-experts routing at the edge}{subsection.10.2}{}}
+\newlabel{sec:moe@cref}{{[subsection][2][10]10.2}{[1][18][]18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3}Attention alternatives: state-space and linear-attention models}{18}{subsection.10.3}\protected@file@percent }
+\newlabel{sec:ssm}{{10.3}{18}{Attention alternatives: state-space and linear-attention models}{subsection.10.3}{}}
+\newlabel{sec:ssm@cref}{{[subsection][3][10]10.3}{[1][18][]18}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Emerging and Heterogeneous Edge Hardware}{18}{section.11}\protected@file@percent }
+\newlabel{sec:emerging}{{11}{18}{Emerging and Heterogeneous Edge Hardware}{section.11}{}}
+\newlabel{sec:emerging@cref}{{[section][11][]11}{[1][18][]18}}
 \citation{kachris,koilia}
 \citation{koilia}
 \citation{llmcompass}
@@ -583,29 +535,35 @@
 \citation{flightllm}
 \citation{edgellm}
 \citation{lidate25}
-\@writefile{toc}{\contentsline {section}{\numberline {12}Edge-Normalized Comparative Analysis}{23}{section.12}\protected@file@percent }
-\newlabel{sec:compare}{{12}{23}{Edge-Normalized Comparative Analysis}{section.12}{}}
-\newlabel{sec:compare@cref}{{[section][12][]12}{[1][23][]23}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.1}The incomparability problem}{23}{subsection.12.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2}A normalized comparison}{23}{subsection.12.2}\protected@file@percent }
 \citation{hummingbird}
 \citation{tellme2,flightllm}
 \citation{tereffic}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Reported decode results of representative LLM accelerators, grouped by weight residency. Throughput is batch-1 decode as reported by the primary source; ``---'' marks a field the source does not report. \textbf  {Rows are grouped, not ranked}: baselines, models, precisions, and memory systems differ (e.g., about 460\,GB/s for a cloud U280 against 19.2\,GB/s for an edge KV260\nobreakspace  {}\cite  {lidate25}). TerEffic is a residency reference point whose on-chip configuration spans several datacenter-class FPGAs; FlightLLM and EdgeLLM are cloud-FPGA reference points.}}{24}{table.8}\protected@file@percent }
-\newlabel{tab:compare}{{8}{24}{Reported decode results of representative LLM accelerators, grouped by weight residency. Throughput is batch-1 decode as reported by the primary source; ``---'' marks a field the source does not report. \textbf {Rows are grouped, not ranked}: baselines, models, precisions, and memory systems differ (e.g., about 460\,GB/s for a cloud U280 against 19.2\,GB/s for an edge KV260~\cite {lidate25}). TerEffic is a residency reference point whose on-chip configuration spans several datacenter-class FPGAs; FlightLLM and EdgeLLM are cloud-FPGA reference points}{table.8}{}}
-\newlabel{tab:compare@cref}{{[table][8][]8}{[1][23][]24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.3}Reading reported results against the ceiling}{24}{subsection.12.3}\protected@file@percent }
-\newlabel{sec:calc}{{12.3}{24}{Reading reported results against the ceiling}{subsection.12.3}{}}
-\newlabel{sec:calc@cref}{{[subsection][3][12]12.3}{[1][23][]24}}
-\newlabel{eq:ceiling}{{7}{24}{Reading reported results against the ceiling}{equation.12.7}{}}
-\newlabel{eq:ceiling@cref}{{[equation][7][]7}{[1][24][]24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.4}A minimal reporting template}{24}{subsection.12.4}\protected@file@percent }
-\newlabel{sec:template}{{12.4}{24}{A minimal reporting template}{subsection.12.4}{}}
-\newlabel{sec:template@cref}{{[subsection][4][12]12.4}{[1][24][]24}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Minimal reporting template for edge LLM accelerators. Starred fields ($\star $) are the ones most often missing and most responsible for cross-paper incomparability.}}{24}{table.9}\protected@file@percent }
-\newlabel{tab:template}{{9}{24}{Minimal reporting template for edge LLM accelerators. Starred fields ($\star $) are the ones most often missing and most responsible for cross-paper incomparability}{table.9}{}}
-\newlabel{tab:template@cref}{{[table][9][]9}{[1][24][]24}}
+\@writefile{toc}{\contentsline {section}{\numberline {12}Edge-Normalized Comparative Analysis}{19}{section.12}\protected@file@percent }
+\newlabel{sec:compare}{{12}{19}{Edge-Normalized Comparative Analysis}{section.12}{}}
+\newlabel{sec:compare@cref}{{[section][12][]12}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.1}The incomparability problem}{19}{subsection.12.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2}A normalized comparison}{19}{subsection.12.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.3}Reading reported results against the ceiling}{19}{subsection.12.3}\protected@file@percent }
+\newlabel{sec:calc}{{12.3}{19}{Reading reported results against the ceiling}{subsection.12.3}{}}
+\newlabel{sec:calc@cref}{{[subsection][3][12]12.3}{[1][19][]19}}
+\newlabel{eq:ceiling}{{7}{19}{Reading reported results against the ceiling}{equation.12.7}{}}
+\newlabel{eq:ceiling@cref}{{[equation][7][]7}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.4}A minimal reporting template}{19}{subsection.12.4}\protected@file@percent }
+\newlabel{sec:template}{{12.4}{19}{A minimal reporting template}{subsection.12.4}{}}
+\newlabel{sec:template@cref}{{[subsection][4][12]12.4}{[1][19][]19}}
 \citation{geens2026lut}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Reported decode results of representative LLM accelerators, grouped by weight residency. Throughput is batch-1 decode as reported by the primary source; ``---'' marks a field the source does not report. \textbf  {Rows are grouped rather than ranked}: baselines, models, precisions, and memory systems differ (e.g., about 460\,GB/s for a cloud U280 against 19.2\,GB/s for an edge KV260\nobreakspace  {}\cite  {lidate25}). TerEffic is a residency reference point whose on-chip configuration spans several datacenter-class FPGAs; FlightLLM and EdgeLLM are cloud-FPGA reference points.}}{20}{table.7}\protected@file@percent }
+\newlabel{tab:compare}{{7}{20}{Reported decode results of representative LLM accelerators, grouped by weight residency. Throughput is batch-1 decode as reported by the primary source; ``---'' marks a field the source does not report. \textbf {Rows are grouped rather than ranked}: baselines, models, precisions, and memory systems differ (e.g., about 460\,GB/s for a cloud U280 against 19.2\,GB/s for an edge KV260~\cite {lidate25}). TerEffic is a residency reference point whose on-chip configuration spans several datacenter-class FPGAs; FlightLLM and EdgeLLM are cloud-FPGA reference points}{table.7}{}}
+\newlabel{tab:compare@cref}{{[table][7][]7}{[1][19][]20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Reading reported decode throughput. (a) Reported throughput versus model size for the designs of \cref  {tab:compare}, shaded by residency (on-chip-resident versus off-chip-streamed weights); the vertical spread tracks residency rather than model size. (b) Reported throughput as a fraction of the memory-bound ceiling of \cref  {eq:ceiling}: streamed designs fall at or below the ceiling, and the resident design lies far above it, outside the model's scope. Reproduced by the released scripts (\ref  {app:model}).}}{20}{figure.11}\protected@file@percent }
+\newlabel{fig:compare}{{11}{20}{Reading reported decode throughput. (a) Reported throughput versus model size for the designs of \cref {tab:compare}, shaded by residency (on-chip-resident versus off-chip-streamed weights); the vertical spread tracks residency rather than model size. (b) Reported throughput as a fraction of the memory-bound ceiling of \cref {eq:ceiling}: streamed designs fall at or below the ceiling, and the resident design lies far above it, outside the model's scope. Reproduced by the released scripts (\ref {app:model})}{figure.11}{}}
+\newlabel{fig:compare@cref}{{[figure][11][]11}{[1][19][]20}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Minimal reporting template for edge LLM accelerators. Starred fields ($\star $) are the ones most often missing and most responsible for cross-paper incomparability.}}{20}{table.8}\protected@file@percent }
+\newlabel{tab:template}{{8}{20}{Minimal reporting template for edge LLM accelerators. Starred fields ($\star $) are the ones most often missing and most responsible for cross-paper incomparability}{table.8}{}}
+\newlabel{tab:template@cref}{{[table][8][]8}{[1][19][]20}}
+\@writefile{toc}{\contentsline {section}{\numberline {13}Lessons Learned and Design Guidelines}{20}{section.13}\protected@file@percent }
+\newlabel{sec:lessons}{{13}{20}{Lessons Learned and Design Guidelines}{section.13}{}}
+\newlabel{sec:lessons@cref}{{[section][13][]13}{[1][20][]20}}
 \citation{edgemoe,daop,hybrimoe}
 \citation{awq,bitnet158}
 \citation{hummingbird,lidate25}
@@ -620,12 +578,6 @@
 \citation{chen2025hsa,rope_cordic}
 \citation{tellme2,lut_tensor,tmac}
 \citation{spatial_fpga}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Reading reported decode throughput. (a) Reported throughput versus model size for the designs of \cref  {tab:compare}, shaded by residency (on-chip-resident versus off-chip-streamed weights); the vertical spread tracks residency, not model size. (b) Reported throughput as a fraction of the memory-bound ceiling of \cref  {eq:ceiling}: streamed designs fall at or below the ceiling, and the resident design lies far above it, outside the model's scope. Reproduced by the released scripts (\ref  {app:model}).}}{25}{figure.11}\protected@file@percent }
-\newlabel{fig:compare}{{11}{25}{Reading reported decode throughput. (a) Reported throughput versus model size for the designs of \cref {tab:compare}, shaded by residency (on-chip-resident versus off-chip-streamed weights); the vertical spread tracks residency, not model size. (b) Reported throughput as a fraction of the memory-bound ceiling of \cref {eq:ceiling}: streamed designs fall at or below the ceiling, and the resident design lies far above it, outside the model's scope. Reproduced by the released scripts (\ref {app:model})}{figure.11}{}}
-\newlabel{fig:compare@cref}{{[figure][11][]11}{[1][24][]25}}
-\@writefile{toc}{\contentsline {section}{\numberline {13}Lessons Learned and Design Guidelines}{25}{section.13}\protected@file@percent }
-\newlabel{sec:lessons}{{13}{25}{Lessons Learned and Design Guidelines}{section.13}{}}
-\newlabel{sec:lessons@cref}{{[section][13][]13}{[1][25][]25}}
 \citation{openai2025gptoss}
 \citation{openai2025gptoss}
 \citation{snell2024ttc}
@@ -641,65 +593,61 @@
 \citation{dao2024mamba2,yang2025gdn,lieber2024jamba}
 \citation{gupta2026gdn,lightmamba,yoo2026lutssm}
 \citation{das2025xamba}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A decision procedure for edge LLM accelerator design distilled from the survey. Each question is answered with the first-order model of \cref  {sec:model} for the target model, context, and platform; each leaf lists the techniques that address the corresponding binding constraint and the section that surveys them. Because fixing one constraint exposes the next, the procedure is iterated: a design that resolves weight streaming typically re-enters at the KV or non-GEMM question.}}{26}{figure.12}\protected@file@percent }
-\newlabel{fig:flow}{{12}{26}{A decision procedure for edge LLM accelerator design distilled from the survey. Each question is answered with the first-order model of \cref {sec:model} for the target model, context, and platform; each leaf lists the techniques that address the corresponding binding constraint and the section that surveys them. Because fixing one constraint exposes the next, the procedure is iterated: a design that resolves weight streaming typically re-enters at the KV or non-GEMM question}{figure.12}{}}
-\newlabel{fig:flow@cref}{{[figure][12][]12}{[1][25][]26}}
-\@writefile{toc}{\contentsline {section}{\numberline {14}The Workload Frontier: What 2025--2026 Models Ask of Edge Hardware}{26}{section.14}\protected@file@percent }
-\newlabel{sec:frontier}{{14}{26}{The Workload Frontier: What 2025--2026 Models Ask of Edge Hardware}{section.14}{}}
-\newlabel{sec:frontier@cref}{{[section][14][]14}{[1][26][]26}}
 \citation{speculative,medusa,li2024eagle}
 \citation{nie2025llada,arriola2025bd3lm,wu2025fastdllm}
 \citation{moon2026blockdiffusion,huang2026blockdiff,lou2026dllmnpu}
 \citation{ha2026smolpu,dong2026reram}
+\@writefile{toc}{\contentsline {section}{\numberline {14}The Workload Frontier: What 2025--2026 Models Ask of Edge Hardware}{21}{section.14}\protected@file@percent }
+\newlabel{sec:frontier}{{14}{21}{The Workload Frontier: What 2025--2026 Models Ask of Edge Hardware}{section.14}{}}
+\newlabel{sec:frontier@cref}{{[section][14][]14}{[1][21][]21}}
 \citation{openai2025gptoss}
 \citation{edgemoe,hybrimoe,xue2024powerinfer2,zhang2026estream}
 \citation{ha2026smolpu,ha2026edgexpert}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The 2025--2026 workload shifts seen through \cref  {eq:model}. (a)\nobreakspace  {}Bytes read per decode token for the weights (W4) and the KV cache as context grows. Dots mark where the cache read equals the weight read: 18k tokens at FP16, 37k at INT8, and 65k with an MLA-style latent cache. A 2-bit cache and a hybrid model with one attention layer in four coincide. (b)\nobreakspace  {}Time per generated token on the phone-class NPU, split by binding term. Reasoning uses 32k context. Speculative decoding drafts four tokens with a draft model one-tenth the size and 70\% acceptance. Diffusion uses blocks of 32 tokens and 8 denoising steps. The MoE row is a 21B-total, 3.6B-active model of the gpt-oss-20b class\nobreakspace  {}\cite  {openai2025gptoss}; its flash variant assumes 10\% of expert reads miss DRAM and are served from 4\,GB/s flash. (c)\nobreakspace  {}Non-GEMM share and time per token on the weight-resident configuration for the same dense-model scenarios. The ``pre-RoPE keys'' scenario stores keys before rotation, so every cached key is rotated again at every step.}}{27}{figure.13}\protected@file@percent }
-\newlabel{fig:frontier}{{13}{27}{The 2025--2026 workload shifts seen through \cref {eq:model}. (a)~Bytes read per decode token for the weights (W4) and the KV cache as context grows. Dots mark where the cache read equals the weight read: 18k tokens at FP16, 37k at INT8, and 65k with an MLA-style latent cache. A 2-bit cache and a hybrid model with one attention layer in four coincide. (b)~Time per generated token on the phone-class NPU, split by binding term. Reasoning uses 32k context. Speculative decoding drafts four tokens with a draft model one-tenth the size and 70\% acceptance. Diffusion uses blocks of 32 tokens and 8 denoising steps. The MoE row is a 21B-total, 3.6B-active model of the gpt-oss-20b class~\cite {openai2025gptoss}; its flash variant assumes 10\% of expert reads miss DRAM and are served from 4\,GB/s flash. (c)~Non-GEMM share and time per token on the weight-resident configuration for the same dense-model scenarios. The ``pre-RoPE keys'' scenario stores keys before rotation, so every cached key is rotated again at every step}{figure.13}{}}
-\newlabel{fig:frontier@cref}{{[figure][13][]13}{[1][26][]27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A decision procedure for edge LLM accelerator design distilled from the survey. Each question is answered with the first-order model of \cref  {sec:model} for the target model, context, and platform; each leaf lists the techniques that address the corresponding binding constraint and the section that surveys them. Because fixing one constraint exposes the next, the procedure is iterated: a design that resolves weight streaming typically re-enters at the KV or non-GEMM question.}}{22}{figure.12}\protected@file@percent }
+\newlabel{fig:flow}{{12}{22}{A decision procedure for edge LLM accelerator design distilled from the survey. Each question is answered with the first-order model of \cref {sec:model} for the target model, context, and platform; each leaf lists the techniques that address the corresponding binding constraint and the section that surveys them. Because fixing one constraint exposes the next, the procedure is iterated: a design that resolves weight streaming typically re-enters at the KV or non-GEMM question}{figure.12}{}}
+\newlabel{fig:flow@cref}{{[figure][12][]12}{[1][21][]22}}
 \citation{li2026reasoning,tao2026slmdecoder,mun2026spectra,wang2025pdacc,chen2026d2cim,lin2026vitallmchip,liu2026subspace,wu2025cella}
 \citation{chen2025hsa,liu2026subspace}
 \citation{ha2026smolpu}
 \citation{multcim,ctransformer,wang2025llmcim,li2026tokcim,guo2026rcwcim}
 \citation{fact,cta,sofa,mcbp,acceltran,h3d}
 \citation{wang2025llmcim,li2026tokcim,xuan2026fusioncim,ahn2025cimple}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The 2025--2026 workload shifts seen through \cref  {eq:model}. (a)\nobreakspace  {}Bytes read per decode token for the weights (W4) and the KV cache as context grows. Dots mark where the cache read equals the weight read: 18k tokens at FP16, 37k at INT8, and 65k with an MLA-style latent cache. A 2-bit cache and a hybrid model with one attention layer in four coincide. (b)\nobreakspace  {}Time per generated token on the phone-class NPU, split by binding term. Reasoning uses 32k context. Speculative decoding drafts four tokens with a draft model one-tenth the size and 70\% acceptance. Diffusion uses blocks of 32 tokens and 8 denoising steps. The MoE row is a 21B-total, 3.6B-active model of the gpt-oss-20b class\nobreakspace  {}\cite  {openai2025gptoss}; its flash variant assumes 10\% of expert reads miss DRAM and are served from 4\,GB/s flash. (c)\nobreakspace  {}Non-GEMM share and time per token on the weight-resident configuration for the same dense-model scenarios; ``pre-RoPE keys'' stores keys before rotation (\cref  {sec:rope}).}}{23}{figure.13}\protected@file@percent }
+\newlabel{fig:frontier}{{13}{23}{The 2025--2026 workload shifts seen through \cref {eq:model}. (a)~Bytes read per decode token for the weights (W4) and the KV cache as context grows. Dots mark where the cache read equals the weight read: 18k tokens at FP16, 37k at INT8, and 65k with an MLA-style latent cache. A 2-bit cache and a hybrid model with one attention layer in four coincide. (b)~Time per generated token on the phone-class NPU, split by binding term. Reasoning uses 32k context. Speculative decoding drafts four tokens with a draft model one-tenth the size and 70\% acceptance. Diffusion uses blocks of 32 tokens and 8 denoising steps. The MoE row is a 21B-total, 3.6B-active model of the gpt-oss-20b class~\cite {openai2025gptoss}; its flash variant assumes 10\% of expert reads miss DRAM and are served from 4\,GB/s flash. (c)~Non-GEMM share and time per token on the weight-resident configuration for the same dense-model scenarios; ``pre-RoPE keys'' stores keys before rotation (\cref {sec:rope})}{figure.13}{}}
+\newlabel{fig:frontier@cref}{{[figure][13][]13}{[1][21][]23}}
+\@writefile{toc}{\contentsline {section}{\numberline {15}Open Challenges, Gap Matrix, and Roadmap}{23}{section.15}\protected@file@percent }
+\newlabel{sec:gaps}{{15}{23}{Open Challenges, Gap Matrix, and Roadmap}{section.15}{}}
+\newlabel{sec:gaps@cref}{{[section][15][]15}{[1][23][]23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.1}The census-derived gap matrix}{23}{subsection.15.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2}Are the gaps worth filling? A critical appraisal}{23}{subsection.15.2}\protected@file@percent }
+\newlabel{sec:gap_critique}{{15.2}{23}{Are the gaps worth filling? A critical appraisal}{subsection.15.2}{}}
+\newlabel{sec:gap_critique@cref}{{[subsection][2][15]15.2}{[1][23][]23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Deployability map. (a) Longest context that fits each platform class at 4-bit weights with an INT8 KV cache (bars) or a 2-bit KV cache (ticks), with a 10\% runtime overhead; models use their public configurations. (b) Memory-bound decode ceiling (\cref  {eq:ceiling}) at 8k context for the configurations that fit. Platform constants are nominal class values: embedded FPGA (KV260) 3.5\,GB usable, 19.2\,GB/s; RTX\nobreakspace  {}3050 3.6\,GB, 187\,GB/s (measured); Jetson Orin Nano 6\,GB usable of 8\,GB shared, 68\,GB/s; flagship phone 6\,GB usable of 12\,GB LPDDR5X, 60\,GB/s. A milliwatt ASIC with 16\,MB on-die SRAM holds no model in this range at 4 bits and is discussed in the text.}}{24}{figure.14}\protected@file@percent }
+\newlabel{fig:fitmap}{{14}{24}{Deployability map. (a) Longest context that fits each platform class at 4-bit weights with an INT8 KV cache (bars) or a 2-bit KV cache (ticks), with a 10\% runtime overhead; models use their public configurations. (b) Memory-bound decode ceiling (\cref {eq:ceiling}) at 8k context for the configurations that fit. Platform constants are nominal class values: embedded FPGA (KV260) 3.5\,GB usable, 19.2\,GB/s; RTX~3050 3.6\,GB, 187\,GB/s (measured); Jetson Orin Nano 6\,GB usable of 8\,GB shared, 68\,GB/s; flagship phone 6\,GB usable of 12\,GB LPDDR5X, 60\,GB/s. A milliwatt ASIC with 16\,MB on-die SRAM holds no model in this range at 4 bits and is discussed in the text}{figure.14}{}}
+\newlabel{fig:fitmap@cref}{{[figure][14][]14}{[1][22][]24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The edge gap matrix, computed from the design census (\cref  {tab:census}, $n=84$). Each cell counts the dedicated edge-regime designs that target the component (row) within the power class (column); a design that targets several components appears in each corresponding row. Counts are lower bounds on a fast-moving literature; \cref  {tab:robust} shows that the conclusions drawn from them survive the removal of preprints, simulation-only and encoder rows, and random reclassification.}}{24}{figure.15}\protected@file@percent }
+\newlabel{fig:gapheat}{{15}{24}{The edge gap matrix, computed from the design census (\cref {tab:census}, $n=\ncensus $). Each cell counts the dedicated edge-regime designs that target the component (row) within the power class (column); a design that targets several components appears in each corresponding row. Counts are lower bounds on a fast-moving literature; \cref {tab:robust} shows that the conclusions drawn from them survive the removal of preprints, simulation-only and encoder rows, and random reclassification}{figure.15}{}}
+\newlabel{fig:gapheat@cref}{{[figure][15][]15}{[1][23][]24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Priority map of the identified gaps. Horizontal position: implementation difficulty and risk; vertical position: latency--energy headroom a dedicated design could plausibly recover (High $>$20\%, Medium 5--20\%, Low $<$5\%); marker size: importance of the component (\cref  {tab:complexity}); colour: verdict. The map is a reasoned judgement with explicit axes, so a reader who weighs them differently can re-derive a different ordering from the same evidence.}}{24}{figure.16}\protected@file@percent }
+\newlabel{fig:priority}{{16}{24}{Priority map of the identified gaps. Horizontal position: implementation difficulty and risk; vertical position: latency--energy headroom a dedicated design could plausibly recover (High $>$20\%, Medium 5--20\%, Low $<$5\%); marker size: importance of the component (\cref {tab:complexity}); colour: verdict. The map is a reasoned judgement with explicit axes, so a reader who weighs them differently can re-derive a different ordering from the same evidence}{figure.16}{}}
+\newlabel{fig:priority@cref}{{[figure][16][]16}{[1][23][]24}}
 \citation{lin2026cdpim,chen2026p3llm,attacc,lolpim}
-\@writefile{toc}{\contentsline {section}{\numberline {15}Open Challenges, Gap Matrix, and Roadmap}{28}{section.15}\protected@file@percent }
-\newlabel{sec:gaps}{{15}{28}{Open Challenges, Gap Matrix, and Roadmap}{section.15}{}}
-\newlabel{sec:gaps@cref}{{[section][15][]15}{[1][28][]28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.1}The census-derived gap matrix}{28}{subsection.15.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2}Are the gaps worth filling? A critical appraisal}{28}{subsection.15.2}\protected@file@percent }
-\newlabel{sec:gap_critique}{{15.2}{28}{Are the gaps worth filling? A critical appraisal}{subsection.15.2}{}}
-\newlabel{sec:gap_critique@cref}{{[subsection][2][15]15.2}{[1][28][]28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The edge gap matrix, computed from the design census (\cref  {tab:census}, $n=84$). Each cell counts the dedicated edge-regime designs that target the component (row) within the power class (column); a design that targets several components appears in each corresponding row. Counts are lower bounds on a fast-moving literature; \cref  {tab:robust} shows that the conclusions drawn from them survive the removal of preprints, simulation-only and encoder rows, and random reclassification.}}{28}{figure.14}\protected@file@percent }
-\newlabel{fig:gapheat}{{14}{28}{The edge gap matrix, computed from the design census (\cref {tab:census}, $n=\ncensus $). Each cell counts the dedicated edge-regime designs that target the component (row) within the power class (column); a design that targets several components appears in each corresponding row. Counts are lower bounds on a fast-moving literature; \cref {tab:robust} shows that the conclusions drawn from them survive the removal of preprints, simulation-only and encoder rows, and random reclassification}{figure.14}{}}
-\newlabel{fig:gapheat@cref}{{[figure][14][]14}{[1][28][]28}}
 \citation{rope_cordic,swiftkv,ropim,chen2025hsa}
 \citation{kvquant,huang2026kvreuse}
 \citation{edgemoe,daop,hybrimoe,duplex}
 \citation{tellme2,tereffic,lut_tensor}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Priority map of the identified gaps. Horizontal position: implementation difficulty and risk; vertical position: latency--energy headroom a dedicated design could plausibly recover (High $>$20\%, Medium 5--20\%, Low $<$5\%); marker size: importance of the component (\cref  {tab:complexity}); colour: verdict. The map is a reasoned judgement with explicit axes, so a reader who weighs them differently can re-derive a different ordering from the same evidence.}}{29}{figure.15}\protected@file@percent }
-\newlabel{fig:priority}{{15}{29}{Priority map of the identified gaps. Horizontal position: implementation difficulty and risk; vertical position: latency--energy headroom a dedicated design could plausibly recover (High $>$20\%, Medium 5--20\%, Low $<$5\%); marker size: importance of the component (\cref {tab:complexity}); colour: verdict. The map is a reasoned judgement with explicit axes, so a reader who weighs them differently can re-derive a different ordering from the same evidence}{figure.15}{}}
-\newlabel{fig:priority@cref}{{[figure][15][]15}{[1][28][]29}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.3}From gaps to a research agenda}{29}{subsection.15.3}\protected@file@percent }
-\newlabel{sec:agenda}{{15.3}{29}{From gaps to a research agenda}{subsection.15.3}{}}
-\newlabel{sec:agenda@cref}{{[subsection][3][15]15.3}{[1][29][]29}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.4}Limitations and threats to validity}{29}{subsection.15.4}\protected@file@percent }
-\newlabel{sec:limitations}{{15.4}{29}{Limitations and threats to validity}{subsection.15.4}{}}
-\newlabel{sec:limitations@cref}{{[subsection][4][15]15.4}{[1][29][]29}}
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces A research agenda for edge LLM hardware. Each row joins a census gap (\cref  {fig:gapheat}), a measured or modelled effect (\cref  {sec:validation,sec:frontier}), the metric by which progress should be judged, and a concrete first step. Rows are ordered by the priority of \cref  {fig:priority}, with the frontier problems inserted where their evidence places them.}}{30}{table.10}\protected@file@percent }
-\newlabel{tab:agenda}{{10}{30}{A research agenda for edge LLM hardware. Each row joins a census gap (\cref {fig:gapheat}), a measured or modelled effect (\cref {sec:validation,sec:frontier}), the metric by which progress should be judged, and a concrete first step. Rows are ordered by the priority of \cref {fig:priority}, with the frontier problems inserted where their evidence places them}{table.10}{}}
-\newlabel{tab:agenda@cref}{{[table][10][]10}{[1][29][]30}}
-\@writefile{toc}{\contentsline {section}{\numberline {16}Conclusion}{30}{section.16}\protected@file@percent }
-\newlabel{sec:conclusion}{{16}{30}{Conclusion}{section.16}{}}
-\newlabel{sec:conclusion@cref}{{[section][16][]16}{[1][30][]30}}
-\@writefile{toc}{\let\numberline\tmptocnumberline}
-\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}A}Scope-classification rubric for the survey comparison}{31}{appendix.A}\protected@file@percent }
-\newlabel{app:rubric}{{Appendix \nobreakspace  {}A}{31}{Scope-classification rubric for the survey comparison}{appendix.A}{}}
-\newlabel{app:rubric@cref}{{[appendix][1][2147483647]Appendix \nobreakspace  {}A}{[1][31][]31}}
-\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}B}Reproducibility of the analytical and measured results}{31}{appendix.B}\protected@file@percent }
-\newlabel{app:model}{{Appendix \nobreakspace  {}B}{31}{Reproducibility of the analytical and measured results}{appendix.B}{}}
-\newlabel{app:model@cref}{{[appendix][2][2147483647]Appendix \nobreakspace  {}B}{[1][31][]31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.3}From gaps to a research agenda}{25}{subsection.15.3}\protected@file@percent }
+\newlabel{sec:agenda}{{15.3}{25}{From gaps to a research agenda}{subsection.15.3}{}}
+\newlabel{sec:agenda@cref}{{[subsection][3][15]15.3}{[1][25][]25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.4}Limitations and threats to validity}{25}{subsection.15.4}\protected@file@percent }
+\newlabel{sec:limitations}{{15.4}{25}{Limitations and threats to validity}{subsection.15.4}{}}
+\newlabel{sec:limitations@cref}{{[subsection][4][15]15.4}{[1][25][]25}}
+\@writefile{toc}{\contentsline {section}{\numberline {16}Conclusion}{25}{section.16}\protected@file@percent }
+\newlabel{sec:conclusion}{{16}{25}{Conclusion}{section.16}{}}
+\newlabel{sec:conclusion@cref}{{[section][16][]16}{[1][25][]25}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces A research agenda for edge LLM hardware. Each row joins a census gap (\cref  {fig:gapheat}), a measured or modelled effect (\cref  {sec:validation,sec:frontier}), the metric by which progress should be judged, and a concrete first step. Rows are ordered by the priority of \cref  {fig:priority}, with the frontier problems inserted where their evidence places them.}}{26}{table.9}\protected@file@percent }
+\newlabel{tab:agenda}{{9}{26}{A research agenda for edge LLM hardware. Each row joins a census gap (\cref {fig:gapheat}), a measured or modelled effect (\cref {sec:validation,sec:frontier}), the metric by which progress should be judged, and a concrete first step. Rows are ordered by the priority of \cref {fig:priority}, with the frontier problems inserted where their evidence places them}{table.9}{}}
+\newlabel{tab:agenda@cref}{{[table][9][]9}{[1][25][]26}}
 \citation{ma2026ahasd}
 \citation{lin2026cdpim}
 \citation{cao2026pnm}
@@ -784,24 +732,23 @@
 \citation{multcim}
 \citation{tambe_isscc}
 \citation{edgebert_chip}
-\gdef \LT@i {\LT@entry 
-    {1}{82.6678pt}\LT@entry 
-    {4}{20.0pt}\LT@entry 
-    {1}{91.35826pt}\LT@entry 
-    {4}{33.923pt}\LT@entry 
-    {1}{22.331pt}\LT@entry 
-    {4}{77.13188pt}\LT@entry 
-    {4}{33.55501pt}}
-\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}C}The design census}{33}{appendix.C}\protected@file@percent }
-\newlabel{app:census}{{Appendix \nobreakspace  {}C}{33}{The design census}{appendix.C}{}}
-\newlabel{app:census@cref}{{[appendix][3][2147483647]Appendix \nobreakspace  {}C}{[1][33][]33}}
-\@writefile{lot}{\contentsline {table}{\numberline {C.11}{The edge-regime design census (cut-off September 2026; $n=84$). Regime classes are defined in \cref  {sec:scope}; operator-level units (phase op.) are classified by the regime of their intended integration target. Phase: P = prefill, D = decode. Components: Att = attention products, KV\$ = KV-cache handling, SM = Softmax, Norm = normalization, Act = activation. Impl.: Si = measured silicon; SoC = measured on commercial mobile silicon; FPGA = FPGA prototype; PL = post-layout; Syn = post-synthesis; Sim = simulation; NR = not stated. Rows were checked against the primary source, in full text wherever it was accessible. $^{a}$Regime inferred: power not stated in the text (only in figures) or derived from reported throughput and efficiency; $^{b}$evaluated on encoder or short-sequence Transformer workloads; $^{p}$preprint (arXiv only at the cut-off). The classification rule is given in \cref  {sec:census_rule}.}}{33}{table.11}\protected@file@percent }
-\newlabel{tab:census}{{C.11}{33}{The edge-regime design census (cut-off September 2026; $n=84$). Regime classes are defined in \cref {sec:scope}; operator-level units (phase op.) are classified by the regime of their intended integration target. Phase: P = prefill, D = decode. Components: Att = attention products, KV\$ = KV-cache handling, SM = Softmax, Norm = normalization, Act = activation. Impl.: Si = measured silicon; SoC = measured on commercial mobile silicon; FPGA = FPGA prototype; PL = post-layout; Syn = post-synthesis; Sim = simulation; NR = not stated. Rows were checked against the primary source, in full text wherever it was accessible. $^{a}$Regime inferred: power not stated in the text (only in figures) or derived from reported throughput and efficiency; $^{b}$evaluated on encoder or short-sequence Transformer workloads; $^{p}$preprint (arXiv only at the cut-off). The classification rule is given in \cref {sec:census_rule}}{table.11}{}}
-\newlabel{tab:census@cref}{{[table][11][2147483647]C.11}{[1][33][]33}}
 \bibstyle{elsarticle-num}
 \bibdata{edge_llm_refs}
 \bibcite{vaswani2017}{{1}{}{{}}{{}}}
 \bibcite{devlin_bert}{{2}{}{{}}{{}}}
+\@writefile{toc}{\let\numberline\tmptocnumberline}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}A}The design census}{27}{appendix.A}\protected@file@percent }
+\newlabel{app:census}{{Appendix \nobreakspace  {}A}{27}{The design census}{appendix.A}{}}
+\newlabel{app:census@cref}{{[appendix][1][2147483647]Appendix \nobreakspace  {}A}{[1][27][]27}}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}B}Scope-classification rubric for the survey comparison}{27}{appendix.B}\protected@file@percent }
+\newlabel{app:rubric}{{Appendix \nobreakspace  {}B}{27}{Scope-classification rubric for the survey comparison}{appendix.B}{}}
+\newlabel{app:rubric@cref}{{[appendix][2][2147483647]Appendix \nobreakspace  {}B}{[1][27][]27}}
+\@writefile{toc}{\contentsline {section}{\numberline {Appendix \nobreakspace  {}C}Reproducibility of the analytical and measured results}{27}{appendix.C}\protected@file@percent }
+\newlabel{app:model}{{Appendix \nobreakspace  {}C}{27}{Reproducibility of the analytical and measured results}{appendix.C}{}}
+\newlabel{app:model@cref}{{[appendix][3][2147483647]Appendix \nobreakspace  {}C}{[1][27][]27}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.10}{\ignorespaces The edge-regime design census (cut-off September 2026; $n=84$). Regime classes are defined in \cref  {sec:scope}; operator-level units (phase op.) are classified by the regime of their intended integration target. Phase: P = prefill, D = decode. Components: Att = attention products, KV\$ = KV-cache handling, SM = Softmax, Norm = normalization, Act = activation. Impl.: Si = measured silicon; SoC = measured on commercial mobile silicon; FPGA = FPGA prototype; PL = post-layout; Syn = post-synthesis; Sim = simulation; NR = not stated. Rows were checked against the primary source, in full text wherever it was accessible. $^{a}$Regime inferred: power not stated in the text (only in figures) or derived from reported throughput and efficiency; $^{b}$evaluated on encoder or short-sequence Transformer workloads; $^{p}$preprint (arXiv only at the cut-off). The classification rule is given in \cref  {sec:census_rule}.}}{28}{table.10}\protected@file@percent }
+\newlabel{tab:census}{{A.10}{28}{The edge-regime design census (cut-off September 2026; $n=84$). Regime classes are defined in \cref {sec:scope}; operator-level units (phase op.) are classified by the regime of their intended integration target. Phase: P = prefill, D = decode. Components: Att = attention products, KV\$ = KV-cache handling, SM = Softmax, Norm = normalization, Act = activation. Impl.: Si = measured silicon; SoC = measured on commercial mobile silicon; FPGA = FPGA prototype; PL = post-layout; Syn = post-synthesis; Sim = simulation; NR = not stated. Rows were checked against the primary source, in full text wherever it was accessible. $^{a}$Regime inferred: power not stated in the text (only in figures) or derived from reported throughput and efficiency; $^{b}$evaluated on encoder or short-sequence Transformer workloads; $^{p}$preprint (arXiv only at the cut-off). The classification rule is given in \cref {sec:census_rule}}{table.10}{}}
+\newlabel{tab:census@cref}{{[table][10][2147483647]A.10}{[1][27][]28}}
 \bibcite{mistral7b}{{3}{}{{}}{{}}}
 \bibcite{qwen25}{{4}{}{{}}{{}}}
 \bibcite{deepseekr1}{{5}{}{{}}{{}}}
@@ -840,9 +787,9 @@
 \bibcite{distserve}{{38}{}{{}}{{}}}
 \bibcite{flashattention}{{39}{}{{}}{{}}}
 \bibcite{roformer}{{40}{}{{}}{{}}}
-\bibcite{roofline}{{41}{}{{}}{{}}}
-\bibcite{ita}{{42}{}{{}}{{}}}
-\bibcite{sole}{{43}{}{{}}{{}}}
+\bibcite{ita}{{41}{}{{}}{{}}}
+\bibcite{sole}{{42}{}{{}}{{}}}
+\bibcite{roofline}{{43}{}{{}}{{}}}
 \bibcite{chitty_transformer}{{44}{}{{}}{{}}}
 \bibcite{kim_fullstack}{{45}{}{{}}{{}}}
 \bibcite{kang2024fpgaasic}{{46}{}{{}}{{}}}
@@ -985,77 +932,78 @@
 \bibcite{sun2026unisfu}{{183}{}{{}}{{}}}
 \bibcite{schaible2026chebyshev}{{184}{}{{}}{{}}}
 \bibcite{sotoporras2026camta}{{185}{}{{}}{{}}}
-\bibcite{shadownpu}{{186}{}{{}}{{}}}
-\bibcite{murthy2026phase}{{187}{}{{}}{{}}}
-\bibcite{alibi}{{188}{}{{}}{{}}}
-\bibcite{rome}{{189}{}{{}}{{}}}
-\bibcite{chen2026batch1}{{190}{}{{}}{{}}}
-\bibcite{lee2025ropefast}{{191}{}{{}}{{}}}
-\bibcite{he2026skipopu}{{192}{}{{}}{{}}}
-\bibcite{gu2025cent}{{193}{}{{}}{{}}}
-\bibcite{li2025compair}{{194}{}{{}}{{}}}
-\bibcite{ando2025cgla}{{195}{}{{}}{{}}}
-\bibcite{huang2026blockdiff}{{196}{}{{}}{{}}}
-\bibcite{baek2025fireq}{{197}{}{{}}{{}}}
-\bibcite{wu2025polarquant}{{198}{}{{}}{{}}}
-\bibcite{dtrans}{{199}{}{{}}{{}}}
-\bibcite{operator_fusion}{{200}{}{{}}{{}}}
-\bibcite{smoothquant}{{201}{}{{}}{{}}}
-\bibcite{awq}{{202}{}{{}}{{}}}
-\bibcite{gptq}{{203}{}{{}}{{}}}
-\bibcite{bitnet}{{204}{}{{}}{{}}}
-\bibcite{eliseev_moe}{{205}{}{{}}{{}}}
-\bibcite{moeinfinity}{{206}{}{{}}{{}}}
-\bibcite{daop}{{207}{}{{}}{{}}}
-\bibcite{hybrimoe}{{208}{}{{}}{{}}}
-\bibcite{moelens}{{209}{}{{}}{{}}}
-\bibcite{edgemoe_vit}{{210}{}{{}}{{}}}
-\bibcite{gupta2026gdn}{{211}{}{{}}{{}}}
-\bibcite{zhong2025specmamba}{{212}{}{{}}{{}}}
-\bibcite{ding2026hemera}{{213}{}{{}}{{}}}
-\bibcite{yoo2026lutssm}{{214}{}{{}}{{}}}
-\bibcite{hao2025edgeftx}{{215}{}{{}}{{}}}
-\bibcite{das2025xamba}{{216}{}{{}}{{}}}
-\bibcite{llmflash}{{217}{}{{}}{{}}}
-\bibcite{minicpm4}{{218}{}{{}}{{}}}
-\bibcite{hao2026ttsnpu}{{219}{}{{}}{{}}}
-\bibcite{hardsea}{{220}{}{{}}{{}}}
-\bibcite{pimgpt}{{221}{}{{}}{{}}}
-\bibcite{att_reram}{{222}{}{{}}{{}}}
-\bibcite{retransformer}{{223}{}{{}}{{}}}
-\bibcite{xformer}{{224}{}{{}}{{}}}
-\bibcite{wang2025llmcim}{{225}{}{{}}{{}}}
-\bibcite{li2026tokcim}{{226}{}{{}}{{}}}
-\bibcite{tron}{{227}{}{{}}{{}}}
-\bibcite{braintransformers}{{228}{}{{}}{{}}}
-\bibcite{moon2026blockdiffusion}{{229}{}{{}}{{}}}
-\bibcite{llmcompass}{{230}{}{{}}{{}}}
-\bibcite{mlperf}{{231}{}{{}}{{}}}
-\bibcite{bench360}{{232}{}{{}}{{}}}
-\bibcite{sustainable_edge}{{233}{}{{}}{{}}}
-\bibcite{bambhaniya2024genz}{{234}{}{{}}{{}}}
-\bibcite{atmer2025prefill}{{235}{}{{}}{{}}}
-\bibcite{openai2025gptoss}{{236}{}{{}}{{}}}
-\bibcite{snell2024ttc}{{237}{}{{}}{{}}}
-\bibcite{deepseekv2}{{238}{}{{}}{{}}}
-\bibcite{dao2024mamba2}{{239}{}{{}}{{}}}
-\bibcite{yang2025gdn}{{240}{}{{}}{{}}}
-\bibcite{lieber2024jamba}{{241}{}{{}}{{}}}
-\bibcite{li2024eagle}{{242}{}{{}}{{}}}
-\bibcite{nie2025llada}{{243}{}{{}}{{}}}
-\bibcite{arriola2025bd3lm}{{244}{}{{}}{{}}}
-\bibcite{wu2025fastdllm}{{245}{}{{}}{{}}}
-\bibcite{lou2026dllmnpu}{{246}{}{{}}{{}}}
-\bibcite{tao2026slmdecoder}{{247}{}{{}}{{}}}
-\bibcite{lin2026vitallmchip}{{248}{}{{}}{{}}}
-\bibcite{cta}{{249}{}{{}}{{}}}
-\bibcite{mcbp}{{250}{}{{}}{{}}}
-\bibcite{acceltran}{{251}{}{{}}{{}}}
-\bibcite{h3d}{{252}{}{{}}{{}}}
-\bibcite{xuan2026fusioncim}{{253}{}{{}}{{}}}
-\bibcite{ahn2025cimple}{{254}{}{{}}{{}}}
-\bibcite{shan2025platinum}{{255}{}{{}}{{}}}
-\bibcite{xiang2025qwen}{{256}{}{{}}{{}}}
-\bibcite{hong2026soulmate}{{257}{}{{}}{{}}}
+\bibcite{he2026skipopu}{{186}{}{{}}{{}}}
+\bibcite{rome}{{187}{}{{}}{{}}}
+\bibcite{lee2025ropefast}{{188}{}{{}}{{}}}
+\bibcite{shadownpu}{{189}{}{{}}{{}}}
+\bibcite{murthy2026phase}{{190}{}{{}}{{}}}
+\bibcite{huang2026blockdiff}{{191}{}{{}}{{}}}
+\bibcite{baek2025fireq}{{192}{}{{}}{{}}}
+\bibcite{wu2025polarquant}{{193}{}{{}}{{}}}
+\bibcite{gu2025cent}{{194}{}{{}}{{}}}
+\bibcite{li2025compair}{{195}{}{{}}{{}}}
+\bibcite{dtrans}{{196}{}{{}}{{}}}
+\bibcite{operator_fusion}{{197}{}{{}}{{}}}
+\bibcite{smoothquant}{{198}{}{{}}{{}}}
+\bibcite{awq}{{199}{}{{}}{{}}}
+\bibcite{gptq}{{200}{}{{}}{{}}}
+\bibcite{alsuhli2025numbersystems}{{201}{}{{}}{{}}}
+\bibcite{jaradat2025hybridpruning}{{202}{}{{}}{{}}}
+\bibcite{bitnet}{{203}{}{{}}{{}}}
+\bibcite{eliseev_moe}{{204}{}{{}}{{}}}
+\bibcite{moeinfinity}{{205}{}{{}}{{}}}
+\bibcite{daop}{{206}{}{{}}{{}}}
+\bibcite{hybrimoe}{{207}{}{{}}{{}}}
+\bibcite{moelens}{{208}{}{{}}{{}}}
+\bibcite{edgemoe_vit}{{209}{}{{}}{{}}}
+\bibcite{gupta2026gdn}{{210}{}{{}}{{}}}
+\bibcite{zhong2025specmamba}{{211}{}{{}}{{}}}
+\bibcite{ding2026hemera}{{212}{}{{}}{{}}}
+\bibcite{yoo2026lutssm}{{213}{}{{}}{{}}}
+\bibcite{hao2025edgeftx}{{214}{}{{}}{{}}}
+\bibcite{das2025xamba}{{215}{}{{}}{{}}}
+\bibcite{llmflash}{{216}{}{{}}{{}}}
+\bibcite{minicpm4}{{217}{}{{}}{{}}}
+\bibcite{hao2026ttsnpu}{{218}{}{{}}{{}}}
+\bibcite{hardsea}{{219}{}{{}}{{}}}
+\bibcite{pimgpt}{{220}{}{{}}{{}}}
+\bibcite{att_reram}{{221}{}{{}}{{}}}
+\bibcite{retransformer}{{222}{}{{}}{{}}}
+\bibcite{xformer}{{223}{}{{}}{{}}}
+\bibcite{halawani2019reram}{{224}{}{{}}{{}}}
+\bibcite{bettayeb2024memristor}{{225}{}{{}}{{}}}
+\bibcite{wang2025llmcim}{{226}{}{{}}{{}}}
+\bibcite{li2026tokcim}{{227}{}{{}}{{}}}
+\bibcite{tron}{{228}{}{{}}{{}}}
+\bibcite{braintransformers}{{229}{}{{}}{{}}}
+\bibcite{moon2026blockdiffusion}{{230}{}{{}}{{}}}
+\bibcite{llmcompass}{{231}{}{{}}{{}}}
+\bibcite{mlperf}{{232}{}{{}}{{}}}
+\bibcite{bench360}{{233}{}{{}}{{}}}
+\bibcite{sustainable_edge}{{234}{}{{}}{{}}}
+\bibcite{bambhaniya2024genz}{{235}{}{{}}{{}}}
+\bibcite{atmer2025prefill}{{236}{}{{}}{{}}}
+\bibcite{openai2025gptoss}{{237}{}{{}}{{}}}
+\bibcite{snell2024ttc}{{238}{}{{}}{{}}}
+\bibcite{deepseekv2}{{239}{}{{}}{{}}}
+\bibcite{dao2024mamba2}{{240}{}{{}}{{}}}
+\bibcite{yang2025gdn}{{241}{}{{}}{{}}}
+\bibcite{lieber2024jamba}{{242}{}{{}}{{}}}
+\bibcite{li2024eagle}{{243}{}{{}}{{}}}
+\bibcite{nie2025llada}{{244}{}{{}}{{}}}
+\bibcite{arriola2025bd3lm}{{245}{}{{}}{{}}}
+\bibcite{wu2025fastdllm}{{246}{}{{}}{{}}}
+\bibcite{lou2026dllmnpu}{{247}{}{{}}{{}}}
+\bibcite{tao2026slmdecoder}{{248}{}{{}}{{}}}
+\bibcite{lin2026vitallmchip}{{249}{}{{}}{{}}}
+\bibcite{cta}{{250}{}{{}}{{}}}
+\bibcite{mcbp}{{251}{}{{}}{{}}}
+\bibcite{acceltran}{{252}{}{{}}{{}}}
+\bibcite{h3d}{{253}{}{{}}{{}}}
+\bibcite{xuan2026fusioncim}{{254}{}{{}}{{}}}
+\bibcite{ahn2025cimple}{{255}{}{{}}{{}}}
+\bibcite{shan2025platinum}{{256}{}{{}}{{}}}
+\bibcite{xiang2025qwen}{{257}{}{{}}{{}}}
+\bibcite{hong2026soulmate}{{258}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{42}
+\gdef \@abspage@last{36}
