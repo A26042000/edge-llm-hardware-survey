@@ -147,7 +147,7 @@ GAPS = [  # label, difficulty(1-3), headroom(1-3), importance(1-3), verdict, hor
     ("On-device KV", 2, 3, 3, "Priority 1", "near-term", (0, 12)),
     ("Evaluation\nstandard", 1, 3, 3, "Priority 1", "immediate", (0, -24)),
     ("RoPE datapath", 2, 2, 2, "Conditional", "conditional", (0, -19)),
-    ("Edge MoE routing", 3, 2, 2, "Conditional", "after SW caching", (0, -19)),
+    ("Edge MoE routing", 3, 2, 2, "Conditional", "after software caching", (0, -19)),
     ("Norm. at mW", 1, 1.2, 2, "Deprioritized", "", (40, -3)),
     ("Ternary LUT GEMM", 1, 0.55, 3, "Largely solved", "", (50, -3)),
 ]
