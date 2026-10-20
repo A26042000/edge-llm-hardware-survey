@@ -39,7 +39,7 @@ ph8 = fit["Flagship phone (12 GB LPDDR5X)"]["Llama-3.1-8B"]["max_ctx_int8kv"] //
 fig.text(0.46, 0.84, "Component-aware survey of edge LLM hardware", fontsize=15.5, fontweight="bold", color=GEMM)
 fig.text(0.46, 0.76, f"PRISMA-reported selection; census of {n} edge designs ({si} in measured silicon)\nclassified on five axes; per-component model checked on measured hardware", fontsize=10.5, color="0.3", va="top", linespacing=1.3)
 items = [
- ("Where the token goes", "KV traffic (cloud) → weight streaming (streamed edge) → non-GEMM work\n(resident); the measured non-GEMM share is 5–35%, set by the software stack"),
+ ("Where the token goes", "KV traffic (cloud) → weight streaming (streamed edge) → non-GEMM work\n(resident); measured non-GEMM share 5–35%, set by the software stack"),
  ("Reasoning workloads", "the KV cache equals the weight read at 18–37k tokens (1B model);\nlong-context KV hardware becomes the default case"),
  ("Deployability map", f"an 8B model at 4-bit weights fits a flagship phone only to ~{ph8}k tokens;\ncapacity is the first wall"),
  ("Decoder × hardware", "speculative and diffusion decoding speed up streamed hardware 2–4×\nbut slow weight-resident hardware"),
