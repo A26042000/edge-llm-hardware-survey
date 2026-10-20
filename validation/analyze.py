@@ -68,7 +68,7 @@ print(json.dumps(summary, indent=1))
 
 prof = {d: json.load(open(os.path.join(H, f"prof_{d}.json"))) for d in ("cpu", "cuda")}
 
-fig, (a1, a2, a3) = plt.subplots(1, 3, figsize=(7.2, 2.45), gridspec_kw={"width_ratios": [1, 1, 1.15]})
+fig, ((a1, a2), (a3, a4)) = plt.subplots(2, 2, figsize=(7.2, 4.9), gridspec_kw={"width_ratios": [1, 1.1], "hspace": 0.62, "wspace": 0.3})
 # (a) parity
 mk = {"Q4_0": "o", "Q8_0": "s", "f16": "^"}
 for r in rows:
@@ -93,7 +93,7 @@ for dev, col, lab in (("gpu", GEMM, "RTX 3050"), ("cpu", MEM, "Ryzen 7")):
     a2.plot(ns / 1024, [pred(dev, "Q4_0", n) for n in ns], "--", color=col, lw=1, label=f"{lab} model")
 a2.set_xticks([0, 1, 4, 8]); a2.set_yscale("log"); a2.set_xlabel("context length (k tokens)"); a2.set_ylabel("decode tok/s (Q4_0)")
 a2.set_title("(b) KV term vs. context", fontsize=8.5)
-a2.legend(fontsize=5.3, frameon=False, ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.44), columnspacing=0.6, handlelength=1.4)
+a2.legend(fontsize=6, frameon=False, ncol=1, loc="center right", bbox_to_anchor=(1.0, 0.55), handlelength=1.6)
 # (c) eager-PyTorch anatomy
 cats = ["GEMV", "Attn+KV", "Softmax", "Norm", "RoPE", "Act", "Sampling", "Other"]
 cols = [GEMM, MEM, "#7A2E14", "#C2643F", "#DE936F", "#F0C2A8", "#5a1f0d", "#BBBBBB"]
@@ -108,7 +108,20 @@ for i, (lab, run) in enumerate(bars):
 a3.set_yticks(range(len(bars))); a3.set_yticklabels([b[0] for b in bars], fontsize=6.2); a3.invert_yaxis()
 a3.set_xlim(0, 100); a3.set_xlabel("share of token time, eager PyTorch (%)")
 a3.set_title("(c) measured operator anatomy", fontsize=8.5)
-a3.legend(fontsize=5.4, frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.45, -0.50))
-fig.tight_layout()
+a3.legend(fontsize=5.8, frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.45, -0.3))
+# (d) measured energy per token on the GPU, with reference points
+E = json.load(open(os.path.join(H, "energy_gpu.json")))["runs"]
+order = ["Q4_0", "Q8_0", "f16"]; lab = {"Q4_0": "Q4_0", "Q8_0": "Q8_0", "f16": "FP16"}
+for dep, mk_, ls_ in ((0, "o", "-"), (8192, "s", "--")):
+    xs = [i for i, q in enumerate(order)]
+    tot = [next(r["J_per_tok_total"] for r in E if r["precision"] == q and r["depth"] == dep) for q in order]
+    inc = [next(r["J_per_tok_incremental"] for r in E if r["precision"] == q and r["depth"] == dep) for q in order]
+    a4.plot(xs, tot, marker=mk_, ls=ls_, color=GEMM, ms=3.5, lw=1, label=f"total, {'0' if dep == 0 else '8k'} ctx")
+    a4.plot(xs, inc, marker=mk_, ls=ls_, color=GEMM, ms=3.5, lw=1, alpha=0.45, label=f"above idle, {'0' if dep == 0 else '8k'} ctx")
+a4.axhline(4.8 / 25, color=MEM, lw=0.9, ls=":"); a4.text(2.08, 4.8 / 25 * 0.6, "TeLLMe v2 FPGA, 4.8 W / 25 tok/s", fontsize=5.6, color=MEM, ha="right", va="top")
+a4.axhline(122e-6, color=NG, lw=0.9, ls=":"); a4.text(2.08, 122e-6 * 1.5, "milliwatt silicon, 122 $\\mu$J/token", fontsize=5.6, color=NG, ha="right", va="bottom")
+a4.set_yscale("log"); a4.set_ylim(5e-5, 2); a4.set_xticks(range(3)); a4.set_xticklabels([lab[q] for q in order], fontsize=7)
+a4.set_ylabel("J per generated token"); a4.set_title("(d) measured energy per token, RTX 3050", fontsize=8.5); a4.set_xlim(-0.3, 2.15)
+a4.legend(fontsize=5.8, frameon=False, loc="center left", bbox_to_anchor=(0.0, 0.42), handlelength=1.6, labelspacing=0.3)
 fig.savefig(os.path.join(OUT, "validation.pdf"), bbox_inches="tight")
 fig.savefig(os.path.join(OUT, "validation.png"), dpi=160, bbox_inches="tight")
